@@ -20,7 +20,7 @@ else:
 
 client = OpenAI(api_key=api_key)
 
-def query_llm(prompt, model="gpt-5-nano", temperature=1.0, max_tokens=100, retries=3, include_metrics=False, **kwargs):
+def query_llm(prompt, model="gpt-5-nano", temperature=1.0, max_tokens=2000, retries=3, include_metrics=False, **kwargs):
     """
     Sends a prompt to the LLM and returns the response text.
     
