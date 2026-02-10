@@ -1,0 +1,8 @@
+    "python.defaultInterpreterPath": "/Users/ferncancode/miniconda3/bin/python",
+    "python.analysis.extraPaths": [
+        "/Users/ferncancode/miniconda3/lib/python3.13/site-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/Users/ferncancode/miniconda3/lib/python3.13/site-packages"
+    ]
+}
