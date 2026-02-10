@@ -1,0 +1,341 @@
+task,strategy,input,prompt,response,tokens_total,execution_time
+Summarization,Zero-shot,"The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.","Summarize the following text in 2-3 sentences:
+
+The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.",,231,1.4995720386505127
+Summarization,Zero-shot,"Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.","Summarize the following text in 2-3 sentences:
+
+Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.",,201,1.2090480327606201
+Summarization,Zero-shot,"The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.","Summarize the following text in 2-3 sentences:
+
+The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.",,203,1.2380039691925049
+Summarization,Zero-shot,"Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.","Summarize the following text in 2-3 sentences:
+
+Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.",,178,1.1249268054962158
+Summarization,Zero-shot,"The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.","Summarize the following text in 2-3 sentences:
+
+The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.",,187,1.125337839126587
+Summarization,Zero-shot,"Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.","Summarize the following text in 2-3 sentences:
+
+Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.",,178,1.3673417568206787
+Summarization,Zero-shot,"The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.","Summarize the following text in 2-3 sentences:
+
+The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.",,202,1.2807369232177734
+Summarization,Zero-shot,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.","Summarize the following text in 2-3 sentences:
+
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.",,171,1.1685080528259277
+Summarization,Zero-shot,"Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.","Summarize the following text in 2-3 sentences:
+
+Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.",,180,1.0933701992034912
+Summarization,Zero-shot,"Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.","Summarize the following text in 2-3 sentences:
+
+Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.",,171,1.2240350246429443
+Summarization,Few-shot,"The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.
+Summary:",,338,2.1113481521606445
+Summarization,Few-shot,"Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.
+Summary:",,308,1.2761991024017334
+Summarization,Few-shot,"The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.
+Summary:",,310,2.254204034805298
+Summarization,Few-shot,"Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.
+Summary:",,285,1.2518672943115234
+Summarization,Few-shot,"The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.
+Summary:",,294,1.1040289402008057
+Summarization,Few-shot,"Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.
+Summary:",,285,1.3305261135101318
+Summarization,Few-shot,"The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.
+Summary:",,309,1.022876262664795
+Summarization,Few-shot,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
+Summary:",,278,1.5119612216949463
+Summarization,Few-shot,"Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.
+Summary:",,286,1.1488368511199951
+Summarization,Few-shot,"Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.","Text: Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue.
+Summary: Apple is a major US tech company based in Cupertino. It is the largest tech company by revenue globally.
+
+Text: The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae.
+Summary: The koala is a tree-dwelling plant-eating marsupial from Australia. It represents the only living member of its family.
+
+Text: Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.
+Summary:",,278,1.0589580535888672
+Summarization,Chain-of-Thought,"The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.
+Step-by-step thinking:
+",,248,1.05269193649292
+Summarization,Chain-of-Thought,"Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.
+Step-by-step thinking:
+",,218,1.7815611362457275
+Summarization,Chain-of-Thought,"The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.
+Step-by-step thinking:
+",,220,1.5367107391357422
+Summarization,Chain-of-Thought,"Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.
+Step-by-step thinking:
+",,195,1.1024699211120605
+Summarization,Chain-of-Thought,"The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.
+Step-by-step thinking:
+",,204,1.1489946842193604
+Summarization,Chain-of-Thought,"Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.
+Step-by-step thinking:
+",,195,1.0244319438934326
+Summarization,Chain-of-Thought,"The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.
+Step-by-step thinking:
+",,219,1.1266160011291504
+Summarization,Chain-of-Thought,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
+Step-by-step thinking:
+",,188,1.0020887851715088
+Summarization,Chain-of-Thought,"Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.
+Step-by-step thinking:
+",,196,1.1478819847106934
+Summarization,Chain-of-Thought,"Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.","Summarize the text by first identifying the main points, then synthesizing them into 2-3 sentences.
+Text: Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.
+Step-by-step thinking:
+",,188,1.6383779048919678
+Summarization,Custom (Persona),"The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: The James Webb Space Telescope (JWST) has captured its first direct image of a planet outside our solar system. The exoplanet, HIP 65426 b, is a gas giant about six to 12 times the mass of Jupiter. It is young, about 15 to 20 million years old, compared to our 4.5-billion-year-old Earth. Astronomers used four different light filters on JWST’s Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) to capture the planet.",,244,1.12434983253479
+Summarization,Custom (Persona),"Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water – hence the name photosynthesis, from the Greek phēs, 'light', and sunthesis, 'putting together'.",,214,1.1286630630493164
+Summarization,Custom (Persona),"The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with select stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.",,216,2.457629919052124
+Summarization,Custom (Persona),"Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.",,191,1.4327099323272705
+Summarization,Custom (Persona),"The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: The internet is a global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies.",,200,2.3553411960601807
+Summarization,Custom (Persona),"Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Climate change includes both global warming driven by human-induced emissions of greenhouse gases and the resulting large-scale shifts in weather patterns. Though there have been previous periods of climatic change, since the mid-20th century humans have had an unprecedented impact on Earth's climate system and caused change on a global scale.",,191,1.5199968814849854
+Summarization,Custom (Persona),"The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: The human brain is the central organ of the human nervous system, and with the spinal cord makes up the central nervous system. The brain consists of the cerebrum, the brainstem and the cerebellum. It controls most of the activities of the body, processing, integrating, and coordinating the information it receives from the sense organs, and making decisions as to the instructions sent to the rest of the body.",,215,1.2448558807373047
+Summarization,Custom (Persona),"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.",,184,1.3316831588745117
+Summarization,Custom (Persona),"Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Democracy is a form of government in which the people have the authority to deliberate and decide legislation, or to choose governing officials to do so. Who is considered part of 'the people' and how authority is shared among or delegated by the people has changed over time and at different rates in different countries.",,192,1.1265590190887451
+Summarization,Custom (Persona),"Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.","You are an expert editor for a newspaper. Summarize this text for a general audience in exactly 2 sentences.
+Text: Quantum mechanics is a fundamental theory in physics that provides a description of the physical properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum physics including quantum chemistry, quantum field theory, quantum technology, and quantum information science.",,184,1.0236790180206299
+QA,Zero-shot,What is the capital of France?,"Answer the following question correctly:
+
+What is the capital of France?",,119,1.6270232200622559
+QA,Zero-shot,Who wrote 'Romeo and Juliet'?,"Answer the following question correctly:
+
+Who wrote 'Romeo and Juliet'?",,120,1.0515739917755127
+QA,Zero-shot,What is the chemical symbol for Gold?,"Answer the following question correctly:
+
+What is the chemical symbol for Gold?",,120,1.7234830856323242
+QA,Zero-shot,How many continents are there on Earth?,"Answer the following question correctly:
+
+How many continents are there on Earth?",,120,1.2155909538269043
+QA,Zero-shot,What is the speed of light in vacuum (approximate km/s)?,"Answer the following question correctly:
+
+What is the speed of light in vacuum (approximate km/s)?",,126,1.3465077877044678
+QA,Zero-shot,Who painted the Mona Lisa?,"Answer the following question correctly:
+
+Who painted the Mona Lisa?",,118,1.2061481475830078
+QA,Zero-shot,What is the largest mammal in the world?,"Answer the following question correctly:
+
+What is the largest mammal in the world?",,122,1.1709539890289307
+QA,Zero-shot,In what year did the Titanic sink?,"Answer the following question correctly:
+
+In what year did the Titanic sink?",,120,0.9990639686584473
+QA,Zero-shot,What comes after the number 99?,"Answer the following question correctly:
+
+What comes after the number 99?",,120,1.4369418621063232
+QA,Zero-shot,What is the boiling point of water at sea level?,"Answer the following question correctly:
+
+What is the boiling point of water at sea level?",,123,1.329932689666748
+QA,Few-shot,What is the capital of France?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What is the capital of France?
+Answer:",,145,1.3009059429168701
+QA,Few-shot,Who wrote 'Romeo and Juliet'?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: Who wrote 'Romeo and Juliet'?
+Answer:",,147,0.9854309558868408
+QA,Few-shot,What is the chemical symbol for Gold?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What is the chemical symbol for Gold?
+Answer:",,146,1.295773983001709
+QA,Few-shot,How many continents are there on Earth?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: How many continents are there on Earth?
+Answer:",,146,1.1290020942687988
+QA,Few-shot,What is the speed of light in vacuum (approximate km/s)?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What is the speed of light in vacuum (approximate km/s)?
+Answer:",,152,1.1878042221069336
+QA,Few-shot,Who painted the Mona Lisa?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: Who painted the Mona Lisa?
+Answer:",,144,1.067176103591919
+QA,Few-shot,What is the largest mammal in the world?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What is the largest mammal in the world?
+Answer:",,148,0.9266653060913086
+QA,Few-shot,In what year did the Titanic sink?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: In what year did the Titanic sink?
+Answer:",,146,1.3209457397460938
+QA,Few-shot,What comes after the number 99?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What comes after the number 99?
+Answer:",,146,1.434255838394165
+QA,Few-shot,What is the boiling point of water at sea level?,"Question: What is 2 + 2?
+Answer: 4
+
+Question: What is the capital of Japan?
+Answer: Tokyo
+
+Question: What is the boiling point of water at sea level?
+Answer:",,149,1.536257028579712
+QA,Chain-of-Thought,What is the capital of France?,"Answer the question by thinking through it step-by-step.
+Question: What is the capital of France?
+Reasoning and Answer:
+",,131,1.741934061050415
+QA,Chain-of-Thought,Who wrote 'Romeo and Juliet'?,"Answer the question by thinking through it step-by-step.
+Question: Who wrote 'Romeo and Juliet'?
+Reasoning and Answer:
+",,133,2.132688045501709
+QA,Chain-of-Thought,What is the chemical symbol for Gold?,"Answer the question by thinking through it step-by-step.
+Question: What is the chemical symbol for Gold?
+Reasoning and Answer:
+",,132,1.140920877456665
+QA,Chain-of-Thought,How many continents are there on Earth?,"Answer the question by thinking through it step-by-step.
+Question: How many continents are there on Earth?
+Reasoning and Answer:
+",,132,1.4451279640197754
+QA,Chain-of-Thought,What is the speed of light in vacuum (approximate km/s)?,"Answer the question by thinking through it step-by-step.
+Question: What is the speed of light in vacuum (approximate km/s)?
+Reasoning and Answer:
+",,138,1.219752311706543
+QA,Chain-of-Thought,Who painted the Mona Lisa?,"Answer the question by thinking through it step-by-step.
+Question: Who painted the Mona Lisa?
+Reasoning and Answer:
+",,130,1.1250498294830322
+QA,Chain-of-Thought,What is the largest mammal in the world?,"Answer the question by thinking through it step-by-step.
+Question: What is the largest mammal in the world?
+Reasoning and Answer:
+",,134,0.9835288524627686
+QA,Chain-of-Thought,In what year did the Titanic sink?,"Answer the question by thinking through it step-by-step.
+Question: In what year did the Titanic sink?
+Reasoning and Answer:
+",,132,2.001452922821045
+QA,Chain-of-Thought,What comes after the number 99?,"Answer the question by thinking through it step-by-step.
+Question: What comes after the number 99?
+Reasoning and Answer:
+",,132,1.215696096420288
+QA,Chain-of-Thought,What is the boiling point of water at sea level?,"Answer the question by thinking through it step-by-step.
+Question: What is the boiling point of water at sea level?
+Reasoning and Answer:
+",,135,1.6342461109161377
+QA,Custom (Persona),What is the capital of France?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What is the capital of France?",,130,6.053897857666016
+QA,Custom (Persona),Who wrote 'Romeo and Juliet'?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: Who wrote 'Romeo and Juliet'?",,131,1.199012279510498
+QA,Custom (Persona),What is the chemical symbol for Gold?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What is the chemical symbol for Gold?",,131,1.0503127574920654
+QA,Custom (Persona),How many continents are there on Earth?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: How many continents are there on Earth?",,131,1.426527976989746
+QA,Custom (Persona),What is the speed of light in vacuum (approximate km/s)?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What is the speed of light in vacuum (approximate km/s)?",,137,1.2655301094055176
+QA,Custom (Persona),Who painted the Mona Lisa?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: Who painted the Mona Lisa?",,129,1.400697946548462
+QA,Custom (Persona),What is the largest mammal in the world?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What is the largest mammal in the world?",,133,1.8384358882904053
+QA,Custom (Persona),In what year did the Titanic sink?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: In what year did the Titanic sink?",,131,1.3399500846862793
+QA,Custom (Persona),What comes after the number 99?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What comes after the number 99?",,131,1.1406068801879883
+QA,Custom (Persona),What is the boiling point of water at sea level?,"You are a helpful professor. Answer this question clearly and concisely.
+Question: What is the boiling point of water at sea level?",,134,1.3088490962982178

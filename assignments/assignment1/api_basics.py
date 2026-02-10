@@ -20,7 +20,7 @@ else:
 
 client = OpenAI(api_key=api_key)
 
-def query_llm(prompt, model="gpt-5-nano", temperature=0.7, max_tokens=100, retries=3, **kwargs):
+def query_llm(prompt, model="gpt-5-nano", temperature=1.0, max_tokens=100, retries=3, include_metrics=False, **kwargs):
     """
     Sends a prompt to the LLM and returns the response text.
     
@@ -30,22 +30,55 @@ def query_llm(prompt, model="gpt-5-nano", temperature=0.7, max_tokens=100, retri
         temperature (float): Controls randomness (0-1). Defaults to 0.7.
         max_tokens (int): The maximum number of tokens to generate. Defaults to 100.
         retries (int): Number of retries for transient errors. Defaults to 3.
+        include_metrics (bool): If True, returns a dictionary with content, token_usage, and execution_time.
         **kwargs: Additional arguments to pass to the API (e.g., top_p, frequency_penalty).
         
     Returns:
-        str: The generated response text.
+        str | dict: The generated response text, or a dictionary with metrics if include_metrics=True.
     """
     for attempt in range(retries):
         try:
+            start_time = time.time()
+            # Note: gpt-5-nano and newer models use max_completion_tokens instead of max_tokens
             response = client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temperature,
-                max_tokens=max_tokens,
+                max_completion_tokens=max_tokens,
                 **kwargs
             )
-            return response.choices[0].message.content
+            end_time = time.time()
+            content = response.choices[0].message.content
+            
+            if include_metrics:
+                return {
+                    "content": content,
+                    "token_usage": response.usage.model_dump(),
+                    "execution_time": end_time - start_time,
+                    "model": response.model
+                }
+            return content
         except (RateLimitError, APIConnectionError, APITimeoutError) as e:
+            if attempt < retries - 1:
+                wait_time = 2 ** attempt
+                print(f"Transient error occurred: {e}. Retrying in {wait_time} seconds...")
+                time.sleep(wait_time)
+            else:
+                msg = f"Error: Failed after {retries} attempts due to transient error: {str(e)}"
+                if include_metrics: return {"content": msg, "error": str(e)}
+                return msg
+        except AuthenticationError:
+            msg = "Error: Authentication failed. Please check your API key."
+            if include_metrics: return {"content": msg, "error": "AuthenticationError"}
+            return msg
+        except APIError as e:
+            msg = f"Error: An API error occurred: {str(e)}"
+            if include_metrics: return {"content": msg, "error": str(e)}
+            return msg
+        except Exception as e:
+            msg = f"Error: An unexpected error occurred: {str(e)}"
+            if include_metrics: return {"content": msg, "error": str(e)}
+            return msg
             if attempt < retries - 1:
                 wait_time = 2 ** attempt
                 print(f"Transient error occurred: {e}. Retrying in {wait_time} seconds...")
