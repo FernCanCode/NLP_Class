@@ -4,7 +4,7 @@ This repository implements a multi-agent debate pipeline designed to answer ques
 
 This repository fulfills the Assignment 2 requirements including modular agent design, dynamic prompt templates, evaluation scripts for baseline comparisons, and a Streamlit-based web interface ("Vibe Coding" UI).
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 **Prerequisites:** Python 3.10+
 
@@ -32,7 +32,7 @@ This repository fulfills the Assignment 2 requirements including modular agent d
    OPENAI_API_KEY=your_api_key_here
    ```
 
-## ⚙️ Project Structure & Modularity
+## Project Structure & Modularity
 
 The codebase is strictly modularized into distinct operational layers:
 
@@ -43,7 +43,7 @@ The codebase is strictly modularized into distinct operational layers:
 - `config/agent_config.json`: All hyperparameters are strictly disjointed from the code here. Edit this file to change `model_name`, `max_rounds`, `temperature`, and `max_tokens`.
 - `prompts/`: Contains `.txt` files (`proponent_v1.txt`, etc.). These are fully editable templates utilizing `{{QUESTION}}` and `{{TRANSCRIPT}}` placeholders handled dynamically at runtime.
 
-## 📊 Running the Core Debate Pipeline
+## Running the Core Debate Pipeline
 
 To run the batch debate evaluation against the StrategyQA dataset snippet and generate the required logs:
 
@@ -52,7 +52,7 @@ python -m src.main
 ```
 This script will produce `data/results_log.json`, which logs the complete JSON transcription for every run, including the question, per-round arguments, Judge reasoning, final verdict, confidence score, and ground truth.
 
-## 🕸️ Running the UI
+## Running the UI
 
 To run the interactive UI for testing custom questions and rendering real-time debates:
 
@@ -60,7 +60,7 @@ To run the interactive UI for testing custom questions and rendering real-time d
 streamlit run app.py
 ```
 
-## 🔬 Reproducing Experiments
+## Reproducing Experiments
 
 All evaluation scripts are located in the `experiments/` directory. Running these will write output statistics to the console and generate `.png` charts used in the final write-up.
 
