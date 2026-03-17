@@ -1,0 +1,1854 @@
+[
+    {
+        "question": "Karachi was a part of Alexander the Great's success?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                "Yes",
+                "Yes",
+                null,
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Was P. G. Wodehouse's favorite book The Hunger Games?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "No. P. G. Wodehouse died in 1975, decades before The Hunger Games was published (2008), so it could not have been his favorite book. \n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. There is no credible evidence that The Hunger Games was P. G. Wodehouse's favorite book; he died in 1975, and The Hunger Games was published in 2008.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. The Hunger Games was published in 2008, long after P. G. Wodehouse's death in 1975, so he could not have had it as a favorite book.\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. P. G. Wodehouse died in 1975, long before The Hunger Games was published in 2008.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. P. G. Wodehouse died in 1975, long before The Hunger Games was published in 2008, so he could not have had it as a favorite.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. P. G. Wodehouse died in 1975, long before The Hunger Games was published in 2008.\n\nFinal answer: No",
+                "No. P. G. Wodehouse died in 1975, long before The Hunger Games was published in 2008.\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Was Mother Theresa a follower of atheism?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "No. Mother Teresa was a devout Roman Catholic nun and missionary; she believed in God and lived according to Catholic teachings.\n\nFinal answer: No",
+                "No. Mother Teresa was a devout Roman Catholic nun and missionary who believed in God and lived according to Catholic faith. There is no credible evidence that she was an atheist; she even spoke and worked within that religious framework, despite later discussions about her life and spiritual struggles. Final answer: No",
+                "No. She was a devout Roman Catholic nun and missionary who publicly professed belief in God and led the Missionaries of Charity; she was later canonized as a saint. Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Mother Teresa was a Roman Catholic nun and missionary who lived and taught according to Catholic beliefs. While her life and work are subject to various critiques and interpretations, there is no credible claim that she was an atheist. Final answer: No",
+                "Final answer: No",
+                "Mother Teresa was a Roman Catholic nun and missionary who publicly professed belief in God and Jesus Christ.\n\nFinal answer: No",
+                "No. Mother Teresa was a devout Catholic who believed in God and led a Catholic religious order.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. Mother Teresa was a devout Catholic, believed in God, prayed regularly, and founded the Missionaries of Charity. She was canonized by the Catholic Church, reflecting her lifelong faith rather than atheism.\nFinal answer: No",
+                "No. Mother Teresa was a devout Catholic, a nun who believed in God and led a life in accordance with Catholic teachings. The notion that she was an atheist is not supported by credible evidence.\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "No. Mother Teresa was a Roman Catholic nun and missionary who publicly professed belief in God; she led the Missionaries of Charity and spent her life in service to the poor as a devout Catholic. She did experience spiritual doubt or dryness in her prayers, but that does not imply atheism.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Could the Dominican Order hypothetically defeat Blessed Gerard's order?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                "No",
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Can a sea turtle play tennis using a tennis racket?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Short answer: No. Sea turtles have flippers instead of hands and cannot grip or swing a racket, making it impractical and unfeasible for them to play tennis.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Sea turtles aren\u2019t capable of playing tennis in the way humans do. Their anatomy (flippers, shell, and motor style) is adapted for swimming, not gripping a racket or making precise tennis strokes. While they might interact with objects in captivity, a real tennis rally isn\u2019t feasible.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Not realistically. Sea turtles have flippers designed for swimming, not for gripping or swinging a racket, so they can\u2019t reliably hit a tennis ball. Even with training or aids, it would be impractical for a sea turtle to play tennis.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. Sea turtles don\u2019t have the dexterity or grip to use a tennis racket, and their anatomy makes playing tennis impractical.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Sea turtles lack the dexterity to grip and swing a tennis racket, and their bodies are adapted for swimming rather than striking a ball on land. \n\nFinal answer: No",
+                "No. Sea turtles have flippers not capable of gripping and swinging a tennis racket, and a tennis match on a court isn\u2019t feasible or humane for them.\n\nFinal answer: No",
+                "Not in any meaningful sense. Sea turtles don\u2019t have hands to grip a racket or the motor control to swing one, and tennis requires upright, rapid racket work that doesn\u2019t align with their biology or typical environment.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Short answer: No. Sea turtles have flippers, not hands, and lack the dexterity to grip a tennis racket or swing it with the control needed for tennis. Their biology is adapted for swimming, not playing tennis.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Is Edgar Allan Poe obscure in the world of horror fiction?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "No. Edgar Allan Poe is far from obscure in horror fiction; he is widely regarded as a foundational and influential figure in the genre.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Edgar Allan Poe is not obscure in horror fiction. He is widely regarded as a foundational figure, with iconic works like The Tell-Tale Heart, The Fall of the House of Usher, and The Raven shaping modern horror and Gothic literature; his influence is pervasive and his name is widely recognized by readers and scholars alike.\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Not at all. Edgar Allan Poe is a foundational figure in horror and Gothic fiction, widely read, studied, and influential on later writers and the genre as a whole.\n\nFinal answer: No",
+                "Final answer: No",
+                "No; he is widely regarded as a foundational figure in horror fiction and American Gothic, shaping the genre and influencing countless writers.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Edgar Allan Poe is not obscure in the world of horror fiction; he is widely recognized as a foundational figure who helped establish Gothic and psychological horror in American literature, and his stories and poems are frequently taught, anthologized, and referenced in modern media. \n\nFinal answer: No",
+                "No, Poe is not obscure in horror fiction. He is widely regarded as a foundational figure who helped shape Gothic and psychological horror and has influenced countless writers. His stories, such as The Tell-Tale Heart, The Fall of the House of Usher, and The Cask of Amontillado, remain canonical and widely studied.\n\nFinal answer: No",
+                "No. Edgar Allan Poe is not obscure in horror fiction; he is widely regarded as a foundational figure whose Gothic, macabre, and psychological horror stories helped define the genre and influence countless later writers.\n\nFinal answer: No",
+                "No. Edgar Allan Poe is not obscure; he is a foundational and highly influential figure in horror fiction, widely read and studied for shaping the genre.\n\nFinal answer: No",
+                "No. Poe is not obscure in horror fiction; he is one of the most influential and widely recognized figures in the genre. \nFinal answer: No",
+                "Final answer: No",
+                "Not at all. Poe is widely regarded as a foundational and highly influential figure in horror fiction, shaping Gothic and psychological horror and inspiring numerous later writers.\n\nFinal answer: No",
+                "Not at all. Edgar Allan Poe is not obscure in horror fiction; he\u2019s widely recognized as a foundational figure who helped define the genre and maintains enduring influence in literature, film, and popular culture.\n\nFinal answer: No",
+                "No. Edgar Allan Poe is not obscure in horror fiction; he is a central, highly influential figure who helped shape the genre with works like The Tell-Tale Heart, The Fall of the House of Usher, and The Murders in the Rue Morgue, and whose influence extends into modern psychological horror and detective fiction. He remains widely read, taught, and referenced in discussions of horror literature.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Has Elon Musk's hairline changed?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Yes. In public appearances over the years, Elon Musk's hairline appears fuller and less receded than in earlier years, which has led to speculation about hair restoration or styling changes.\nFinal answer: Yes",
+                "",
+                "Yes\u2014over the years his hairline has appeared to change, with noticeable differences in photos from different eras; some observers speculate about thinning or a hair restoration procedure.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "",
+                "Final answer: Yes",
+                "Yes. In recent years, Elon Musk's hairline appears fuller and lower than in earlier photos, which has sparked public discussion and speculation about hair restoration. There has been no official confirmation from Musk.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Yes. Over the years, Elon Musk's hairline and hair density have appeared different in public appearances, which has led to speculation about hair restoration or styling changes. There has been no official confirmation.\n\nFinal answer: Yes"
+            ],
+            "verdicts": [
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                null,
+                null,
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Did Easy Rider make a profit at the theater when it was released?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes\n\nReason: Easy Rider had a very small budget (roughly $360,000\u2013$400,000) and went on to gross about $60 million worldwide on its initial release, far exceeding its costs and yielding a substantial profit.",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Has Oscar Wilde's most famous character ever been in an Eva Green project?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "Final answer: Yes",
+                "Final answer: No",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes",
+                null,
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                null,
+                null,
+                "Yes",
+                "No",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                null,
+                null,
+                "Yes",
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                "Yes",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "Yes",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "Capricorn is depicted as a sea-goat: the upper body of a goat and a fish tail. A chimera (in myth) typically includes parts from multiple animals, often three. Since Capricorn combines only two different animal parts and is not a composite of several creatures, it does not have all the parts of a chimera.\n\nFinal answer: No",
+                "No. Capricorn is depicted as a sea-goat\u2014a goat with a fish tail. A classic chimera typically has multiple distinct parts from different animals (e.g., lion, goat, serpent), so Capricorn does not have all parts of a chimera. \nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Not exactly. Capricorn is depicted as a sea-goat\u2014a goat with a fish tail. A chimera typically combines parts from multiple animals (often lion, goat, and serpent). Since Capricorn does not include all of a chimera\u2019s parts, the answer is No.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. Capricorn is depicted as a sea-goat (goat upper body with a fish tail), while a chimera combines parts from multiple distinct animals (often lion, goat, and serpent). It does not include all chimera parts. \nFinal answer: No",
+                "Capricorn\u2019s symbol is a sea-goat: the front is a goat and the tail is a fish. A chimera typically combines parts of multiple different animals (often lion, goat, and serpent). Therefore, Capricorn does not have all parts of a chimera.\n\nFinal answer: No",
+                "Final answer: No",
+                "No. The Capricorn symbol depicts a sea-goat\u2014a goat with a fish tail\u2014not a chimera, which combines parts from multiple different animals.\n\nFinal answer: No",
+                "Capricorn is traditionally depicted as a sea-goat, combining a goat and a fish tail. A chimera is a composite creature typically composed of three different animals (e.g., lion, goat, serpent). Since Capricorn does not include all those parts, the symbol does not have all the parts of a chimera. Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "No. The Capricorn symbol is a sea-goat (goat with a fish tail), while a chimera traditionally combines parts from three creatures (lion, goat, serpent). Capricorn has only two parts and does not include all chimera parts.\n\nFinal answer: No",
+                "No. Capricorn is typically depicted as a sea-goat\u2014a goat upper body with a fish tail\u2014comprising two animal parts. A chimera, by contrast, usually combines parts from multiple animals (often three or more). So Capricorn does not have all the parts that define a chimera.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Would you spend less on your food at Aldi than at Whole Foods?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "In general, yes. Aldi is typically cheaper than Whole Foods for most shoppers, though it can vary by items and promotions.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "In general, yes\u2014Aldi is typically cheaper than Whole Foods for comparable items, though exact costs depend on location and what you buy.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Yes. On average, Aldi is cheaper than Whole Foods for comparable groceries.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Yes. In general, Aldi tends to be cheaper than Whole Foods for everyday groceries, especially store-brand staples. However, exact costs depend on what you buy, promotions, and your location. \n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Generally, yes. Aldi tends to have lower prices due to its discount model and private-label focus, while Whole Foods positions itself as a premium retailer with higher average prices. There can be exceptions depending on items, brands, and sales.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                null,
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Would Felicity Huffman vote for Mike DeWine?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Sorry, I can\u2019t determine or speculate on how Felicity Huffman would vote for a specific candidate. Voting is a private decision. If you\u2019d like, I can:\n- summarize Mike DeWine\u2019s key policy positions, \n- share publicly available information about Felicity Huffman\u2019s known political involvement or endorsements, or \n- discuss how voters with similar political views might evaluate DeWine\u2019s record.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": null
+        }
+    },
+    {
+        "question": "Can sunlight travel to the deepest part of the Black Sea?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [],
+            "verdicts": [],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Sunlight does not reach the deepest parts of the Black Sea. Light penetrates water only to a limited depth (the photic zone, roughly up to a few hundred meters), while the Black Sea\u2019s deepest point is about 2,200 meters deep, in the aphotic zone. Therefore, sunlight cannot reach the deepest part.\n\nFinal answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "No. The deepest parts of the Black Sea (around 2,200 meters deep) lie in darkness. Sunlight can only reach the upper, lighted layer (the photic zone), roughly up to about 100\u2013150 meters depending on clarity; below that, it\u2019s dark. \n\nFinal answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "Sunlight does not reach the deepest part of the Black Sea. The deepest point is around 2,200 meters below the surface, but the photic (light-penetrating) zone in this sea only extends to a few hundred meters at most, with darkness below that. Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No\n\nSunlight only penetrates the upper part of the Black Sea (the photic zone), roughly the top 100\u2013150 meters. The deepest parts (~2,200 meters) lie in darkness with no sunlight.",
+                "",
+                "Final answer: No",
+                "Sunlight cannot reach the deepest part of the Black Sea. The euphotic (sunlit) zone extends only to roughly 100\u2013200 meters in this sea, while the deepest point is about 2,200 meters below the surface, where it is dark.\nFinal answer: No",
+                ""
+            ],
+            "verdicts": [
+                "No",
+                null,
+                "No",
+                null,
+                "No",
+                null,
+                null,
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Does taking ukemi halt kinetic energy?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Short answer: No. Kinetic energy isn\u2019t halted instantly; ukemi slows you and dissipates the energy by transforming it into heat, sound, and deformation of the mat and body, leaving you with reduced motion. \n\nFinal answer: No",
+                "Final answer: No",
+                "No. Ukemi doesn\u2019t halt kinetic energy instantly; it slows you down and dissipates the energy through heat, deformation of the mat and body, and sound as you roll and land. The energy is transformed and gradually removed, not abruptly stopped. \n\nFinal answer: No",
+                "No. Ukemi doesn\u2019t instantaneously halt kinetic energy. It slows and redirects your motion so the kinetic energy is dissipated gradually\u2014transformed into heat, deformation of the body and floor, sound, and other forms\u2014while reducing peak forces. If you end up at rest, that energy has been converted, not mysteriously halted. \n\nFinal answer: No",
+                "Final answer: No",
+                "No. Ukemi doesn\u2019t halt kinetic energy; it dissipates it by spreading the impact over time and distance through rolling, friction, heat, and slight deformations. Energy is conserved overall but transformed and dispersed rather than stopped instantly. \n\nFinal answer: No",
+                "No \u2014 ukemi does not halt kinetic energy. It spreads and dissipates the energy over a longer deceleration (through contact, rolling, friction, heat, and deformation), eventually bringing you to rest. Final answer: No",
+                "No. Ukemi does not halt kinetic energy instantaneously. It distributes and dissipates energy through rolling, absorbing impact, and using body and mat deformation to convert kinetic energy into heat, sound, and internal energy. The motion can end with zero velocity, but the energy has been transformed, not simply stopped.\n\nFinal answer: No",
+                "No. Kinetic energy isn\u2019t halted; it\u2019s transformed and dissipated during ukemi. The fall absorbs energy through the mat, body deformation, friction, heat, sound, and controlled motion (rolling/flow), spreading the energy over time and space and reducing peak forces. Energy is conserved overall, just not instantly eliminated. \n\nFinal answer: No",
+                "No. In ukemi, the kinetic energy from a fall is not halted; it is dissipated and redistributed. The energy is transformed\u2014through rolling, contact, friction, and bodily deformation\u2014into heat, sound, and rotational energy, spreading the impact over time to reduce peak forces. Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Ukemi helps dissipate kinetic energy by spreading the impact over time and space, converting motion into heat, deformation, and friction. It does not instantly stop kinetic energy; energy is reduced during the roll and the body gradually comes to rest.\n\nFinal answer: No",
+                "No. Ukemi is about absorbing and dissipating the energy of a fall, not stopping it instantaneously. The kinetic energy of the fall is transformed into other forms (heat, deformation of the mat and body, sound, and elastic potential energy) and spread out over time, reducing peak forces and injury risk. Final answer: No",
+                "",
+                "Not exactly. Ukemi (breakfall) is meant to decelerate you and dissipate the kinetic energy as heat, deformation of the mat, sound, and muscular work, rather than instantly halting it. Energy is transformed, not disappeared.\n\nFinal answer: No",
+                "No. Ukemi doesn\u2019t halt kinetic energy instantly. It absorbs and dissipates the energy over time and distance by rolling and spreading the impact, converting kinetic energy into heat, sound, and slight deformations in mats and tissues. The goal is to reduce peak forces, not to stop energy immediately.\n\nFinal answer: No",
+                "No. Ukemi doesn\u2019t halt kinetic energy; it dissipates it. By rolling or absorbing impact, you extend the stopping time and distribute deceleration, converting kinetic energy into other forms (heat, deformation of the mat and body, sound). If you come to rest, the kinetic energy is essentially zero, but energy has been transformed rather than created or annihilated. Final answer: No",
+                "Final answer: No",
+                ""
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Could a cow produce Harvey Milk?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. A cow can produce milk, but not a specific human like Harvey Milk. He is a person, and bovine biology cannot generate or clone a particular human being.\n\nFinal answer: No",
+                "A cow cannot produce a human being; Harvey Milk was a human, and cows produce milk for calves. \n\nFinal answer: No",
+                "Harvey Milk was a human, not a product. Cows produce milk, not people, so a cow cannot produce Harvey Milk.\n\nFinal answer: No",
+                "",
+                "Final answer: No",
+                "Short answer: No. Cows produce milk and calves, not humans; Harvey Milk was a human being.\n\nFinal answer: No",
+                "I can\u2019t share step-by-step reasoning, but here\u2019s the concise answer:\n\nNo. Harvey Milk was a specific human. A cow can produce milk, not a particular person. While animals can be engineered to secrete certain human proteins in milk, that would not create the person Harvey Milk. \n\nFinal answer: No",
+                "Final answer: No",
+                "No. A cow can produce milk or a calf, but it cannot produce a specific human being like Harvey Milk. Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. A cow can produce milk, but Harvey Milk was a human; cows cannot produce humans or specific people.\n\nFinal answer: No",
+                "No. Harvey Milk was a human, and a cow cannot produce a human being. Cows produce cow's milk for calves, not human milk or people.\n\nFinal answer: No",
+                "No. A cow cannot produce a human, including Harvey Milk. Final answer: No",
+                "Final answer: No"
+            ],
+            "verdicts": [
+                null,
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Does Alec Baldwin have more children than Clint Eastwood?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": null
+        }
+    },
+    {
+        "question": "Could a markhor give birth three times in a single year?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "No. A markhor\u2019s gestation is about 150\u2013170 days, and they typically produce one (occasionally two) kids per breeding cycle within a seasonal breeding pattern. Even with postpartum estrus, completing three pregnancies within a single year is biologically infeasible due to the long gestation and the seasonal reproductive cycle. Final answer: No",
+                "",
+                "",
+                "Final answer: No",
+                ""
+            ],
+            "verdicts": [
+                "No",
+                null,
+                null,
+                null,
+                "No",
+                null,
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                null,
+                "No",
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Do depressed people travel to the Golden Gate Bridge often?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                "No",
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Can a woman on average have a baby before wheat seed blooms?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "Pregnancy lasts about 9 months (roughly 40 weeks). Wheat plants bloom within weeks of planting, not months. So, under normal conditions, a baby would be born long after a wheat seed has bloomed. It is not possible for a woman to have a baby before the wheat seed blooms.\n\nFinal answer: No",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "verdicts": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                null,
+                null,
+                "No",
+                null,
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Were paparazzi involved in the death of a member of the royal family?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "Yes. In the case of Princess Diana, paparazzi were pursuing her car, and their actions contributed to the circumstances surrounding the crash.\nFinal answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Yes. The death of Diana, Princess of Wales involved paparazzi who were pursuing her car at the time of the crash; the inquest found that their pursuit contributed to the circumstances surrounding the crash.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Yes. In the case of Princess Diana, her death occurred after a Paris car crash while being pursued by paparazzi, and the inquest concluded that paparazzi pursuit contributed to the dangerous circumstances leading to the crash. \nFinal answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "No. Mitterrand was president of France from 1981 to 1995, while Obama was president of the United States from 2009 to 2017; their presidencies did not overlap, so they could not have met in that capacity.\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "Final answer: No",
+                "No. Fran\u00e7ois Mitterrand was President of France from 1981 to 1995, and Barack Obama was President of the United States from 2009 to 2017. Their presidencies did not overlap, so they could not have met as sitting presidents. \nFinal answer: No",
+                "Short answer: No.\n\nReason: Mitterrand served as President of France from 1981 to 1995, while Obama served as President of the United States from 2009 to 2017. Their presidencies did not overlap.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Fran\u00e7ois Mitterrand was President of France from 1981 to 1995, and Barack Obama was President of the United States from 2009 to 2017; their presidencies did not overlap, so they did not meet as presidents. \nFinal answer: No",
+                "Final answer: No",
+                "No. They did not meet while both were presidents; Mitterrand served 1981\u20131995 and Obama served 2009\u20132017, so their terms did not overlap.\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "No. Fran\u00e7ois Mitterrand served as President of France from 1981 to 1995, while Barack Obama served as President of the United States from 2009 to 2017. Their presidencies did not overlap.\n\nFinal answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Would the average American family find Adam Sandler's home to be too small?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Not likely. Adam Sandler\u2019s home is reported to be a large luxury mansion\u2014thousands of square feet, well above the U.S. average home size (~2,500 sq ft). So the average American family would not find it too small.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "Not likely. The average American home is much smaller than typical celebrity residences, and Adam Sandler\u2019s homes are known to be very large. Therefore, the average family would not perceive his home as too small.\n\nFinal answer: No",
+                "No. Adam Sandler\u2019s home is far larger than the average American home, which is typically around two to a bit over two thousand square feet. A typical family would not find such a home too small; it\u2019s a luxury-sized residence.\n\nFinal answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                null,
+                "No",
+                "No",
+                null,
+                "No",
+                null,
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Can you watch Rick and Morty in Mariana Trench?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "Not in real time. The Mariana Trench has no internet and power/logistics for streaming are impractical underwater. You could watch only if you had pre-downloaded episodes on a waterproof, battery-powered device before the dive.\n\nFinal answer: No",
+                "Not in real time. The Mariana Trench has no internet connectivity and deep-sea conditions aren\u2019t suitable for typical viewing setups; you\u2019d need pre-downloaded content on a waterproof device, which is impractical in practice.\n\nFinal answer: No",
+                "Final answer: Yes",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                null,
+                "No",
+                "No",
+                null,
+                null,
+                "Yes",
+                null,
+                "Yes",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "Yes",
+                "No",
+                "No",
+                null,
+                "No",
+                null,
+                "Yes"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Are all types of pottery safe to cook in?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "No. Not every type of pottery is safe to cook in.\n\nKey points:\n- Only use pottery labeled oven-safe or food-safe with a lead-free glaze.\n- Many decorative or antique pieces use glazes that can leach lead or cadmium; avoid cooking in them.\n- Unglazed or porous pottery can absorb liquids, crack, or break under heat; these are generally not suitable for cooking.\n- Even some stoneware or ceramic with a safe glaze can be unsafe in microwave or high-heat oven conditions if not specifically rated for it.\n\nIf in doubt, check the manufacturer\u2019s labeling or use cookware explicitly marketed as oven-safe and food-safe. Final answer: No",
+                "Not all pottery is safe to cook in. Some pottery may have lead-containing glazes, be unglazed or porous (which can absorb liquids or crack under heat), or not be rated for oven use. Only pottery labeled oven-safe and food-safe (with lead-free glaze) should be used for cooking.\n\nFinal answer: No",
+                "Final answer: No",
+                "Not necessarily. Not all pottery is safe for cooking. Some are unglazed or porous and can harbor bacteria or absorb flavors; glazes may contain toxic metals like lead or cadmium; and some pieces aren\u2019t rated for high oven temperatures and can crack or shatter. Use only pottery labeled food-safe and oven-safe and follow manufacturer guidelines. Final answer: No",
+                "",
+                "Not necessarily. Pottery safety for cooking depends on the glaze, firing, and intended use. Some pieces have food-unsafe glazes (lead or cadmium), are porous and can harbor bacteria, or aren\u2019t designed to withstand high oven temperatures. Only use pottery labeled as food-safe and oven-safe, and follow the manufacturer's instructions. When in doubt, use cookware specifically designed for cooking.\n\nFinal answer: No",
+                "No. Not all pottery is safe for cooking. Some pottery uses glazes that contain lead or cadmium, some are not rated for high heat or oven use, and porous or damaged pieces can absorb liquids or crack and leak contaminants. For cooking, use only pottery labeled as food-safe and oven-safe (and preferably stoneware or porcelain) and avoid unglazed, cracked, or antique pieces unless you\u2019re certain they are lead-free and heat-safe. \n\nFinal answer: No",
+                "No. Not all pottery is safe for cooking. Many pieces are not designed to withstand oven heat, may be porous, or use glazes that aren\u2019t food-safe (including lead-containing glazes). Safe cooking pottery should be explicitly labeled as oven-safe and food-safe, fired to a suitable temperature (e.g., stoneware/porcelain), and free of cracks or defects. When in doubt, avoid using non-labeled pieces for cooking.\n\nFinal answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "No. Not all pottery is safe for cooking. Only items labeled as oven-safe and food-safe should be used. Some glazes can contain lead or cadmium and may leach chemicals when heated; unglazed or porous pottery can absorb moisture and harbor bacteria; rapid temperature changes can cause cracking or shattering. When in doubt, don\u2019t use non-rated pieces and follow the manufacturer\u2019s guidelines. \nFinal answer: No",
+                "No. Not all pottery is safe to cook in. Decorative or unglazed pieces can leach contaminants or harbor bacteria, and some glazes (especially old ones) may contain lead or cadmium. Even safe pottery can crack or fail under high heat or rapid temperature changes if it isn\u2019t rated for cooking. \n\nTips:\n- Use pottery labeled food-safe and oven-safe, and produced for cooking.\n- Ensure glazes are lead- and cadmium-free; discard any chipped or cracked pieces.\n- Avoid exposing pottery to sudden temperature changes (e.g., take from fridge to hot oven).\n- When in doubt, consult the manufacturer or use pottery specifically designed for cooking.\n\nFinal answer: No",
+                "",
+                "No. Not all pottery is safe for cooking. Some glazes or paints may contain lead or cadmium and can leach into food, especially with acidic dishes or high heat. Porous pottery can harbor bacteria, and improper firing or glazing can lead to unsafe results. Use pottery labeled food-safe and oven-safe, avoid unglazed or chipped pieces, and be cautious with older or handmade items whose glaze composition is unknown.\n\nFinal answer: No",
+                "",
+                "Final answer: No",
+                "Final answer: No"
+            ],
+            "verdicts": [
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                null,
+                "No",
+                "No",
+                null,
+                "No",
+                null,
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Is sunscreen unhelpful for the condition that killed Bob Marley?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "Melanoma is not treated by sunscreen. Sunscreen helps prevent UV damage and can reduce the risk of developing new skin cancers, but it does not treat or cure an existing melanoma. So, regarding the condition that killed Bob Marley, sunscreen would be unhelpful as a treatment, though it\u2019s useful for prevention.\n\nFinal answer: Yes",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "Final answer: Yes",
+                "",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "",
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "No",
+                "No",
+                null,
+                null,
+                null,
+                "Yes",
+                null,
+                "No",
+                null,
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                null,
+                "Yes",
+                null,
+                null,
+                null,
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Could someone with fine motor control issues benefit from an altered keyboard layout?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: Yes",
+                "",
+                "",
+                "Final answer: Yes",
+                "Yes. For many people with fine motor control challenges, an altered keyboard layout (such as Dvorak, Colemak, ergonomic/split keyboards, or larger-key/one-handed designs) can reduce finger travel, improve reach, and decrease effort or strain, potentially improving typing speed and accuracy. However, effectiveness varies by individual and requires a period of adaptation and proper ergonomic setup.\n\nFinal answer: Yes",
+                "Final answer: Yes",
+                "",
+                "Final answer: Yes",
+                "",
+                "",
+                "Yes. Altered keyboard layouts and ergonomic keyboards can help people with fine motor control issues by reducing finger movement, lowering fatigue, and improving accuracy. Options include ergonomic split/tented keyboards, layouts designed to minimize travel (e.g., Dvorak, Colemak), larger-key or one-handed layouts, key remapping, and assistive features like sticky keys. Results vary, and some users may need time to retrain. Final answer: Yes",
+                "",
+                "",
+                "",
+                "Yes. People with fine motor control issues can benefit from altered keyboard layouts because these layouts can reduce finger movement, improve reach, and lower strain. Options include ergonomic layouts (such as Colemak or Dvorak), one-handed layouts, larger-key or programmable keyboards, and remapping. Tips: try gradually, use trial software, enable accessibility features (sticky keys, adjustable repeat), and consider an ergonomic or alternative input device. If impairments are significant, consult an occupational therapist for personalized recommendations.\nFinal answer: Yes",
+                "Yes. For many people with fine motor control issues, alternative keyboard layouts or ergonomic setups can reduce finger movement, improve access to keys, and lessen fatigue. Some may benefit from layouts like Dvorak or Colemak, split/ergonomic keyboards, larger keys, or programmable remappings. Results vary, and adaptation time is often needed; other options (voice input, alternative devices) may also help. \nFinal answer: Yes",
+                "",
+                "Final answer: Yes",
+                "",
+                "Yes. Altered keyboard layouts can help people with fine motor control issues by reducing finger movement, lowering fatigue, and improving accuracy. Examples include Dvorak or Colemak layouts, one-handed layouts, and ergonomic split or low-force keyboards. However, benefits vary by individual, and there may be a learning curve; some people may prefer other adaptations or input methods (like voice or eye-tracking) depending on their specific needs. Final answer: Yes"
+            ],
+            "verdicts": [
+                "Yes",
+                null,
+                null,
+                "Yes",
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                null,
+                null,
+                "Yes",
+                null,
+                null,
+                null,
+                "Yes",
+                "Yes",
+                null,
+                "Yes",
+                null,
+                "Yes"
+            ],
+            "majority_verdict": "Yes"
+        }
+    },
+    {
+        "question": "Would it be common to find a penguin in Miami?",
+        "ground_truth": false,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "Not common. Penguins live in cooler climates, and Miami\u2019s tropical weather isn\u2019t suitable for wild penguins; any penguin you\u2019d see there would be in a zoo, aquarium, or a rescue context.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "Final answer: No",
+                "",
+                "No, it's not common to find a penguin in Miami in the wild. Penguins are native to colder regions, and Miami\u2019s tropical/subtropical climate means wild penguins would be extremely rare; any penguins you'd see in Miami would be in a zoo or aquarium.\n\nFinal answer: No",
+                "Final answer: No",
+                "Not in the wild. Miami\u2019s tropical climate is unsuitable for penguins, so you\u2019d only encounter them in zoos, aquariums, or rescue centers, not as wild populations.\n\nFinal answer: No",
+                "Final answer: No",
+                "Not common. Penguins are not native to Miami\u2019s warm climate, and wild sightings there are extremely rare. Any penguins you'd encounter in Miami would be in a zoo or aquarium.\n\nFinal answer: No",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "No. Penguins are native to cooler southern oceans, and Miami\u2019s tropical climate doesn\u2019t support wild penguin populations. You might see penguins in zoos or aquariums in the area, but not in the wild.\n\nFinal answer: No",
+                "",
+                "Not in the wild. Miami\u2019s warm climate is unsuitable for wild penguins; you\u2019d only encounter them in captivity (zoos/aquariums). Final answer: No",
+                "Final answer: No",
+                "No. Penguins are native to colder, southern or mountainous regions, and Miami's tropical climate does not support wild penguin populations. Any penguins seen in Miami would be in captivity (zoos/aquariums) or extremely rare rescue events, not as a common wild sighting. \nFinal answer: No",
+                "Not commonly. Miami\u2019s tropical climate is unsuitable for wild penguins; you\u2019d only see them in captivity (zoos or aquariums) or as rare, accidental visitors.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                null,
+                "No",
+                null,
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Are rainbows devoid of color made by mixing yin and yang colors?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                "No. Rainbows are not colorless, nor are they formed by mixing \u201cyin\u201d and \u201cyang\u201d colors. A rainbow occurs when sunlight (white light) is refracted and dispersed by raindrops, creating a continuous spectrum from red to violet. Yin and yang are philosophical concepts for opposite forces, not a physical mechanism for color creation.\n\nFinal answer: No"
+            ],
+            "verdicts": [
+                "No"
+            ],
+            "majority_verdict": "No"
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "No. A rainbow is a spectrum of colors created when sunlight is dispersed by water droplets, separating light into its constituent wavelengths. It is not colorless, nor is it produced by mixing \u201cyin and yang\u201d colors\u2014the concept doesn\u2019t apply to rainbow formation in physics. \n\nFinal answer: No",
+                "",
+                "No. Rainbows are full of colors. They arise from the dispersion of sunlight in water droplets, splitting white light into a continuous spectrum (red to violet). Yin and yang are philosophical concepts, not physical colors, and rainbow colors come from wavelength separation, not from mixing two color categories. A rainbow is not devoid of color.\n\nFinal answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No",
+                "",
+                "No. Rainbows are not colorless or formed by mixing \u201cyin\u201d and \u201cyang\u201d colors. They are displays of a spectrum of colors produced when sunlight is dispersed by raindrops, separating different wavelengths rather than mixing two colors. The idea of yin and yang colors isn\u2019t a physical basis for rainbow formation.\n\nFinal answer: No",
+                "Final answer: No",
+                ""
+            ],
+            "verdicts": [
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                "No",
+                "No",
+                null,
+                null,
+                "No",
+                "No",
+                "No",
+                null,
+                "No",
+                "No",
+                null
+            ],
+            "majority_verdict": "No"
+        }
+    },
+    {
+        "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+        "ground_truth": true,
+        "direct_qa": {
+            "n_samples": 1,
+            "outputs": [
+                ""
+            ],
+            "verdicts": [
+                null
+            ],
+            "majority_verdict": null
+        },
+        "self_consistency": {
+            "n_samples": 20,
+            "outputs": [
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Final answer: No",
+                "",
+                "Final answer: No",
+                "Since repaint schedules are determined by the tower\u2019s maintenance needs and not by U.S. presidential terms, and there is no public plan tying a repaint to Trump's 2017\u20132021 term, it is not reliably predictable that Tokyo Tower would be repainted exactly once in that period.\n\nFinal answer: No",
+                "Final answer: No",
+                "",
+                "",
+                "Final answer: No",
+                "Final answer: No",
+                "Final answer: No"
+            ],
+            "verdicts": [
+                null,
+                "No",
+                null,
+                "No",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "No",
+                null,
+                "No",
+                "No",
+                "No",
+                null,
+                null,
+                "No",
+                "No",
+                "No"
+            ],
+            "majority_verdict": "No"
+        }
+    }
+]

@@ -1,0 +1,638 @@
+{
+    "1": [
+        {
+            "question": "Karachi was a part of Alexander the Great's success?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Was P. G. Wodehouse's favorite book The Hunger Games?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Was Mother Theresa a follower of atheism?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Could the Dominican Order hypothetically defeat Blessed Gerard's order?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can a sea turtle play tennis using a tennis racket?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Is Edgar Allan Poe obscure in the world of horror fiction?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Has Elon Musk's hairline changed?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Did Easy Rider make a profit at the theater when it was released?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Has Oscar Wilde's most famous character ever been in an Eva Green project?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would you spend less on your food at Aldi than at Whole Foods?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would Felicity Huffman vote for Mike DeWine?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can sunlight travel to the deepest part of the Black Sea?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Does taking ukemi halt kinetic energy?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Could a cow produce Harvey Milk?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Does Alec Baldwin have more children than Clint Eastwood?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Could a markhor give birth three times in a single year?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Do depressed people travel to the Golden Gate Bridge often?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can a woman on average have a baby before wheat seed blooms?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Were paparazzi involved in the death of a member of the royal family?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Would the average American family find Adam Sandler's home to be too small?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can you watch Rick and Morty in Mariana Trench?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Are all types of pottery safe to cook in?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Is sunscreen unhelpful for the condition that killed Bob Marley?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Could someone with fine motor control issues benefit from an altered keyboard layout?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would it be common to find a penguin in Miami?",
+            "ground_truth": false,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Are rainbows devoid of color made by mixing yin and yang colors?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+            "ground_truth": true,
+            "max_rounds_setting": 1,
+            "actual_rounds_taken": 2,
+            "extracted_verdict": "No"
+        }
+    ],
+    "3": [
+        {
+            "question": "Karachi was a part of Alexander the Great's success?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Was P. G. Wodehouse's favorite book The Hunger Games?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Was Mother Theresa a follower of atheism?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Could the Dominican Order hypothetically defeat Blessed Gerard's order?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Can a sea turtle play tennis using a tennis racket?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Is Edgar Allan Poe obscure in the world of horror fiction?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Has Elon Musk's hairline changed?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Did Easy Rider make a profit at the theater when it was released?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Has Oscar Wilde's most famous character ever been in an Eva Green project?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would you spend less on your food at Aldi than at Whole Foods?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would Felicity Huffman vote for Mike DeWine?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can sunlight travel to the deepest part of the Black Sea?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Does taking ukemi halt kinetic energy?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Could a cow produce Harvey Milk?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Does Alec Baldwin have more children than Clint Eastwood?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Could a markhor give birth three times in a single year?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Do depressed people travel to the Golden Gate Bridge often?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Can a woman on average have a baby before wheat seed blooms?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Were paparazzi involved in the death of a member of the royal family?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Would the average American family find Adam Sandler's home to be too small?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can you watch Rick and Morty in Mariana Trench?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Are all types of pottery safe to cook in?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Is sunscreen unhelpful for the condition that killed Bob Marley?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Could someone with fine motor control issues benefit from an altered keyboard layout?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would it be common to find a penguin in Miami?",
+            "ground_truth": false,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Are rainbows devoid of color made by mixing yin and yang colors?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+            "ground_truth": true,
+            "max_rounds_setting": 3,
+            "actual_rounds_taken": 4,
+            "extracted_verdict": "No"
+        }
+    ],
+    "5": [
+        {
+            "question": "Karachi was a part of Alexander the Great's success?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Was P. G. Wodehouse's favorite book The Hunger Games?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Was Mother Theresa a follower of atheism?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Could the Dominican Order hypothetically defeat Blessed Gerard's order?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Can a sea turtle play tennis using a tennis racket?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Is Edgar Allan Poe obscure in the world of horror fiction?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Has Elon Musk's hairline changed?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Did Easy Rider make a profit at the theater when it was released?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Has Oscar Wilde's most famous character ever been in an Eva Green project?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would you spend less on your food at Aldi than at Whole Foods?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Would Felicity Huffman vote for Mike DeWine?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Can sunlight travel to the deepest part of the Black Sea?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Does taking ukemi halt kinetic energy?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Could a cow produce Harvey Milk?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Does Alec Baldwin have more children than Clint Eastwood?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Could a markhor give birth three times in a single year?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Do depressed people travel to the Golden Gate Bridge often?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Can a woman on average have a baby before wheat seed blooms?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Were paparazzi involved in the death of a member of the royal family?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Would the average American family find Adam Sandler's home to be too small?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Can you watch Rick and Morty in Mariana Trench?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Are all types of pottery safe to cook in?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 1,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Is sunscreen unhelpful for the condition that killed Bob Marley?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "Yes"
+        },
+        {
+            "question": "Could someone with fine motor control issues benefit from an altered keyboard layout?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": null
+        },
+        {
+            "question": "Would it be common to find a penguin in Miami?",
+            "ground_truth": false,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Are rainbows devoid of color made by mixing yin and yang colors?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        },
+        {
+            "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+            "ground_truth": true,
+            "max_rounds_setting": 5,
+            "actual_rounds_taken": 6,
+            "extracted_verdict": "No"
+        }
+    ]
+}

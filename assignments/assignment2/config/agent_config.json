@@ -1,0 +1,7 @@
+{
+    "max_tokens": 1500,
+    "temperature": 1.0,
+    "judge_temperature": 1.0,
+    "model_name": "gpt-5-nano",
+    "max_rounds": 3
+}
