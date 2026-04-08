@@ -1,0 +1,402 @@
+[
+    {
+        "instruction": "Explain the difference between Open-Ended and Closed-Ended questions.\n",
+        "response": "Explain the difference between Open-Ended and Closed-Ended questions.\n Open-ended and closed-ended questions are two different types of questions that are used in various contexts, such as surveys, interviews, and assessments. The main difference between the two is the way they are structured and the type of response they elicit.\n\nOpen-ended questions are questions that do not have a pre-determined set of answers. Instead, they allow the respondent to provide their own answer, which can be in the form of a sentence, paragraph, or even a story. This type of question is useful when the goal is to gather qualitative data, such as opinions, feelings, or experiences. Open-ended questions are often used in interviews, focus groups, and open-ended surveys.\n\nClosed-ended questions, on the other hand, have a set of pre-determined answers that the respondent can choose from. These answers are usually in the form of yes/no, multiple choice, or rating scales. Closed-ended questions are useful when the goal is to gather quantitative data, such as statistics or numerical values. They are often used in surveys, polls, and quizzes.\n\nIn summary, the main difference between open-"
+    },
+    {
+        "instruction": "What other countries are in North America?\n",
+        "response": "What other countries are in North America?\n North America is a continent that consists of three main countries: Canada, the United States, and Mexico. However, there are also several other countries and territories in North America. Here are some of them:\n\n1. Greenland (Denmark)\n2. Saint Pierre and Miquelon (France)\n3. Bermuda (United Kingdom)\n4. Cayman Islands (United Kingdom)\n5. Turks and Caicos Islands (United Kingdom)\n6. Bahamas (United Kingdom)\n7. Haiti (France)\n8. Dominican Republic (France)\n9. Cuba (Spain)\n10. Jamaica (United Kingdom)\n11. Trinidad and Tobago (United Kingdom)\n12. Barbados (United Kingdom)\n13. Saint Lucia (United Kingdom)\n14. Grenada (United Kingdom)\n15. Antigua and Barbuda (United Kingdom)\n16. Saint Kitts and Nevis (United Kingdom)\n17. Anguilla (United Kingdom)\n18. Montserrat (United Kingdom)\n19"
+    },
+    {
+        "instruction": "Create a riddle based on the topic of 'water.'\n",
+        "response": "Create a riddle based on the topic of 'water.'\n I am a liquid, but I am not a drink,\nI flow and I move, but I am not a wind.\nI can be calm or I can be wild,\nI can be a friend or a foe, but I am always mild.\nWhat am I?"
+    },
+    {
+        "instruction": "Edit the following sentence: The dog was cute but muddy.\nThe dog was cute but muddy.",
+        "response": "Edit the following sentence: The dog was cute but muddy.\nThe dog was cute but muddy. The dog was adorable but covered in mud."
+    },
+    {
+        "instruction": "Create a sentence that describes a person who has both a positive and negative character trait.\n",
+        "response": "Create a sentence that describes a person who has both a positive and negative character trait.\n John is a generous and kind-hearted person, but he can also be stubborn and argumentative at times."
+    },
+    {
+        "instruction": "Generate a valid HTML form with appropriate labels and placeholders.\n",
+        "response": "Generate a valid HTML form with appropriate labels and placeholders.\n Here is an example of a valid HTML form with appropriate labels and placeholders:\n\n```html\n<form>\n  <label for=\"name\">Name:</label>\n  <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n\n  <label for=\"email\">Email:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n\n  <label for=\"message\">Message:</label>\n  <textarea id=\"message\" name=\"message\" placeholder=\"Enter your message\"></textarea>\n\n  <input type=\"submit\" value=\"Submit\">\n</form>\n```\n\nThis form has three input fields for name, email, and message, each with a corresponding label and placeholder. The submit button is also included to allow the user to submit the form."
+    },
+    {
+        "instruction": "Create a tweet about the latest trend in the tech industry.\n",
+        "response": "Create a tweet about the latest trend in the tech industry.\n \"\ud83d\ude80 The latest trend in the tech industry is the rise of AI-powered chatbots. These intelligent bots are revolutionizing customer service by providing instant, personalized responses to customer inquiries. Stay ahead of the curve and embrace the future of technology! #techtrend #chatbots #AI\""
+    },
+    {
+        "instruction": "Describe the typical daily routine of a data scientist who works remotely.\n",
+        "response": "Describe the typical daily routine of a data scientist who works remotely.\n A data scientist who works remotely typically follows a routine that is similar to that of any other professional, with some adjustments to accommodate the nature of their work. Here is a typical daily routine for a remote data scientist:\n\n1. Morning routine: The day usually starts with a morning routine that includes waking up, exercising, and having breakfast. The data scientist may also spend some time reviewing their schedule for the day and setting priorities.\n\n2. Check emails and messages: The data scientist checks their emails and messages to see if there are any urgent tasks or updates that need to be addressed.\n\n3. Work on projects: The data scientist then spends the majority of their day working on various projects. This may involve analyzing data, building models, or writing code. They may also collaborate with other team members or stakeholders through video conferencing or messaging platforms.\n\n4. Attend meetings: The data scientist may attend virtual meetings with their team or other stakeholders to discuss progress, share ideas, or get feedback on their work.\n\n5. Take breaks: The data scientist takes regular breaks throughout the day to"
+    },
+    {
+        "instruction": "Create a market analysis for a startup company in the digital marketing space.\nCompany Name: Spotty\nMarket: Digital marketing",
+        "response": "Create a market analysis for a startup company in the digital marketing space.\nCompany Name: Spotty\nMarket: Digital marketing Spotty is a startup company in the digital marketing space that aims to provide innovative and effective solutions to businesses looking to increase their online presence and reach a wider audience. The digital marketing industry is a highly competitive and rapidly evolving market, with new technologies and strategies emerging every day.\n\nThe market for digital marketing is expected to grow at a CAGR of 14.5% from 2021 to 2026, reaching a market size of $490.3 billion by 2026. This growth is driven by the increasing adoption of digital technologies by businesses, the growing importance of online presence, and the increasing use of social media and other digital platforms for marketing purposes.\n\nSpotty's target market includes small and medium-sized businesses (SMBs) that are looking to improve their online visibility and reach a wider audience. These businesses are often looking for cost-effective and efficient solutions to their digital marketing needs, and Spotty's innovative and customized approach to digital marketing is well-suited to meet these needs.\n\nThe digital marketing industry is highly fragment"
+    },
+    {
+        "instruction": "Find out if a given sentence is a metaphor.\nSentence: The road is an ocean of cars.",
+        "response": "Find out if a given sentence is a metaphor.\nSentence: The road is an ocean of cars. Yes, the given sentence is a metaphor. A metaphor is a figure of speech that compares two things that are not alike, but have something in common. In this case, the road is being compared to an ocean of cars, implying that the road is vast and full of cars, just like an ocean is vast and full of water."
+    },
+    {
+        "instruction": "Report the current temperature in Dubai.\n",
+        "response": "Report the current temperature in Dubai.\n I'm sorry, but I am an AI language model and do not have the ability to access real-time data or the internet. I recommend checking a reliable weather forecasting website or app for the current temperature in Dubai."
+    },
+    {
+        "instruction": "Write a story about a young boy visiting a foreign country.\nCountry: Egypt",
+        "response": "Write a story about a young boy visiting a foreign country.\nCountry: Egypt Once upon a time, there was a young boy named Jack who had always dreamed of visiting Egypt. He had read many books about the ancient pyramids, the Nile River, and the bustling markets of Cairo. Finally, the day had come for him to fulfill his dream.\n\nJack arrived in Egypt with his family, and they were all excited to explore the country. They started their journey by visiting the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World. Jack was in awe of the massive structure and the history that surrounded it.\n\nNext, they traveled to the Nile River, where they took a boat ride and saw the beautiful scenery of the river and the surrounding countryside. Jack was amazed at the size of the river and the life that it supported.\n\nThe family then visited the bustling markets of Cairo, where they saw vendors selling all kinds of goods, from spices and textiles to jewelry and pottery. Jack was fascinated by the colorful displays and the sounds of the market.\n\nAs they continued their journey, Jack learned more about the rich"
+    },
+    {
+        "instruction": "List 5 strategies for better organization and time management.\n",
+        "response": "List 5 strategies for better organization and time management.\n 1. Prioritize tasks: Make a list of all the tasks you need to complete and prioritize them based on their importance and urgency. This will help you focus on the most important tasks first and ensure that you are making the most of your time.\n\n2. Set goals and deadlines: Set specific, measurable, achievable, relevant, and time-bound (SMART) goals for yourself and establish deadlines for each task. This will help you stay on track and motivated, and ensure that you are making progress towards your goals.\n\n3. Use a planner or calendar: Use a planner or calendar to keep track of your tasks, appointments, and deadlines. This will help you stay organized and ensure that you are not forgetting anything important.\n\n4. Break tasks into smaller steps: Large tasks can be overwhelming, so break them down into smaller, more manageable steps. This will make it easier to get started and help you stay focused and motivated.\n\n5. Eliminate distractions: Identify the things that are distracting you and eliminate them as much as possible. This could mean turning off your phone, closing your email,"
+    },
+    {
+        "instruction": "Explain what foreign direct investment (FDI) is.\n",
+        "response": "Explain what foreign direct investment (FDI) is.\n Foreign direct investment (FDI) is an investment made by a company or individual in one country into business interests located in another country. It is a type of cross-border investment that involves the establishment of a lasting interest or control in a foreign enterprise. FDI can take the form of building new facilities or acquiring a controlling interest in an existing company.\n\nFDI is an important driver of economic growth and development, as it brings in capital, technology, and expertise to the host country. It can also create jobs and stimulate competition, leading to improved productivity and efficiency. However, FDI can also have negative effects, such as the potential for exploitation of natural resources or labor, and the risk of creating a dependence on foreign investment.\n\nIn general, FDI is a key component of globalization and international trade, and it is regulated by national and international laws and agreements."
+    },
+    {
+        "instruction": "Create a Scratch program that generates a random number between 0 and 100.\n",
+        "response": "Create a Scratch program that generates a random number between 0 and 100.\n Here is a Scratch program that generates a random number between 0 and 100:\n\n```scratch\nwhen green flag clicked\nset [randomNumber v] to (pick random (0) (100))\nbroadcast [randomNumber message v]\n\nwhen I receive [randomNumber message v]\nsay (join [The random number is: ] (word) (randomNumber))\n```\n\nThis program uses the `pick random` block to generate a random number between 0 and 100. It then broadcasts the value of the random number to other scripts that may be listening for it. In this case, we have a single script that receives the broadcast and displays the random number using the `say` block."
+    },
+    {
+        "instruction": "Outline the range of colors a television can display.\n",
+        "response": "Outline the range of colors a television can display.\n A television can display a wide range of colors, depending on the technology used. Traditional CRT (cathode ray tube) televisions can display around 100 shades of color, while modern LCD (liquid crystal display) and LED (light-emitting diode) televisions can display millions of colors. This is achieved through the use of advanced color filters and backlighting technologies, which allow for more precise and vibrant color reproduction. Additionally, some televisions may also have features such as HDR (high dynamic range) and wide color gamut, which further enhance the range and quality of colors displayed."
+    },
+    {
+        "instruction": "Make an argument for reducing plastic waste.\n",
+        "response": "Make an argument for reducing plastic waste.\n Reducing plastic waste is crucial for the health of our planet and its inhabitants. Plastic waste is a major contributor to pollution, with millions of tons of plastic ending up in our oceans and landfills each year. This waste harms wildlife, as animals can ingest or become entangled in plastic debris, leading to injury or death. Additionally, plastic waste can release harmful chemicals into the environment, which can have negative impacts on human health.\n\nReducing plastic waste can also have economic benefits. The cost of cleaning up plastic waste is significant, and reducing the amount of plastic waste produced can save money in the long run. Furthermore, reducing plastic waste can create new opportunities for innovation and job creation in the development of sustainable alternatives.\n\nIn conclusion, reducing plastic waste is essential for protecting the environment, wildlife, and human health. It is a responsibility that we all share, and by making small changes in our daily lives, we can make a big difference in reducing plastic waste and creating a more sustainable future."
+    },
+    {
+        "instruction": "Repeat the input 5 times.\nHello",
+        "response": "Repeat the input 5 times.\nHello Hello\nHello\nHello\nHello\nHello"
+    },
+    {
+        "instruction": "The ratio of cats to dogs at the pet store is 2:3. There are 14 cats. How many dogs are there at the pet store?\n",
+        "response": "The ratio of cats to dogs at the pet store is 2:3. There are 14 cats. How many dogs are there at the pet store?\n The ratio of cats to dogs is 2:3, which means for every 2 cats, there are 3 dogs.\nIf there are 14 cats, we can set up a proportion to find the number of dogs.\n2/3 = 14/x\nCross-multiplying, we get 2x = 3 * 14\nSimplifying, we get 2x = 42\nDividing both sides by 2, we get x = 21\nTherefore, there are 21 dogs at the pet store."
+    },
+    {
+        "instruction": "Generate a sentence using the words: Africa, yellow, and science.\n",
+        "response": "Generate a sentence using the words: Africa, yellow, and science.\n The study of the yellow African sunflower has advanced our understanding of plant biology and ecology."
+    },
+    {
+        "instruction": "Explain the differences between the Central American countries and the South American countries.\n",
+        "response": "Explain the differences between the Central American countries and the South American countries.\n Central America and South America are two regions of the Americas that have distinct geographical, cultural, and historical differences.\n\nGeographically, Central America is a narrow strip of land that connects North and South America, while South America is a much larger landmass that extends from the southern tip of North America to the southern tip of the continent. Central America is mostly made up of mountainous terrain, while South America has a diverse range of landscapes, including the Amazon rainforest, the Andes mountains, and the Atacama Desert.\n\nCulturally, Central America and South America have different histories and influences. Central America was colonized by Spain and has a predominantly Hispanic culture, while South America was colonized by Spain, Portugal, and the Netherlands, resulting in a more diverse cultural mix. South America is also home to many indigenous cultures, while Central America has a smaller indigenous population.\n\nIn terms of language, Spanish is the predominant language in both regions, but there are also many indigenous languages spoken in South America. Economically, both regions have historically been dependent on agriculture and natural resources, but South America has a more diverse economy"
+    },
+    {
+        "instruction": "Generate a recipe for vegan fried rice.\n",
+        "response": "Generate a recipe for vegan fried rice.\n Vegan Fried Rice Recipe\n\nIngredients:\n- 2 cups cooked rice\n- 2 tablespoons vegetable oil\n- 1 small onion, diced\n- 2 cloves garlic, minced\n- 1 cup frozen peas and carrots\n- 1/2 cup diced tofu\n- 2 tablespoons soy sauce\n- 1 tablespoon sesame oil\n- 1 teaspoon grated ginger\n- Salt and pepper to taste\n- 2 green onions, chopped\n- 1 tablespoon chopped cilantro\n\nInstructions:\n\n1. Heat the vegetable oil in a large skillet or wok over medium-high heat.\n\n2. Add the diced onion and minced garlic to the skillet and saut\u00e9 for 2-3 minutes, until the onion is translucent.\n\n3. Add the frozen peas and carrots to the skillet and cook for another 2-3 minutes, until the vegetables are thawed and slightly tender.\n\n4. Add"
+    },
+    {
+        "instruction": "Identify if the following is an example of exaggeration or hyperbole.\nThe homework assignment was so difficult it felt like a mountain.",
+        "response": "Identify if the following is an example of exaggeration or hyperbole.\nThe homework assignment was so difficult it felt like a mountain. The statement \"The homework assignment was so difficult it felt like a mountain\" is an example of hyperbole. Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis. In this case, the difficulty of the homework is exaggerated to the point of comparing it to a mountain, which is an extreme exaggeration."
+    },
+    {
+        "instruction": "Compile a list of popular books that were released this year.\n",
+        "response": "Compile a list of popular books that were released this year.\n Here is a list of popular books that were released in 2021:\n\n1. \"The Four Winds\" by Kristin Hannah\n2. \"The Last Thing He Told Me\" by Laura Dave\n3. \"The Midnight Library\" by Matt Haig\n4. \"The Vanishing Half\" by Brit Bennett\n5. \"The Invisible Life of Addie LaRue\" by V.E. Schwab\n6. \"The Lincoln Highway\" by Amor Towles\n7. \"The Guest List\" by Lucy Foley\n8. \"The Lincoln Highway\" by Amor Towles\n9. \"The Last Thing He Told Me\" by Laura Dave\n10. \"The Invisible Life of Addie LaRue\" by V.E. Schwab"
+    },
+    {
+        "instruction": "Write a description of a natural disaster using only adjectives.\n",
+        "response": "Write a description of a natural disaster using only adjectives.\n Devastating, catastrophic, destructive, ruinous, calamitous, disastrous, calamitous, ruinous, catastrophic, and devastating."
+    },
+    {
+        "instruction": "Compose a tweet summarizing the movie \"The Matrix\" in 140 characters.\n",
+        "response": "Compose a tweet summarizing the movie \"The Matrix\" in 140 characters.\n \"In a world where reality is an illusion, a hacker discovers the truth and fights to free humanity from the Matrix. #TheMatrix #action #sci-fi\""
+    },
+    {
+        "instruction": "Create five descriptors that describe the smell of churros.\n",
+        "response": "Create five descriptors that describe the smell of churros.\n 1. Sweet and buttery\n2. Cinnamon-spiced\n3. Crispy and golden\n4. Fragrant and warm\n5. Nutty and rich"
+    },
+    {
+        "instruction": "Categorize the following animals: lion, cow, eagle\nLion, cow, eagle",
+        "response": "Categorize the following animals: lion, cow, eagle\nLion, cow, eagle The animals can be categorized as follows:\n\n- Lion: Mammal\n- Cow: Mammal\n- Eagle: Bird"
+    },
+    {
+        "instruction": "List three spicies of seals.\n",
+        "response": "List three spicies of seals.\n 1. Harp Seal\n2. Grey Seal\n3. Elephant Seal"
+    },
+    {
+        "instruction": "Classify the following emotions - shame, pride, joy\nShame, pride, joy",
+        "response": "Classify the following emotions - shame, pride, joy\nShame, pride, joy Shame is a negative emotion that is often associated with feelings of guilt, embarrassment, or regret. It is a self-conscious emotion that can arise from a perceived failure or wrongdoing.\n\nPride is a positive emotion that is often associated with feelings of accomplishment, satisfaction, or self-worth. It is a self-conscious emotion that can arise from achieving a goal or receiving recognition for one's efforts.\n\nJoy is a positive emotion that is often associated with feelings of happiness, contentment, or pleasure. It is a self-conscious emotion that can arise from experiencing something enjoyable or fulfilling."
+    },
+    {
+        "instruction": "Find the number that is non-prime and non-composite between 1 and 10.\n",
+        "response": "Find the number that is non-prime and non-composite between 1 and 10.\n The number that is non-prime and non-composite between 1 and 10 is 1."
+    },
+    {
+        "instruction": "Name two colors that commonly feature in the flag of Colombia.\n",
+        "response": "Name two colors that commonly feature in the flag of Colombia.\n The two colors that commonly feature in the flag of Colombia are red and blue."
+    },
+    {
+        "instruction": "Construct a sentence to explain why a person should learn a second language.\n",
+        "response": "Construct a sentence to explain why a person should learn a second language.\n Learning a second language can open up a world of opportunities, allowing individuals to communicate with people from different cultures, enhance their career prospects, and broaden their understanding of the world."
+    },
+    {
+        "instruction": "Summarize the importance of data science in business.\n",
+        "response": "Summarize the importance of data science in business.\n Data science is a critical component of modern business operations, as it enables companies to make data-driven decisions and gain valuable insights from their data. By using data science techniques, businesses can analyze large amounts of data to identify patterns, trends, and correlations that can help them improve their operations, increase efficiency, and gain a competitive edge.\n\nData science can help businesses in a variety of ways, including:\n\n1. Improving decision-making: By using data science techniques, businesses can make more informed decisions based on data rather than intuition or guesswork. This can help them avoid costly mistakes and make better use of their resources.\n\n2. Identifying opportunities: Data science can help businesses identify new opportunities for growth and expansion by analyzing market trends and customer behavior. This can help them stay ahead of the competition and capitalize on emerging trends.\n\n3. Increasing efficiency: By analyzing data, businesses can identify areas where they can improve their operations and increase efficiency. This can help them reduce costs and improve their bottom line.\n\n4. Enhancing customer experience: Data science can help businesses better understand their customers and their"
+    },
+    {
+        "instruction": "Generate a new sentence to compare the levels of corruption in North America and the Middle East.\n",
+        "response": "Generate a new sentence to compare the levels of corruption in North America and the Middle East.\n The levels of corruption in North America and the Middle East are vastly different, with North America generally having lower levels of corruption compared to the Middle East."
+    },
+    {
+        "instruction": "Arrange the words in alphabetical order: birthday, mother, June.\n",
+        "response": "Arrange the words in alphabetical order: birthday, mother, June.\n The words in alphabetical order are: birthday, June, mother."
+    },
+    {
+        "instruction": "Generate a few relevant questions to ask about the following topic: The advances in technology.\n",
+        "response": "Generate a few relevant questions to ask about the following topic: The advances in technology.\n 1. What are some of the most significant technological advancements in recent years?\n2. How have these advancements impacted various industries and sectors?\n3. What are some of the potential future technological developments that we can expect to see in the coming years?\n4. How have technological advancements changed the way we live and work?\n5. What are some of the ethical considerations that arise with the development of new technologies?\n6. How can we ensure that technological advancements are used for the greater good and not for harmful purposes?\n7. What role do governments and regulatory bodies play in overseeing and regulating technological advancements?\n8. How can we ensure that technological advancements are accessible and beneficial to all members of society?\n9. What are some of the challenges that come with the rapid pace of technological advancements?\n10. How can we balance the benefits of technological advancements with the potential risks and drawbacks?"
+    },
+    {
+        "instruction": "Generate a four-word proverb about determination.\n",
+        "response": "Generate a four-word proverb about determination.\n \"Determination conquers all obstacles.\""
+    },
+    {
+        "instruction": "Paraphrase the sentence \"The scientists studied the data carefully\"\n",
+        "response": "Paraphrase the sentence \"The scientists studied the data carefully\"\n The researchers meticulously examined the information."
+    },
+    {
+        "instruction": "Delete any words from the sentence \"The exhibition was shocked by the audience's loud applause\" that are redundant.\n",
+        "response": "Delete any words from the sentence \"The exhibition was shocked by the audience's loud applause\" that are redundant.\n The exhibition was shocked by the audience's loud applause."
+    },
+    {
+        "instruction": "Generate a comment on a science article.\n",
+        "response": "Generate a comment on a science article.\n This article provides a comprehensive overview of the latest developments in the field of science, covering a wide range of topics from space exploration to genetic engineering. The author has done an excellent job of presenting the information in a clear and concise manner, making it accessible to readers of all levels of expertise. Overall, this is a must-read for anyone interested in staying up-to-date with the latest scientific discoveries and breakthroughs."
+    },
+    {
+        "instruction": "Classify the sentiment of the sentence \"I'm so pleased with my work\".\n",
+        "response": "Classify the sentiment of the sentence \"I'm so pleased with my work\".\n The sentiment of the sentence \"I'm so pleased with my work\" is positive."
+    },
+    {
+        "instruction": "Find the 5th word in the sentence \"What a beautiful day for a picnic\".\n",
+        "response": "Find the 5th word in the sentence \"What a beautiful day for a picnic\".\n The 5th word in the sentence \"What a beautiful day for a picnic\" is \"day\"."
+    },
+    {
+        "instruction": "Convert the sentence \"He ran quickly to the store\" into the past perfect tense.\n",
+        "response": "Convert the sentence \"He ran quickly to the store\" into the past perfect tense.\n He had run quickly to the store."
+    },
+    {
+        "instruction": "Edit the sentence \"The alarm clock was ringing loudly at seven o' clock\"\n",
+        "response": "Edit the sentence \"The alarm clock was ringing loudly at seven o' clock\"\n The alarm clock was ringing loudly at seven o'clock."
+    },
+    {
+        "instruction": "Delete any words that are redundant in the sentence \"I bought a few different items at the store\"\n",
+        "response": "Delete any words that are redundant in the sentence \"I bought a few different items at the store\"\n I bought different items at the store."
+    },
+    {
+        "instruction": "Write a short poem describing a setting sun.\n",
+        "response": "Write a short poem describing a setting sun.\n The sun sets low in the sky,\nA fiery ball of orange and red,\nA blaze of light that fades away,\nAs the day comes to an end.\n\nThe clouds are painted with a hue,\nOf pink and purple and gold,\nA canvas of beauty and grace,\nAs the sun takes its final bow.\n\nThe world is bathed in a soft glow,\nAs the sun dips below the horizon,\nA moment of peace and quiet,\nAs the day comes to an end."
+    },
+    {
+        "instruction": "Explain how algorithms can be used in educational institutions.\n",
+        "response": "Explain how algorithms can be used in educational institutions.\n Algorithms can be used in educational institutions in a variety of ways to improve the learning experience and outcomes for students. Here are some examples:\n\n1. Personalized learning: Algorithms can be used to analyze student data and create personalized learning plans for each student. This can help to identify areas where a student may be struggling and provide targeted support to help them improve.\n\n2. Adaptive learning: Algorithms can be used to create adaptive learning systems that adjust the difficulty level of the material based on the student's performance. This can help to keep students engaged and motivated, while also ensuring that they are challenged at the appropriate level.\n\n3. Automated grading: Algorithms can be used to automatically grade assignments and tests, saving teachers time and allowing them to focus on other aspects of teaching. This can also help to reduce errors and provide immediate feedback to students.\n\n4. Predictive analytics: Algorithms can be used to analyze data on student performance and predict which students are at risk of failing or dropping out. This can help to identify students who may need additional support and intervention to help them succeed.\n\n5. Intelligent tutoring systems: Alg"
+    },
+    {
+        "instruction": "Generate a list of adjectives related to a summer garden.\n",
+        "response": "Generate a list of adjectives related to a summer garden.\n 1. Lush\n2. Vibrant\n3. Colorful\n4. Fragrant\n5. Blooming\n6. Sunny\n7. Warm\n8. Inviting\n9. Refreshing\n10. Bountiful\n11. Tranquil\n12. Serene\n13. Lively\n14. Radiant\n15. Majestic\n16. Enchanting\n17. Blissful\n18. Peaceful\n19. Nurturing\n20. Abundant."
+    },
+    {
+        "instruction": "Create a news headline for a story about a celebrity who just released a book.\nTom Hanks",
+        "response": "Create a news headline for a story about a celebrity who just released a book.\nTom Hanks \"Tom Hanks Releases New Book, 'The Art of Storytelling'\""
+    },
+    {
+        "instruction": "Given an input object, create an algorithm to determine if the object is valid.\nMug",
+        "response": "Given an input object, create an algorithm to determine if the object is valid.\nMug Here is an algorithm to determine if the input object is valid:\n\n1. Check if the input object is a string.\n2. Check if the string is \"Mug\".\n3. If the string is \"Mug\", return True, else return False.\n\nHere is the implementation of the algorithm in Python:\n\n```python\ndef is_valid_object(input_object):\n    if isinstance(input_object, str):\n        if input_object == \"Mug\":\n            return True\n    return False\n```\n\nYou can use this function to check if the input object is valid or not. For example, if the input object is \"Mug\", the function will return True, otherwise it will return False."
+    },
+    {
+        "instruction": "Summarize the functions of the Federal Reserve.\n",
+        "response": "Summarize the functions of the Federal Reserve.\n The Federal Reserve, also known as the Fed, is the central banking system of the United States. It was created in 1913 to provide the country with a safe, flexible, and stable monetary and financial system. The Fed has several key functions, including:\n\n1. Conducting monetary policy: The Fed sets the nation's monetary policy by influencing interest rates and the money supply. This is done to promote maximum employment, stable prices, and moderate long-term interest rates.\n\n2. Supervising and regulating banks: The Fed is responsible for supervising and regulating banks and other financial institutions to ensure their safety and soundness. This includes setting and enforcing rules and regulations, conducting examinations, and taking corrective action when necessary.\n\n3. Maintaining financial stability: The Fed works to promote the stability of the financial system and prevent or mitigate financial crises. This includes monitoring and addressing risks to the financial system, providing emergency lending to financial institutions in times of crisis, and working with other government agencies to coordinate responses to financial crises.\n\n4. Providing financial services: The Fed"
+    },
+    {
+        "instruction": "Create a quiz for a subject of your choice.\nScooby-Doo",
+        "response": "Create a quiz for a subject of your choice.\nScooby-Doo Quiz: Scooby-Doo\n\n1. What is the name of the main character in the Scooby-Doo franchise?\na. Shaggy\nb. Fred\nc. Daphne\nd. Scooby-Doo\n\n2. What is the name of the group of friends that Scooby-Doo and his friends solve mysteries with?\na. The Mystery Gang\nb. The Mystery Busters\nc. The Mystery Inc.\nd. The Mystery Solvers\n\n3. What is the name of the Great Dane that Scooby-Doo is a part of?\na. Rover\nb. Scooby\nc. Fido\nd. Spot\n\n4. What is the name of the villain in the Scooby-Doo franchise?\na. The Phantom\nb. The Mystery Master\nc. The Great Ghost\nd. The Mystery Inc.\n\n5. What is the name of the show that Scooby-Doo first appeared in?\na. Scooby-Doo, Where Are You!\nb. Scooby-"
+    },
+    {
+        "instruction": "Develop a strategy for negotiating better wages in the workplace.\n",
+        "response": "Develop a strategy for negotiating better wages in the workplace.\n Negotiating better wages in the workplace can be a challenging task, but with the right strategy, it can be done effectively. Here are some steps to follow:\n\n1. Research: The first step in negotiating better wages is to do your research. Find out what the average wage is for someone with your skills and experience in your area. You can use online resources, industry publications, and networking to gather this information.\n\n2. Prepare: Once you have an idea of what the average wage is, prepare your case. Make a list of your accomplishments, skills, and experience that make you a valuable employee. Be ready to present this information in a clear and concise manner.\n\n3. Timing: Choose the right time to negotiate. A good time to have this conversation is during your annual performance review or when you are being considered for a promotion.\n\n4. Practice: Practice your negotiation skills with a friend or mentor. This will help you feel more confident and prepared when the time comes to have the conversation with your employer.\n\n5. Be confident: When you have the conversation with your employer, be confident and assertive. Clear"
+    },
+    {
+        "instruction": "Create a container class that holds two values.\n",
+        "response": "Create a container class that holds two values.\n Here is an example of a container class that holds two values:\n\n```python\nclass TwoValueContainer:\n    def __init__(self, value1, value2):\n        self.value1 = value1\n        self.value2 = value2\n\n    def get_value1(self):\n        return self.value1\n\n    def get_value2(self):\n        return self.value2\n\n    def set_value1(self, value):\n        self.value1 = value\n\n    def set_value2(self, value):\n        self.value2 = value\n```\n\nThis class has two instance variables, `value1` and `value2`, which are initialized in the constructor. It also has four methods: `get_value1`, `get_value2`, `set_value1`, and `set_value2`. The `get_value1` and `get_value2` methods return the values of the instance variables, while the `set_value1` and `set_value2` methods set the values of the instance variables."
+    },
+    {
+        "instruction": "Given an everyday situation, create a brief story around it.\nRiding the subway",
+        "response": "Given an everyday situation, create a brief story around it.\nRiding the subway Once upon a time, there was a young woman named Sarah who lived in a bustling city. Every day, she would take the subway to work, a routine that had become second nature to her. One day, as she was riding the subway, she noticed a man sitting across from her, reading a book. She couldn't help but be intrigued by the title of the book, which was about a far-off land and its people.\n\nAs the train continued on its journey, Sarah found herself lost in thought, imagining what it would be like to visit that far-off land. She began to daydream about the sights, sounds, and smells she might encounter there.\n\nBefore she knew it, the train had arrived at her stop. As she got off, she looked back at the man who was still reading his book. She smiled to herself, feeling grateful for the brief moment of escape that the subway ride had provided her.\n\nFrom that day on, Sarah made it a point to take the subway every day, not just as a means of transportation, but as a way to escape into her own world of imagination and wonder."
+    },
+    {
+        "instruction": "Create a classification algorithm for a given dataset.\nDataset of medical images",
+        "response": "Create a classification algorithm for a given dataset.\nDataset of medical images To create a classification algorithm for a given dataset of medical images, we can follow these steps:\n\n1. Data Preprocessing: The first step is to preprocess the data. This includes resizing the images to a standard size, normalizing the pixel values, and splitting the dataset into training and testing sets.\n\n2. Feature Extraction: Next, we need to extract features from the images. This can be done using various techniques such as edge detection, texture analysis, or deep learning-based methods like Convolutional Neural Networks (CNNs).\n\n3. Model Selection: Once we have the features, we can select a suitable classification model. This can be a traditional machine learning model like Support Vector Machines (SVM) or Random Forest, or a deep learning model like CNNs.\n\n4. Training the Model: We can then train the selected model on the training set. This involves feeding the features and corresponding labels to the model and adjusting the model parameters to minimize the error.\n\n5. Evaluation: After training the model, we can evaluate its performance on the testing set. This can be done using various metrics such as accuracy, precision, recall, and F1 score."
+    },
+    {
+        "instruction": "Create a script that converts text into a musical score.\n",
+        "response": "Create a script that converts text into a musical score.\n Creating a script that converts text into a musical score is a complex task that requires a deep understanding of both music theory and programming. Here is a simple example of how you could create a script that converts text into a musical score using Python and the music21 library.\n\nFirst, you will need to install the music21 library. You can do this by running the following command in your terminal:\n\n```\npip install music21\n```\n\nOnce you have installed the library, you can use the following script to convert text into a musical score:\n\n```python\nfrom music21 import *\n\ndef text_to_score(text):\n    # Split the text into words\n    words = text.split()\n\n    # Create a new stream\n    score = stream.Stream()\n\n    # Iterate over the words\n    for word in words:\n        # Create a new note\n        note = note.Note(word)\n\n        # Add the note to the stream\n        score.append(note)\n\n    # Return the score\n    return score\n\n# Example usage\ntext = \"Hello world\"\nscore = text_to_score(text)"
+    },
+    {
+        "instruction": "Complete the following sentence by inserting appropriate words.\nThe sun was ____ and the sky was ____.",
+        "response": "Complete the following sentence by inserting appropriate words.\nThe sun was ____ and the sky was ____. The sun was shining brightly and the sky was a clear blue."
+    },
+    {
+        "instruction": "Generate an example of what a resume should like for a culinary professional\n",
+        "response": "Generate an example of what a resume should like for a culinary professional\n Here is an example of a resume for a culinary professional:\n\n**John Doe**\n\n**Contact Information**\n\n- Phone: (123) 456-7890\n- Email: johndoe@email.com\n- LinkedIn: linkedin.com/in/johndoe\n- Address: 123 Main Street, Anytown, USA\n\n**Objective**\n\nA passionate and experienced culinary professional with a strong background in food preparation, cooking, and management. Seeking a challenging position in a reputable restaurant or food service establishment.\n\n**Education**\n\n- Bachelor of Science in Culinary Arts, XYZ University, 2015-2018\n\n**Experience**\n\n*Sous Chef, XYZ Restaurant, Anytown, USA, 2018-2021*\n\n- Managed a team of 10 chefs and 5 line cooks, ensuring high-quality food preparation and presentation.\n- Developed and implemented new menu items, including seasonal speci"
+    },
+    {
+        "instruction": "Arrange the items given below in the order to complete the following sentence\ncake, me, eating",
+        "response": "Arrange the items given below in the order to complete the following sentence\ncake, me, eating I am eating the cake."
+    },
+    {
+        "instruction": "Write an introductory paragraph about a famous person.\nMichelle Obama",
+        "response": "Write an introductory paragraph about a famous person.\nMichelle Obama Michelle Obama is a renowned and influential figure in American history. Born on July 17, 1964, in Chicago, Illinois, she is the wife of the 44th President of the United States, Barack Obama. She is a lawyer by profession and has served as the First Lady of the United States from 2009 to 2017. Michelle Obama is known for her advocacy for education, healthy living, and military families. She has also been a strong supporter of women's rights and has worked tirelessly to empower young girls and women. Her charisma, intelligence, and dedication to public service have made her a beloved and respected figure in the world."
+    },
+    {
+        "instruction": "Generate a list of five things one should keep in mind when considering a career change.\n",
+        "response": "Generate a list of five things one should keep in mind when considering a career change.\n 1. Assess your skills and interests: Before making a career change, it's important to take stock of your skills, interests, and values. Consider what you're good at, what you enjoy doing, and what's important to you in a job. This will help you identify potential career paths that align with your strengths and passions.\n\n2. Research the job market: It's important to research the job market in the field you're interested in. Look for information on job outlook, salary, and demand for the type of work you want to do. This will help you make an informed decision about whether a career change is feasible and worth pursuing.\n\n3. Consider the financial implications: A career change can have significant financial implications, so it's important to consider the costs and potential income of the new career path. This includes things like education or training, relocation expenses, and potential changes in salary or benefits.\n\n4. Network and seek advice: Talk to people in the field you're interested in to get a sense of what the job is like and what it takes to succeed. Seek advice from mentors, career counselors, or"
+    },
+    {
+        "instruction": "Analyze the given legal document and explain the key points.\nThe following is an excerpt from a contract between two parties, labeled \"Company A\" and \"Company B\": \n\n\"Company A agrees to provide reasonable assistance to Company B in ensuring the accuracy of the financial statements it provides. This includes allowing Company A reasonable access to personnel and other documents which may be necessary for Company B\u2019s review. Company B agrees to maintain the document provided by Company A in confidence, and will not disclose the information to any third parties without Company A\u2019s explicit permission.\"",
+        "response": "Analyze the given legal document and explain the key points.\nThe following is an excerpt from a contract between two parties, labeled \"Company A\" and \"Company B\": \n\n\"Company A agrees to provide reasonable assistance to Company B in ensuring the accuracy of the financial statements it provides. This includes allowing Company A reasonable access to personnel and other documents which may be necessary for Company B\u2019s review. Company B agrees to maintain the document provided by Company A in confidence, and will not disclose the information to any third parties without Company A\u2019s explicit permission.\" The key points of the given legal document are as follows:\n\n1. Company A is responsible for providing reasonable assistance to Company B in ensuring the accuracy of the financial statements it provides.\n\n2. Company A is allowed to have reasonable access to personnel and other documents that may be necessary for Company B's review.\n\n3. Company B is required to maintain the document provided by Company A in confidence.\n\n4. Company B is not allowed to disclose the information to any third parties without Company A's explicit permission.\n\nIn summary, the contract outlines the responsibilities of both Company A and Company B in relation to the accuracy of the financial statements provided by Company B. Company A is responsible for providing assistance and access to necessary documents, while Company B is responsible for maintaining the confidentiality of the information provided by Company A."
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nWhat is the price of the Prestige XL2?",
+        "response": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nWhat is the price of the Prestige XL2? ```\n{\n    \"categories\": [\"B\"],\n    \"category_a\": [],\n    \"category_b\": [\"What is the price of the Prestige XL2?\"],\n    \"category_c\": []\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nDoes the Prestige A3+ offer a warranty? How much is the unit?",
+        "response": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nDoes the Prestige A3+ offer a warranty? How much is the unit? ```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"Does the Prestige A3+ offer a warranty?\"],\n    \"category_b\": [\"How much is the unit?\"],\n    \"category_c\": []\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nIs the Epson F2100 a dye sub printer and how much does it go for?",
+        "response": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nIs the Epson F2100 a dye sub printer and how much does it go for? ```\n{\n    \"categories\": [\"A\",\"B\"],\n    \"category_a\": [\"What is the Epson F2100 and what are its features?\"],\n    \"category_b\": [\"How much does the Epson F2100 cost and is it in stock?\"]\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nMy Epson F3070 is not working. The red lights are flashing when I turn it on. Whats the replacement cost?",
+        "response": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nMy Epson F3070 is not working. The red lights are flashing when I turn it on. Whats the replacement cost? ```\n{\n    \"categories\": [\"C\",\"B\"],\n    \"category_a\": [],\n    \"category_b\": [\"What is the replacement cost for the Epson F3070?\"],\n    \"category_c\": [\"My Epson F3070 is not working. The red lights are flashing when I turn it on.\"]\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nWhat low cost DTF printer would you recommend for my at home t-shirt printing business?",
+        "response": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```\nWhat low cost DTF printer would you recommend for my at home t-shirt printing business? ```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"What are the features of a low cost DTF printer for at home t-shirt printing business?\"],\n    \"category_b\": [\"What is the pricing of a low cost DTF printer for at home t-shirt printing business?\"],\n    \"category_c\": [\"How do I troubleshoot a low cost DTF printer for at home t-shirt printing business?\"]\n}\n```"
+    },
+    {
+        "instruction": "Count the number of occurrences of each word in a sentence and output in JSON format\nThe quick brown fox jumps over the lazy dog",
+        "response": "Count the number of occurrences of each word in a sentence and output in JSON format\nThe quick brown fox jumps over the lazy dog Here is the JSON output for the given sentence:\n\n```json\n{\n  \"the\": 2,\n  \"quick\": 1,\n  \"brown\": 1,\n  \"fox\": 1,\n  \"jumps\": 1,\n  \"over\": 1,\n  \"lazy\": 1,\n  \"dog\": 1\n}\n```"
+    },
+    {
+        "instruction": "Extract the URL and domain name from a string and output in JSON format\nVisit us at https://example.com",
+        "response": "Extract the URL and domain name from a string and output in JSON format\nVisit us at https://example.com {\n  \"url\": \"https://example.com\",\n  \"domain\": \"example.com\"\n}"
+    },
+    {
+        "instruction": "Extract the title and author of a book from a string and output in JSON format\nThe Great Gatsby by F. Scott Fitzgerald",
+        "response": "Extract the title and author of a book from a string and output in JSON format\nThe Great Gatsby by F. Scott Fitzgerald {\n  \"title\": \"The Great Gatsby\",\n  \"author\": \"F. Scott Fitzgerald\"\n}"
+    },
+    {
+        "instruction": "Write a rhyming poem about a man obsessed with no-gi jiu jitsu. Make it funny and incorporate how the man is now 25 years old, but still lives at home with his mom because he spends all his free time on jiu jitsu.\n",
+        "response": "Write a rhyming poem about a man obsessed with no-gi jiu jitsu. Make it funny and incorporate how the man is now 25 years old, but still lives at home with his mom because he spends all his free time on jiu jitsu.\n There once was a man named Joe,\nWho was obsessed with no-gi Joe,\nHe trained every day,\nIn his mom's living room,\nAnd never left his jiu jitsu toy.\n\nAt 25 years old,\nHe still lived with his mom,\nAnd spent all his free time,\nIn his jiu jitsu routine,\nAnd never left his home to roam.\n\nHe'd roll on the carpet,\nAnd practice his throws,\nHe'd tangle and twist,\nAnd never let go,\nAnd his mom would just sigh and close the door.\n\nBut Joe was happy,\nAnd he never felt alone,\nHe'd roll and he'd tumble,\nAnd he'd never be wrong,\nFor in his jiu jitsu world, he was the king.\n\nSo if you see a man,\nWho's always rolling around,\nAnd never leaves his home,\nAnd spends all his time,\nIn his jiu jitsu, don't be a frown.\n\nFor Joe is a jiu jitsu man,\nAnd he's"
+    },
+    {
+        "instruction": "write a funny poem about a smart young high school senior named Lucas, who is both an AP student and in the MUN program.  Incorporate how he's a programming whiz.\n",
+        "response": "write a funny poem about a smart young high school senior named Lucas, who is both an AP student and in the MUN program.  Incorporate how he's a programming whiz.\n Lucas, a senior so bright,\nIn high school, he's a shining light.\nAP student, MUN's his game,\nProgramming's his claim to fame.\n\nWith a mind like a computer,\nHe codes and debugs, never a blunder.\nLucas, the whiz, the genius,\nIn the world of tech, he's the best.\n\nIn the MUN, he's a star,\nDebating and arguing, he's never far.\nWith a smile and a witty quip,\nHe's the one everyone wants to flip.\n\nSo here's to Lucas, the smart one,\nIn the world of tech, he's never done.\nWith a future so bright and clear,\nWe'll all be saying, \"Here's to you, my dear.\""
+    },
+    {
+        "instruction": "You will be given a text containing an description of some event. Your task is to output whether that event is possible ('Possible') or not ('Impossible').\nText: A hummingbird flew into my room and started drinking out of the bowl on my bedside table.",
+        "response": "You will be given a text containing an description of some event. Your task is to output whether that event is possible ('Possible') or not ('Impossible').\nText: A hummingbird flew into my room and started drinking out of the bowl on my bedside table. Possible"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.\nText: A man went to buy some groceries and came back with a new car.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.\nText: A man went to buy some groceries and came back with a new car. False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.\nText: It was raining so hard that the water in the ocean boiled.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.\nText: It was raining so hard that the water in the ocean boiled. False"
+    },
+    {
+        "instruction": "You need to read a text and determine whether it is describing cause and effect, or merely listing items. If the text is describing how each item in the list leads to the next item, output 'cause and effect'. Otherwise, if it is just making a general statement about each of the items in order without showing how they are connected, output 'list'.\nText: Because Jeremy had been studying hard for his exams, he felt confident that he would do well.",
+        "response": "You need to read a text and determine whether it is describing cause and effect, or merely listing items. If the text is describing how each item in the list leads to the next item, output 'cause and effect'. Otherwise, if it is just making a general statement about each of the items in order without showing how they are connected, output 'list'.\nText: Because Jeremy had been studying hard for his exams, he felt confident that he would do well. cause and effect"
+    },
+    {
+        "instruction": "You will be given a short text containing two entities. You need to determine whether the entity in the first part is more general than, as specific as, or unrelated to the entity in the second part.\nText: A sparrow is a kind of bird.",
+        "response": "You will be given a short text containing two entities. You need to determine whether the entity in the first part is more general than, as specific as, or unrelated to the entity in the second part.\nText: A sparrow is a kind of bird. The entity in the first part, \"a sparrow,\" is more specific than the entity in the second part, \"a bird.\""
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nStrings: 'ABCD', 'CD'.",
+        "response": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nStrings: 'ABCD', 'CD'. 1"
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nHiabcxyz XYZ.",
+        "response": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nHiabcxyz XYZ. 1"
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nsoccer mom pet rock.",
+        "response": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.\nsoccer mom pet rock. 0"
+    },
+    {
+        "instruction": "You are given a list of instructions. For each instruction, output whether or not it is possible to complete the instruction as described.\nInstructions: ['Take two pills with water', 'Teach a dog to fly', 'Cook rice for 40 minutes'].",
+        "response": "You are given a list of instructions. For each instruction, output whether or not it is possible to complete the instruction as described.\nInstructions: ['Take two pills with water', 'Teach a dog to fly', 'Cook rice for 40 minutes']. 1. Take two pills with water - Possible\n2. Teach a dog to fly - Not possible\n3. Cook rice for 40 minutes - Possible"
+    },
+    {
+        "instruction": "You will be given a set of statements. Your job is to order them chronologically, from the earliest event to the latest event. Chronological order means that if Event A happened before Event B and Event C, then your output should have A before B and C in it. If two events happened at the same time, they do not need to be in any specific order with respect to each other as long as they are both after all of the events that happen before them and both before all of the events that happen after them\nStatements: ['It broke into pieces', 'The glass fell three stories', 'A piece hit John on the head.'].",
+        "response": "You will be given a set of statements. Your job is to order them chronologically, from the earliest event to the latest event. Chronological order means that if Event A happened before Event B and Event C, then your output should have A before B and C in it. If two events happened at the same time, they do not need to be in any specific order with respect to each other as long as they are both after all of the events that happen before them and both before all of the events that happen after them\nStatements: ['It broke into pieces', 'The glass fell three stories', 'A piece hit John on the head.']. ['The glass fell three stories', 'It broke into pieces', 'A piece hit John on the head.']"
+    },
+    {
+        "instruction": "You will be given two pieces of text. Your task is to determine if the first piece of text implies the second piece of text. If it does, output 'Yes', otherwise output 'No'.\nText 1: John only reads books on philosophy.Text 2: John doesn't read books that aren't on philosophy.",
+        "response": "You will be given two pieces of text. Your task is to determine if the first piece of text implies the second piece of text. If it does, output 'Yes', otherwise output 'No'.\nText 1: John only reads books on philosophy.Text 2: John doesn't read books that aren't on philosophy. Yes"
+    },
+    {
+        "instruction": "Determine whether the statement is 'Mostly True', 'Mostly False', or 'Completely False', according to the given text.\nThe North Pole is located in Antarctica.",
+        "response": "Determine whether the statement is 'Mostly True', 'Mostly False', or 'Completely False', according to the given text.\nThe North Pole is located in Antarctica. Completely False. The North Pole is located in the Arctic Ocean, not Antarctica."
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense to you, output 'False', otherwise output 'True'.\nText: The glass fell off a three-story building and did not break into pieces.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense to you, output 'False', otherwise output 'True'.\nText: The glass fell off a three-story building and did not break into pieces. False"
+    },
+    {
+        "instruction": "Given a description of an event, you need to tell whether it is possible or not. Print 'Possible' if the event can happen, and 'Impossible' if it cannot.\nDescription: A person walks into a room and disappears.",
+        "response": "Given a description of an event, you need to tell whether it is possible or not. Print 'Possible' if the event can happen, and 'Impossible' if it cannot.\nDescription: A person walks into a room and disappears. Impossible"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I went outside and it was raining so hard that I got wet.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I went outside and it was raining so hard that I got wet. True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: A UFO flew overhead and abducted me.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: A UFO flew overhead and abducted me. False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I put my shoes on and went outside.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I put my shoes on and went outside. True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: The moon orbits around Earth every 27 days.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: The moon orbits around Earth every 27 days. True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: Mary had been studying for her exams all day and she was exhausted. But she forced herself to stay awake and study for another two hours.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: Mary had been studying for her exams all day and she was exhausted. But she forced herself to stay awake and study for another two hours. True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I have seen a five hundred year old man.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: I have seen a five hundred year old man. False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: A person can survive without food for weeks as long as they have water.",
+        "response": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.\nText: A person can survive without food for weeks as long as they have water. True"
+    },
+    {
+        "instruction": "You will be given a piece of text about an event. Based on the information in the text, you need to answer whether the event is possible or not. Your answer must be either Yes or No. If it is not possible for the event to happen based on the information in the text, then your answer should be 'No'. If it is possible for the event to happen, even if it may not necessarily happen, then your output should be 'Yes'.\nText: John went out for a walk with his dog Rover.",
+        "response": "You will be given a piece of text about an event. Based on the information in the text, you need to answer whether the event is possible or not. Your answer must be either Yes or No. If it is not possible for the event to happen based on the information in the text, then your answer should be 'No'. If it is possible for the event to happen, even if it may not necessarily happen, then your output should be 'Yes'.\nText: John went out for a walk with his dog Rover. Yes"
+    },
+    {
+        "instruction": "You will be given a paragraph of text with various statements. For each statement, you need to output 'True' if the statement is true, and 'False', otherwise.\nText: Michael Jordan is an American former professional basketball player. He played 15 seasons in the National Basketball Association (NBA) for the Chicago Bulls and Washington Wizards. His biography on the NBA website states that he \"is widely considered to be the greatest basketball player of all time\". True or False?",
+        "response": "You will be given a paragraph of text with various statements. For each statement, you need to output 'True' if the statement is true, and 'False', otherwise.\nText: Michael Jordan is an American former professional basketball player. He played 15 seasons in the National Basketball Association (NBA) for the Chicago Bulls and Washington Wizards. His biography on the NBA website states that he \"is widely considered to be the greatest basketball player of all time\". True or False? True"
+    },
+    {
+        "instruction": "You will be given a piece of text about an event that has happened. Your job is to determine if the event could have reasonably happened, based on your knowledge and commonsense. If it could have reasonably happened, output 'True', otherwise output 'False'.\nText: A tree fell over in the wind and caused damage to my car.",
+        "response": "You will be given a piece of text about an event that has happened. Your job is to determine if the event could have reasonably happened, based on your knowledge and commonsense. If it could have reasonably happened, output 'True', otherwise output 'False'.\nText: A tree fell over in the wind and caused damage to my car. True"
+    },
+    {
+        "instruction": "I will give you a list of steps.  You need to determine if the steps are going forwards or backwards in time by outputting 'Forwards' or 'Backwards'.\nSteps: ['She takes out her books', 'The teacher hands back the papers', 'She walks into class', 'The bell rings'].",
+        "response": "I will give you a list of steps.  You need to determine if the steps are going forwards or backwards in time by outputting 'Forwards' or 'Backwards'.\nSteps: ['She takes out her books', 'The teacher hands back the papers', 'She walks into class', 'The bell rings']. Forwards"
+    },
+    {
+        "instruction": "Given a piece of text, you need to output whether the statements made in the text are opinions or facts. An opinion is defined as a statement that cannot be proven true or false and is usually based on someone's beliefs. A fact is defined as a statement that can be proven true or false and is not based on someone's beliefs.\nText: The sky was very cloudy today.",
+        "response": "Given a piece of text, you need to output whether the statements made in the text are opinions or facts. An opinion is defined as a statement that cannot be proven true or false and is usually based on someone's beliefs. A fact is defined as a statement that can be proven true or false and is not based on someone's beliefs.\nText: The sky was very cloudy today. The statement \"The sky was very cloudy today\" is a fact. It can be proven true or false by observing the sky."
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "instruction": "Explain the difference between Open-Ended and Closed-Ended questions.",
+        "input": "",
+        "output": "Open-ended questions are questions that allow for a variety of responses, and require more thought and reflection on the part of the person answering. These questions usually start with words like \"what,\" \"why,\" \"how,\" or \"describe,\" and they invite someone to share their thoughts or feelings, often in a more detailed, descriptive manner. For example, \"What did you learn from this experience?\" or \"How do you feel about the situation?\"\n\nClosed-ended questions are questions that limit the range of possible responses, and can typically be answered with a simple \"yes\" or \"no,\" or by giving a specific piece of information. These questions tend to start with words like \"is,\" \"are,\" \"did,\" or \"have.\" For example, \"Did you go to the store?\" or \"Is it raining outside?\" They are often used to gather specific information or to confirm facts, and require less thought or elaboration from the person answering.\n\nIn summary, open-ended questions lead to a broader, more open conversation and allow for more flexibility in the response, while closed-ended questions tend to be more direct and are used to obtain specific pieces of information."
+    },
+    {
+        "instruction": "What other countries are in North America?",
+        "input": "",
+        "output": "North America is comprised of multiple countries, including:\n\n1. Canada\n2. United States\n3. Mexico\n4. Greenland (an autonomous country within the Kingdom of Denmark)\n5. Belize\n6. Costa Rica\n7. El Salvador\n8. Guatemala\n9. Honduras\n10. Nicaragua\n11. Panama\n12. Caribbean Island countries including Cuba, Haiti, Dominican Republic, The Bahamas, Jamaica, and others."
+    },
+    {
+        "instruction": "Create a riddle based on the topic of 'water.'",
+        "input": "",
+        "output": "I'm weightless but you can see me, put me in a bucket and I'll make it lighter, \nI flow like a stream and fall like rain, \nWithout me, there is nothing to gain.\nWhat am I?"
+    },
+    {
+        "instruction": "Edit the following sentence: The dog was cute but muddy.",
+        "input": "The dog was cute but muddy.",
+        "output": "The dog was adorable, yet covered in mud."
+    },
+    {
+        "instruction": "Create a sentence that describes a person who has both a positive and negative character trait.",
+        "input": "",
+        "output": "\"John is incredibly hardworking and ambitious, but can sometimes come across as arrogant and insensitive.\""
+    },
+    {
+        "instruction": "Generate a valid HTML form with appropriate labels and placeholders.",
+        "input": "",
+        "output": "```html\n<form>\n  <label for=\"name\">Name:</label>\n  <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\"><br><br>\n  <label for=\"email\">Email:</label>\n  <input type=\"text\" id=\"email\" name=\"email\" placeholder=\"Enter your email\"><br><br>\n  <label for=\"address\">Address:</label>\n  <input type=\"text\" id=\"address\" name=\"address\" placeholder=\"Enter your address\"><br><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>\n```"
+    },
+    {
+        "instruction": "Create a tweet about the latest trend in the tech industry.",
+        "input": "",
+        "output": "\"New trends emerging in the tech industry: Advances in #artificialintelligence and #machinelearning are driving innovation and shaping the future of business. Exciting times ahead! #techtrends\""
+    },
+    {
+        "instruction": "Describe the typical daily routine of a data scientist who works remotely.",
+        "input": "",
+        "output": "A data scientist who works remotely typically follows a structured daily routine, which may vary slightly depending on the individual and the company they work for. Here is a possible routine for a data scientist:\n\n- Morning: The data scientist would start their day by checking their emails and messages, responding to any urgent matters and checking for project updates. Then, they typically have a team meeting or a call with their manager to discuss priorities, tasks, and goals for the day.\n\n- Mid-morning: Once the priorities for the day are set, the data scientist will start working on their tasks. This could involve analyzing data, building models, creating visualizations, and running experiments. They might also attend virtual meetings or presentations with colleagues, partners, or clients to exchange information and feedback.\n\n- Afternoon: After lunch, the data scientist will continue working on their tasks, and may have additional meetings or calls with team members to review progress or discuss problems that need to be addressed. Later in the afternoon, they would typically provide updates on their work and submit any completed projects or reports for review.\n\n- Evening: At the end of the day, the data scientist would wrap up any unfinished tasks, organize their to-do list for the next day and sign off for the night. Since they work remotely, it\u2019s important to maintain a good work-life balance and set boundaries between work and personal time.\n\nThroughout the day, the data scientist would use various tools and software to communicate with their team and collaborate on projects, including email, messaging apps, video conferencing, project management tools, and data analysis platforms."
+    },
+    {
+        "instruction": "Create a market analysis for a startup company in the digital marketing space.",
+        "input": "Company Name: Spotty\nMarket: Digital marketing",
+        "output": "Market analysis for Spotty, a startup company in the digital marketing space:\n\nOverview:\nDigital marketing refers to all marketing efforts that use digital channels such as search engines, social media, email, websites, mobile and digital advertising to connect with consumers. The global digital marketing market size was estimated at USD $360.3 billion in 2020 and is expected to expand at a CAGR of 17.6% from 2021 to 2028. This growth is due to more consumers relying on the internet for information, making digital marketing a crucial aspect for businesses to reach their target audience. \n\nMarket Trends:\nThe digital marketing space is constantly evolving, and some trends to look out for as a company in this space include:\n\n1. Personalization: With consumers being bombarded with advertising and promotional messages, personalization is crucial to help companies stand out from the clutter. Personalized content, offers, and communication have been shown to improve engagement rates significantly.\n\n2. Voice-activated search: With the increasing popularity of voice assistants, companies need to optimize their content for voice-activated searches.\n\n3. Artificial Intelligence and Machine Learning: With the advancements in AI and machine learning, more companies are using these technologies to analyze consumer behavior to create targeted and personalized marketing campaigns.\n\n4. Video Marketing: With more consumers consuming video content, video marketing is becoming an essential part of digital marketing strategies.\n\n5. Social Media: Social media continues to be an integral part of digital marketing, with companies using these platforms to reach and engage with their target audience.\n\nTarget Market:\nSpotty's target market would depend on the specific products or services offered by the company, but since the company is in the digital marketing space, its target market could include small to medium-sized businesses that are looking to improve their online presence and reach their target audience through digital channels.\n\nCompetition:\nThe digital marketing space is highly competitive, with many established players and new entrants. Some of the key players in the market include Google, Facebook, Adobe Systems, Oracle, Salesforce, and Microsoft. Spotty would need to differentiate itself from its competitors by offering unique or innovative products or services, competitive pricing, or a high level of customer service.\n\nPotential Challenges:\nSome potential challenges that Spotty may face as a startup company in the digital marketing space include:\n\n1. Keeping up with the rapidly changing market trends and consumer behavior.\n2. Standing out in a highly competitive market.\n3. Attracting and retaining customers.\n4. Building"
+    },
+    {
+        "instruction": "Find out if a given sentence is a metaphor.",
+        "input": "Sentence: The road is an ocean of cars.",
+        "output": "Yes, the sentence \"The road is an ocean of cars\" is a metaphor. It compares the road to an ocean, suggesting that the traffic is very heavy and the cars are packed closely together, similar to waves in an ocean."
+    },
+    {
+        "instruction": "Report the current temperature in Dubai.",
+        "input": "",
+        "output": "I am sorry, but I am an AI language model and do not have the ability to access real-time information. You can check various weather websites, such as Weather.com or AccuWeather, for up-to-date temperature information in Dubai."
+    },
+    {
+        "instruction": "Write a story about a young boy visiting a foreign country.",
+        "input": "Country: Egypt",
+        "output": "Once upon a time, there was a young boy named Jack. Jack lived with his parents in a small town in the United States. Jack was an adventurous boy who loved to learn about new cultures and explore different places. One day, Jack's parents surprised him with the news that they were taking a family vacation to Egypt.\n\nJack was over the moon with excitement, as he had always been fascinated by the ancient history and mythology of Egypt. He could hardly wait to see the pyramids, temples, and ruins, and to try out all the unique and exotic foods.\n\nOnce they arrived, Jack's parents took him on an organized tour of the country, and Jack was mesmerized by the beauty of the Nile river and the magnificent monuments he saw everywhere. The family visited the Egyptian Museum in Cairo, where Jack learned about the history of the pharaohs, and they also got to see the famous mummies.\n\nThe highlight of Jack's trip was when the family visited the Great Pyramids of Giza. Jack was amazed by the size and scale of these incredible structures and found it hard to believe that they were built thousands of years ago. He was astonished by the knowledge and skill of the ancient Egyptians, and he was determined to learn more about this great civilization.\n\nJack also enjoyed trying out the local cuisine, and he particularly loved koshari, a vegetarian dish made of rice, lentils, and pasta, mixed together with a spicy tomato sauce.\n\nAt the end of the trip, Jack returned home with a wealth of knowledge about Egypt and a new appreciation for its people and culture. He will always remember this trip as one of the most exciting and enlightening experiences of his life."
+    },
+    {
+        "instruction": "List 5 strategies for better organization and time management.",
+        "input": "",
+        "output": "1. Set clear goals and priorities: Determine what tasks are most important and what can be deferred. Write down your objectives and prioritize them in terms of urgency.\n2. Plan ahead: Creating to-do lists and scheduling tasks on a calendar can help you manage your time effectively. Dedicate time for each task, set reminders, and avoid scheduling conflicting events.\n3. Avoid multitasking: Though multitasking might seem like an efficient way to get work done, it can actually slow you down as it takes more time to shift your focus between tasks.\n4. Eliminate distractions: Identify and reduce distractions that decrease your productivity. Turn off the television, log out of social media, or use apps that block distracting websites.\n5. Take breaks: It's important to give your body and mind a rest in order to refocus your energy. Schedule time for frequent breaks and use them to refuel and recharge."
+    },
+    {
+        "instruction": "Explain what foreign direct investment (FDI) is.",
+        "input": "",
+        "output": "Foreign Direct Investment (FDI) refers to an investment made by an individual or a firm into the business interests of another country in the form of either establishing new business operations or acquiring existing business assets. In other words, it is the flow of capital from one country into another for the purpose of starting or expanding business activities, creating jobs, and stimulating economic growth. FDI can also take the form of mergers and acquisitions, building new facilities, investing in joint ventures, and other types of capital transfer. It is different from portfolio investment, which involves investing in securities such as stocks and bonds, since FDI represents a long-term commitment and involves a significant degree of management and control over the invested assets."
+    },
+    {
+        "instruction": "Create a Scratch program that generates a random number between 0 and 100.",
+        "input": "",
+        "output": "To create a Scratch program that generates a random number between 0 and 100, follow these steps:\n\n1. Open Scratch (https://scratch.mit.edu/projects/editor/) and create a new project.\n\n2. From the \"Variables\" category, click the button \"Make a Variable\". Name your variable \"RandomNumber\".\n\n3. Drag the \"set RandomNumber to\" block from the Variables category onto the Scripts area.\n\n4. From the Operators category, drag the \"pick random\" block to the right of the \"set RandomNumber to\" block , so that it attaches to it.\n\n5. Click on the first white space in the \"pick random\" block to bring up a cursor, then type 0. Click on the second white space in the \"pick random\" block to bring up the cursor, then type 100. The whole block should now read \u201cset Random Number to pick random 0 to 100\".\n   \n6. To display the generated number, go to the \"Looks\" category, and drag the \"say\" block and attach it under the \"set RandomNumber to\" block.\n\n7. Now click the Right Arrow next to the \"Hello\" in the \"say\" block to bring the drop-down menu, then click on RandomNumber to replace the \"hello!\"  with \u201cRandomNumber\u201d and the animated character will display the generated number.\n         \n8. Click the green flag above the Stage to run your program. A random number between 0 and 100 will be generated and displayed.\n\nYou can add more features to the program as per your needs."
+    },
+    {
+        "instruction": "Outline the range of colors a television can display.",
+        "input": "",
+        "output": "A television can displays a wide range of colors through the use of primary colors - red, green, and blue (RGB). These primary colors are combined in different proportions to produce a vast array of colors. \n\nThe exact range of colors a television is capable of displaying can vary depending on several factors, such as the display technology, the color gamut that a specific television model supports, and the color depth.\n\nThe two most common color gamuts currently in use are sRGB and DCI-P3. sRGB has been the standard for many years, while DCI-P3, which can display a wider range of colors, is becoming more commonly used.\n\nThe color depth, which is usually measured in bits, determines how many colors the television is capable of displaying. A higher color depth means that the television can display more colors, resulting in smoother gradients and more realistic-looking images.\n\nIn summary, the range of colors a television can display can vary, but modern televisions can display millions of colors by combining different proportions of red, green, and blue."
+    },
+    {
+        "instruction": "Make an argument for reducing plastic waste.",
+        "input": "",
+        "output": "Plastic waste has become a major global issue, with devastating effects on our environment, wildlife, and human health. Here are several compelling reasons why we should act now to reduce our plastic waste:\n\n1. Environmental damage: Plastic pollution is a serious threat to our environment. It can take hundreds of years to decompose, releasing harmful chemicals into the soil and water in the process. Plastic pollution also contributes to climate change, as the production and disposal of plastic generates greenhouse gas emissions.\n\n2. Wildlife harm: Plastic pollution is harmful to wildlife, with many animals dying each year from ingesting or becoming entangled in plastic waste. Marine creatures, in particular, are affected by plastic pollution, with plastic waste found in the stomachs of sea turtles, whales, and seabirds.\n\n3. Human health: As plastic waste breaks down into microplastics, it enters our food chain, and we inevitably consume it through the food and water we consume. The long-term effects of consuming microplastics are not yet known, but scientists believe that it could have negative impacts on our health.\n\n4. Economic costs: Plastic pollution has economic costs, including the cost of cleaning up plastic waste and the loss of tourism revenue. In addition, plastic pollution can harm the fishing industry, as it affects the health of fish populations.\n\n5. Sustainable alternatives: There are many sustainable alternatives to single-use plastics, including reusable bags, bottles, and containers. By reducing our plastic waste, we can reduce our impact on the environment and support the growth of sustainable industries.\n\nIn conclusion, reducing our plastic waste is essential for the health of our planet, our wildlife, and ourselves. We can make a difference by making small changes in our daily lives, such as using reusable bags and containers, and by supporting government and industry initiatives to reduce plastic waste."
+    },
+    {
+        "instruction": "Repeat the input 5 times.",
+        "input": "Hello",
+        "output": "Hello\nHello\nHello\nHello\nHello"
+    },
+    {
+        "instruction": "The ratio of cats to dogs at the pet store is 2:3. There are 14 cats. How many dogs are there at the pet store?",
+        "input": "",
+        "output": "The pet store has a ratio of 2 cats to 3 dogs. Given there are 14 cats, we can find the number of dogs by dividing 14 by 2 to get the number of sets of 2 cats (which is 7). Then, multiplying 7 by 3 gives us the total number of dogs, which is 21."
+    },
+    {
+        "instruction": "Generate a sentence using the words: Africa, yellow, and science.",
+        "input": "",
+        "output": "Science has brought innovation to the yellow fields of Africa improving agriculture techniques."
+    },
+    {
+        "instruction": "Explain the differences between the Central American countries and the South American countries.",
+        "input": "",
+        "output": "Central America and South America are two distinct regions of Latin America, and there are several differences between them. Here are some key differences:\n\nGeography: \nCentral America is a narrow isthmus that connects North America to South America. It comprises seven countries: Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama. It is bordered by Mexico to the north, Colombia to the south, the Caribbean Sea to the east, and the Pacific Ocean to the west. \n\nSouth America, on the other hand, is a much larger region that encompasses 12 sovereign countries: Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, and Venezuela. It also includes French Guiana, which is an overseas territory of France. South America is bordered by the Caribbean Sea to the north, the Atlantic Ocean to the east, and the Pacific Ocean to the west.\n\nCulture: \nCentral America is predominantly Spanish-speaking, with the exception of Belize, where English is the official language. The region has a rich cultural heritage, with strong influences from pre-Columbian civilizations like the Maya, as well as from the Spanish colonial period.\n\nSouth America, on the other hand, has a more diverse linguistic landscape, with Spanish, Portuguese, and French being commonly spoken. There are also many indigenous languages spoken throughout the continent. The region has its own rich cultural heritage, with strong influences from pre-Columbian civilizations like the Inca, as well as from the Portuguese and Spanish colonial periods.\n\nEconomy:\nIn terms of economy, South America is much larger and more developed than Central America. Brazil, one of the largest economies in the world, is in South America, and other countries like Argentina and Chile also have relatively large and developed economies. Central America, on the other hand, has smaller, mostly agricultural-based economies.\n\nHistorical and political developments:\nCentral America and South America have had their fair share of political and social upheavals throughout history. Central America, in particular, has had a history of political instability and conflict, with many countries experiencing civil wars, dictatorships, and other forms of unrest. South America has had its own challenges, with many countries experiencing periods of dictatorship, economic crises, and social unrest. However, in recent years, most countries in both regions have made significant progress towards democracy and stability.\n\nIn conclusion, Central America and South America are distinct regions with different geographic, cultural, economic,"
+    },
+    {
+        "instruction": "Generate a recipe for vegan fried rice.",
+        "input": "",
+        "output": "Vegan Fried Rice Recipe\n\nIngredients:\n\n- 2 cups cooked jasmine rice\n- 1 onion, diced\n- 2 garlic cloves, minced\n- 1 cup frozen peas and carrots\n- \u00bd cup chopped green onions\n- 3 tablespoons vegetable oil\n- 3 tablespoons soy sauce\n- 2 teaspoons sesame oil\n- \u00bd teaspoon black pepper\n- \u00bd teaspoon of sea salt\n\nInstructions:\n\n1. Begin by heating 2 tablespoons of vegetable oil on medium heat in a non-stick wok or large frying pan.\n\n2. Add the diced onions and minced garlic to the pan and saut\u00e9 until the onions become translucent.\n\n3. Stir in the frozen peas and carrots and cook until they are heated through.\n\n4. Push the vegetables to the side of the pan and add the remaining tablespoon of vegetable oil in the empty space. Once heated, add the cooked rice and mix with the vegetables.\n\n5. Pour in the soy sauce, sesame oil, black pepper, and salt over the rice and vegetables. Stir everything together until the rice is evenly coated with the seasonings.\n\n6. Cook the rice mixture for an additional 2-3 minutes, stirring frequently, until the rice has browned slightly.\n\n7. Stir in the chopped green onions and serve hot.\n\nEnjoy your delicious and healthy vegan fried rice!"
+    },
+    {
+        "instruction": "Identify if the following is an example of exaggeration or hyperbole.",
+        "input": "The homework assignment was so difficult it felt like a mountain.",
+        "output": "This is an example of hyperbole."
+    },
+    {
+        "instruction": "Compile a list of popular books that were released this year.",
+        "input": "",
+        "output": "Here is a list of popular books that were released in 2021:\n1. \"The Four Winds\" by Kristin Hannah\n2. \"The Push\" by Ashley Audrain\n3. \"The Sanatorium\" by Sarah Pearse\n4. \"Malibu Rising\" by Taylor Jenkins Reid\n5. \"No One Is Talking About This\" by Patricia Lockwood\n6. \"Klara and the Sun\" by Kazuo Ishiguro\n7. \"The Wife Upstairs\" by Rachel Hawkins\n8. \"The Hunting Wives\" by May Cobb\n9. \"Project Hail Mary\" by Andy Weir\n10. \"The Other Black Girl\" by Zakiya Dalila Harris. \n\nPlease note that this may change as the year goes on and more popular books may be released."
+    },
+    {
+        "instruction": "Write a description of a natural disaster using only adjectives.",
+        "input": "",
+        "output": "A natural disaster can be described as being sudden, catastrophic, devastating, all-encompassing, massive, overwhelming, life-threatening, destructive, and unpredictable. The aftermath of such an event is often tragic, somber, unity, chaotic, and heartrending. Ultimately, the impact of a natural disaster on the affected region, its people, and its resources, is deeply felt, long-lasting and transformative."
+    },
+    {
+        "instruction": "Compose a tweet summarizing the movie \"The Matrix\" in 140 characters.",
+        "input": "",
+        "output": "\"Experience a mind-bending reality with Neo as he discovers the truth about The Matrix and his role in a rebellion against its controllers. #TheMatrix #movie\""
+    },
+    {
+        "instruction": "Create five descriptors that describe the smell of churros.",
+        "input": "",
+        "output": "1. Sweet: The aroma of churros is often characterized by its delightful sweetness, which comes from the cinnamon-sugar topping and the rich dough.\n\n2. Warm: The warmth of churros freshly cooked at high temperature radiates through their smell, providing a comforting and inviting experience.\n\n3. Spicy: The addition of cinnamon to churros adds a hint of spiciness to their fragrance that stimulates the senses.\n\n4. Rich: The deeply satisfying scent of the fried dough mixture used to make churros creates a rich smell that is mouthwateringly full and indulgent.\n\n5. Buttery: Churros have a subtle buttery aroma that comes from the use of butter in the dough that adds to their overall richness and luxuriousness."
+    },
+    {
+        "instruction": "Categorize the following animals: lion, cow, eagle",
+        "input": "Lion, cow, eagle",
+        "output": "Lion is a carnivorous mammal from the Felidae family and is classified as a big cat.\nCow is a herbivorous mammal from the Bovidae family and is a ruminant animal.\nEagle is a carnivorous bird from the Accipitridae family and belongs to the bird of prey group."
+    },
+    {
+        "instruction": "List three spicies of seals.",
+        "input": "",
+        "output": "Here are three species of seals: \n\n1. Harbor Seal (Phoca vitulina)\n2. Northern Elephant Seal (Mirounga angustirostris)\n3. Grey Seal (Halichoerus grypus)"
+    },
+    {
+        "instruction": "Classify the following emotions - shame, pride, joy",
+        "input": "Shame, pride, joy",
+        "output": "Shame is a negative emotion that is associated with feelings of embarrassment, dishonor, and disgrace. \nPride is a positive emotion that is associated with feelings of self-satisfaction, accomplishment, and confidence. \nJoy is a positive emotion that is associated with feelings of happiness, contentment, and pleasure."
+    },
+    {
+        "instruction": "Find the number that is non-prime and non-composite between 1 and 10.",
+        "input": "",
+        "output": "The number 1 is neither prime nor composite."
+    },
+    {
+        "instruction": "Name two colors that commonly feature in the flag of Colombia.",
+        "input": "",
+        "output": "The two colors that commonly feature in the flag of Colombia are Yellow and Red."
+    },
+    {
+        "instruction": "Construct a sentence to explain why a person should learn a second language.",
+        "input": "",
+        "output": "\"Learning a second language can open doors to new cultures and opportunities, enhance your career, improve your social skills, and increase your cognitive abilities.\""
+    },
+    {
+        "instruction": "Summarize the importance of data science in business.",
+        "input": "",
+        "output": "Data science has become increasingly important in today's business world due to its ability to extract valuable insights from large amounts of data. Through the use of statistical analysis, machine learning, and predictive modeling, data science can help businesses make better decisions, improve customer satisfaction, and gain a competitive advantage. By gaining a deeper understanding of their customers, markets, and internal operations, businesses are able to optimize their strategies, increase efficiency, and ultimately increase profitability. Additionally, data science can be leveraged to develop new products, identify new opportunities, and even predict future trends. Overall, data science is a crucial tool for any business looking to stay ahead in a rapidly evolving market."
+    },
+    {
+        "instruction": "Generate a new sentence to compare the levels of corruption in North America and the Middle East.",
+        "input": "",
+        "output": "While corruption exists in varying degrees in every region, studies show that North America generally experiences lower levels of corruption compared to the Middle East."
+    },
+    {
+        "instruction": "Arrange the words in alphabetical order: birthday, mother, June.",
+        "input": "",
+        "output": "Birthday, June, Mother"
+    },
+    {
+        "instruction": "Generate a few relevant questions to ask about the following topic: The advances in technology.",
+        "input": "",
+        "output": "1. What specific areas of technology have seen the most significant advancements in recent years?\n2. How have these technological advances improved our daily lives?\n3. What challenges have arisen as a result of these technological developments?\n4. What are the potential future advancements we can expect to see in technology?\n5. How have these technological innovations impacted industries like healthcare, transportation, and communication?"
+    },
+    {
+        "instruction": "Generate a four-word proverb about determination.",
+        "input": "",
+        "output": "\"Perseverance conquers all obstacles.\""
+    },
+    {
+        "instruction": "Paraphrase the sentence \"The scientists studied the data carefully\"",
+        "input": "",
+        "output": "The researchers meticulously examined the information."
+    },
+    {
+        "instruction": "Delete any words from the sentence \"The exhibition was shocked by the audience's loud applause\" that are redundant.",
+        "input": "",
+        "output": "The sentence does not contain any redundant words."
+    },
+    {
+        "instruction": "Generate a comment on a science article.",
+        "input": "",
+        "output": "Wow, this was a truly insightful read! It's fascinating to learn about the latest scientific advancements and discoveries in the field. The author did a great job of breaking down complex concepts into easy-to-understand language, making the article highly accessible to readers of various backgrounds. This is such an exciting time for science and I can't wait to see what further developments come from this research."
+    },
+    {
+        "instruction": "Classify the sentiment of the sentence \"I'm so pleased with my work\".",
+        "input": "",
+        "output": "The sentiment of the sentence \"I'm so pleased with my work\" is positive."
+    },
+    {
+        "instruction": "Find the 5th word in the sentence \"What a beautiful day for a picnic\".",
+        "input": "",
+        "output": "The fifth word in the sentence \"What a beautiful day for a picnic\" is \"for\"."
+    },
+    {
+        "instruction": "Convert the sentence \"He ran quickly to the store\" into the past perfect tense.",
+        "input": "",
+        "output": "He had run quickly to the store."
+    },
+    {
+        "instruction": "Edit the sentence \"The alarm clock was ringing loudly at seven o' clock\"",
+        "input": "",
+        "output": "\"The alarm clock rang loudly at seven o'clock.\""
+    },
+    {
+        "instruction": "Delete any words that are redundant in the sentence \"I bought a few different items at the store\"",
+        "input": "",
+        "output": "\"I bought different items at the store.\""
+    },
+    {
+        "instruction": "Write a short poem describing a setting sun.",
+        "input": "",
+        "output": "As the day fades away,\nThe setting sun paints the sky,\nWith shades of orange and red,\nIn a beautiful display.\n\nThe clouds turn into fire,\nAs the sun dips down low,\nA final burst of light,\nBefore the night's shadowy choir.\n\nThe colors slowly fade,\nInto hues of pink and blue,\nAs the sun sinks out of sight,\nLeaving the sky in twilight's shade.\n\nA peaceful calm descends,\nAs the day comes to an end,\nWith the setting of the sun,\nAnother day's journey bends."
+    },
+    {
+        "instruction": "Explain how algorithms can be used in educational institutions.",
+        "input": "",
+        "output": "Algorithms can be used in educational institutions in several ways to enhance teaching and learning, streamline administrative tasks, and improve decision-making processes. Below are some of the ways algorithms can be used in educational institutions:\n\n1. Personalized Learning: Algorithms make it possible for educational software to provide students with personalized learning experiences. Using data from a student's performance, the algorithm can adjust the learning content and pace to match the student's individual needs.\n\n2. Student Assessment and Feedback: Algorithms can be used to grade assignments or tests, providing teachers with an objective and consistent assessment of their students' performance. Additionally, algorithms can provide automatic feedback, identifying the areas where students need improvement and suggesting learning resources to help them improve their performance.\n\n3. Scheduling: Scheduling classes, exams, and other school activities can be a complex task, especially in large institutions. Algorithms can be used to generate schedules that are optimized for both students and teachers, taking into account their preferences, availability, and other constraints.\n\n4. Predictive Analytics: Educational institutions can use algorithms to analyze large amounts of data, including student's academic performance, attendance, and behavior, to identify patterns and make predictions. This can help administrators and educators make data-driven decisions and take proactive steps to improve student retention, engagement, and success.\n\n5. Recruitment and Admissions: Algorithms can be used to streamline and optimize the recruitment and admissions process. For example, an algorithm can use historical data to predict the likelihood of an applicant being successful in a particular program, helping institutions make more informed decisions about which students to admit."
+    },
+    {
+        "instruction": "Generate a list of adjectives related to a summer garden.",
+        "input": "",
+        "output": "Here are some adjectives that describe a summer garden:\n\n1. Sun-kissed\n2. Lush\n3. Vibrant\n4. Fragrant\n5. Colorful\n6. Bountiful\n7. Flourishing\n8. Radiant\n9. Verdant\n10. Blossoming\n11. Abundant\n12. Tranquil\n13. Serene\n14. Refreshing\n15. Picturesque."
+    },
+    {
+        "instruction": "Create a news headline for a story about a celebrity who just released a book.",
+        "input": "Tom Hanks",
+        "output": "\"Tom Hanks Surprises Fans with Release of New Book: A Must-Read Memoir\""
+    },
+    {
+        "instruction": "Given an input object, create an algorithm to determine if the object is valid.",
+        "input": "Mug",
+        "output": "The task is to determine if a given object is valid, with the example input being a \"Mug\". Here is a sample algorithm that can be used to determine the validity of the mug or any other object.\n\n1. Define criteria for what is considered a valid object. For instance, a valid object could be defined as:\n    a. An object that exists in the physical world\n    b. An object that is tangible and can be interacted with\n    c. An object that serves a purpose or function\n    d. An object that can be identified and named\n2. Check if the given object, \"Mug\" in this case, meets the above criteria:\n    a. A mug is an object that exists in the physical world - Yes\n    b. A mug is tangible and can be interacted with - Yes\n    c. A mug serves a purpose or function, such as holding liquid - Yes\n    d. A mug is easily identifiable and named - Yes\n3. Since the object \"Mug\" meets all the criteria, it can be classified as a valid object.  \n\nTherefore, using the above-defined criteria, the algorithm determines that the input object \"Mug\" is valid."
+    },
+    {
+        "instruction": "Summarize the functions of the Federal Reserve.",
+        "input": "",
+        "output": "The Federal Reserve, also known as the Fed, is the central bank of the United States. Its primary functions include:\n\n1. Conducting monetary policy: The Fed manages the nation\u2019s money supply to achieve desired economic outcomes such as price stability (low inflation) and maximum employment.\n\n2. Supervising and regulating financial institutions: The Fed ensures the safety, soundness, and stability of financial institutions by setting standards, conducting periodic exams, and if necessary, taking enforcement actions.\n\n3. Fostering payment and settlement system safety and efficiency: The Fed provides payment and settlement services to promote the timely completion of financial transactions and reduce risks.\n\n4. Promoting consumer protection and community development: The Fed enforces consumer protection laws and works to promote community development by supporting activities that help low- and moderate-income communities.\n\nIn summary, the Federal Reserve plays a crucial role in managing the country's economy, overseeing financial institutions, and ensuring the overall stability of the financial system."
+    },
+    {
+        "instruction": "Create a quiz for a subject of your choice.",
+        "input": "Scooby-Doo",
+        "output": "Great choice! Here is a quiz about Scooby-Doo:\n\n1. Who is the creator of the Scooby-Doo Franchise?\nA.) Hanna-Barbera    B.) Charles Schulz    C.) Nick Park\n\n2. In which year did the original Scooby-Doo, Where Are You! series first aired?\nA.) 1962    B.) 1969   C.) 1977 \n\n3. Who is the best friend of Scooby-Doo?\nA.) Daphne    B.) Velma   C.) Shaggy\n\n4. What is the name of the van used by the Mystery Inc. Gang?\nA.) Mystery Wagon    B.) The Beatle   C.) The Mystery Machine\n\n5. What is Scooby-Doo's full name?\nA.) Scoobert Doo    B.) Scoobert Doobert   C.) Samuel Doo.\n\n6. Who usually says the famous phrase \u201cAnd I would have gotten away with it too, if it weren't for you meddling kids\u201d.\nA.) Fred    B.) Scooby-Doo   C.) The villain\n\n7. What kind of dog is Scooby-Doo?\nA.) Great Dane    B.) Labrador Retriever   C.) German Shepherd.\n\n8. What is the name of Scooby-Doo\u2019s nephew?\nA.) Scrabby-Doo    B.) Chimmy-Doo   C.) Scrappy-Doo.\n\n9. How many members are in the Mystery Inc. Gang?\nA.) Four    B.) Five   C.) Seven\n\n10. What is the color of the ascot that Fred always wears?\nA.) Red    B.) Blue   C.) Orange\n\nDo let me know if you're interested in the answers or need me to make any changes."
+    },
+    {
+        "instruction": "Develop a strategy for negotiating better wages in the workplace.",
+        "input": "",
+        "output": "Negotiating better wages in the workplace is an important part of being an employee. It is essential to approach any negotiation prepared so here are a few steps in developing an effective strategy.\n\n1. Research and prepare: Start by research what the market rate is for someone in your role, industry, and location. You can use tools such as websites that list median salaries or by talking to colleagues or industry professionals, this will give you a fair starting point for your negotiations.\n\n2. Provide evidence of your value: Reflect on your performance, and quantify your achievements. Come prepared with specific examples of how you have added value to the company, highlighting instances where you have gone above and beyond in your role.\n\n3. Choose the right time and place: Timing is essential, and it\u2019s important to consider the general financial health of the company when making a request for a raise. Schedule a meeting specifically to discuss your compensation, and ensure it's scheduled at a time when your manager is not too busy or overwhelmed. \n\n4. Approach the conversation with confidence: Be assertive, communicate your value while being polite and professional, negotiate clearly and calmly. Also, be prepared to listen actively to your employer\u2019s responses and be open to consider the employer's feedback and counter-offers.\n\n5. Have a backup plan: Be prepared with alternative forms of compensation, for example, you might request additional benefits or more flexible working arrangements, or additional training opportunities if the employer is unable to offer a raise at that time.\n\n6. Follow up: After the negotiation, follow up with your manager, and confirm agreements in writing. If your employer is unable to offer a raise at that time, ask for specific goalposts or timelines for future salary negotiations.\n\nBy following these steps, you'll be able to develop an effective strategy for negotiating better wages in your workplace, remember the key is preparation, confidence, and effective communication."
+    },
+    {
+        "instruction": "Create a container class that holds two values.",
+        "input": "",
+        "output": "Here is an example of a container class in Python that can hold two values:\n\n```python\nclass Pair:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n\n    def get_x(self):\n        return self.x\n\n    def get_y(self):\n        return self.y\n\n    def set_x(self, x):\n        self.x = x\n\n    def set_y(self, y):\n        self.y = y\n\n    def __str__(self):\n        return f\"({self.x}, {self.y})\"\n```\n\nThis `Pair` class can be used to hold any two values of any data type. The values are stored in the instance variables `x` and `y`. The methods `get_x` and `get_y` can be used to retrieve the values, while the methods `set_x` and `set_y` can be used to modify the values.\n\nHere is an example of how this class might be used:\n\n```python\np = Pair(1, 2)\nprint(p)  # prints (1, 2)\n\np.set_x(3)\np.set_y(4)\nprint(p.get_x())  # prints 3\nprint(p.get_y())  # prints 4\n```"
+    },
+    {
+        "instruction": "Given an everyday situation, create a brief story around it.",
+        "input": "Riding the subway",
+        "output": "Lena stepped onto the bustling subway car, the familiar metal grate beneath her feet rattling softly as she made her way to a nearby empty seat. She sat down and tucked her purse between her feet, glancing around at the commuters already absorbed in their phones, books, or conversations. \n\nAs the subway began to rumble forward, Lena watched as the cityscape outside her window blurred into colorful streaks. And she couldn\u2019t help but smile as she remembered her grand adventures as a child, pretending she was on a bullet train headed for some exotic destination. \n\nAcross the aisle from her, she noticed an older woman struggling to lift her heavy suitcase onto the luggage rack above. Lena sprang into action, quickly making her way over to help. The woman smiled in appreciation, introducing herself as Ester and thanking Lena for her kindness. \n\nThe two chatted for the rest of their subway ride, sharing stories about their travels, families, and hopes for the future. As Lena stepped off the subway at her stop, she couldn\u2019t help but feel grateful for the connection she\u2019d made during her brief ride. And as she made her way onto the platform and into the bustling city, she couldn\u2019t wait for her next subway adventure."
+    },
+    {
+        "instruction": "Create a classification algorithm for a given dataset.",
+        "input": "Dataset of medical images",
+        "output": "To create a classification algorithm for a medical images dataset, we can follow these steps:\n\n1. **Data Preprocessing**: First, we need to prepare the data for our algorithm. This involves loading the dataset, analyzing and identifying the features to be used for classification. Then, we need to preprocess the images by performing operations such as image resizing, normalization, and data augmentation. These steps will help the algorithm work more effectively on the images.\n\n2. **Model Selection**: Next, we need to choose an appropriate algorithm for classification. For image classification, we can select from a variety of deep learning and machine learning algorithms such as CNN (Convolutional Neural Network), SVM (Support Vector Machine), or Random Forest. Each algorithm has its pros and cons, so we need to choose the best one based on the specific problem and context.\n\n3. **Training**: Once the data is preprocessed and the model is selected, we need to split the dataset into training and testing sets. We will use the training set to train our algorithm. Depending on the selected algorithm, we need to set the hyperparameters and start the training process. This will involve feeding the data to the model and iteratively updating the weights and biases to minimize the loss function using backpropagation.\n\n4. **Evaluation**: After training the model, we need to evaluate its performance on the testing set. We can use metrics such as accuracy, precision, recall or F1 score to assess the model's classification capabilities. If the performance is not satisfactory, we can go back to the previous steps and try to improve the model by tuning the hyperparameters or selecting a different algorithm.\n\n5. **Deployment**: Once the model is trained and validated, it is ready for deployment. It can be integrated into a medical application to automate the classification of medical images. We can also regularly update the model by re-training it on new data to ensure its accuracy remains high."
+    },
+    {
+        "instruction": "Create a script that converts text into a musical score.",
+        "input": "",
+        "output": "Unfortunately, converting text into a musical score is not a straightforward process, as there are no set rules for mapping words, letters, or sentences to specific musical notes, rhythms, or melodies. It would require musical knowledge, creativity, and interpretation to transform text into a meaningful composition. \n\nHowever, here is one approach that you could use to generate music from text:\n\n1. For each letter in the text, assign a musical note. Assigning notes can be done in many ways, such as matching each character or alphabet to a pitch class (C, D, E, F, G, A, or B) based on their ASCII numerical representation or by using a pre-determined mapping system.\n\n```python\ntext = \"Hello World\"\nnote_mapping = {'a': 'C4', 'b': 'D4', 'c': 'E4', 'd': 'F4', 'e': 'G4', 'f': 'A4', 'g': 'B4','h': 'C5', 'i': 'D5', 'j': 'E5', \n'k': 'F5', 'l': 'G5', 'm': 'A5', 'n': 'B5', 'o': 'C6', 'p': 'D6', 'q': 'E6', 'r': 'F6','s': 'G6', 't': 'A6', 'u': 'B6', \n'v': 'C7', 'w': 'D7', 'x': 'E7', 'y': 'F7', 'z': 'G7'}\n\nnote_sequence = []\n\nfor letter in text.lower():\n    if letter in note_mapping:\n        note_sequence.append(note_mapping[letter])\n    elif letter == \" \":\n        note_sequence.append(\"R\")\n\nprint(note_sequence)\n```\n\n2. Assign a rhythm to this note sequence. This can be done by grouping notes into phrases or by using various NLP techniques to determine the meter, tempo, and phrase lengths from the text's syntactical structure.\n\n```python\nrhythm_mapping = {\"1\": \"4\", \"2\": \"4\", \"3\": \"4\", \"4\": \"4\", \"5\": \"4\", \"6\": \"4\",\"7\": \"4\", \"8\": \"4\", \"9\": \"8\", \"0\": \"8\", \n\" \": \"2r\"}\nrhythm_sequence"
+    },
+    {
+        "instruction": "Complete the following sentence by inserting appropriate words.",
+        "input": "The sun was ____ and the sky was ____.",
+        "output": "The sun was bright and the sky was clear."
+    },
+    {
+        "instruction": "Generate an example of what a resume should like for a culinary professional",
+        "input": "",
+        "output": "**John Doe**\n\n**Contact Information:**\n\n123 Boulevard Avenue, New York, NY 10023\n\njohn.doe@email.com\n\n(123) 456-7890\n\n**Summary:**\n\nHighly skilled and creative culinary professional with over 10 years of experience in various kitchen environments. Proficient in preparing and presenting visually appealing dishes with unique flavors. Dedicated to maintaining high quality standards for food preparation, presentation, and sanitation. \n\n**Skills:**\n\n- Cooking and presentation of various international cuisines\n- Knife skills and food preparation techniques\n- Recipe development and menu planning\n- Kitchen management and team supervision\n- Food safety and sanitation standards\n- Inventory and cost control\n\n**Work Experience:**\n\n**Head Chef**\n\nABC Restaurant, New York, NY | 2016 \u2013 present\n\n- Develop and execute weekly menus featuring local, seasonal ingredients\n- Supervise and manage daily operations of kitchen staff\n- Maintain high standards of food quality and presentation\n- Control food and labor costs while maximizing profitability\n- Ensure compliance with health and safety regulations in the kitchen\n\n**Sous Chef**\n\nXYZ Restaurant, New York, NY | 2011 \u2013 2016\n\n- Assisted Head Chef in menu planning, food preparation, and presentation\n- Trained and supervised kitchen staff\n- Managed inventory and ordered supplies\n- Implemented and enforced sanitation procedures to maintain a clean and safe kitchen\n\n**Education:**\n\n**Bachelor\u2019s degree in Culinary Arts**\n\nInstitute of Culinary Education, New York, NY | 2007 \u2013 2011\n\n**Certifications:**\n\nServSafe Food Protection Manager Certification | 2011 \u2013 present\n\n**References:**\n\nAvailable upon request."
+    },
+    {
+        "instruction": "Arrange the items given below in the order to complete the following sentence",
+        "input": "cake, me, eating",
+        "output": "Me eating cake."
+    },
+    {
+        "instruction": "Write an introductory paragraph about a famous person.",
+        "input": "Michelle Obama",
+        "output": "Michelle Obama, born January 17, 1964, in Chicago, Illinois, USA, is a lawyer, writer and public figure who served as the First Lady of the United States from 2009 to 2017. Married to the 44th President of the United States, Barack Obama, she is most widely recognized for her advocacy work in education, poverty awareness, nutrition, physical activity, and healthy eating. She is also the author of the best-selling memoir \"Becoming,\" and has remained an influential figure in American politics and culture."
+    },
+    {
+        "instruction": "Generate a list of five things one should keep in mind when considering a career change.",
+        "input": "",
+        "output": "1. Evaluate your reasons: It's important to take a step back and evaluate exactly why you want to make a career change. Your reasons could range from wanting to pursue your passion, to seeking better compensation or job satisfaction, or even needing a change of scene. Being clear on your reasons can help you focus on what you want out of your new career.\n\n2. Assess your skills and experience: Take stock of your existing skills, experiences, and qualifications. How can you leverage these in a new field? Identify any skills gaps, and make a plan to acquire new skills or certifications to make your transition smoother.\n\n3. Research your options: Do your due diligence on the industries, companies, and specific roles that interest you. Talk to people in your network who work in these areas, read up on market trends and job prospects, and get a better understanding of what the day-to-day work in these roles involves.\n\n4. Consider the financial impact: Changing careers can sometimes mean taking a pay cut or investing in additional education. Make sure you're in a financially stable position to make this change, and factor in any short-term and long-term financial implications.\n\n5. Be prepared for a challenge: Changing careers is an exciting, but challenging, journey. You might encounter roadblocks, rejections, or self-doubt along the way. Be prepared to face these challenges head-on, stay focused on your goals, and remind yourself of why you embarked on this journey in the first place. With persistence and hard work, you will eventually reap the rewards."
+    },
+    {
+        "instruction": "Analyze the given legal document and explain the key points.",
+        "input": "The following is an excerpt from a contract between two parties, labeled \"Company A\" and \"Company B\": \n\n\"Company A agrees to provide reasonable assistance to Company B in ensuring the accuracy of the financial statements it provides. This includes allowing Company A reasonable access to personnel and other documents which may be necessary for Company B\u2019s review. Company B agrees to maintain the document provided by Company A in confidence, and will not disclose the information to any third parties without Company A\u2019s explicit permission.\"",
+        "output": "The contract between Company A and Company B outlines an understanding between the two parties, whereby Company A agrees to provide assistance in ensuring the accuracy of financial statements provided by Company B. This assistance may include providing access to personnel and important documents, as deemed necessary by Company B. In return, Company B agrees to keep the information disclosed by Company A confidential and not share it with any third party without obtaining permission from Company A. This contract aims to promote accuracy and transparency while preserving confidentiality of sensitive information."
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```",
+        "input": "What is the price of the Prestige XL2?",
+        "output": "```json\n{\n    \"categories\": [\"B\"],\n    \"category_a\": \"\",\n    \"category_b\": \"What is the price of the Prestige XL2?\",\n    \"category_c\": \"\"\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```",
+        "input": "Does the Prestige A3+ offer a warranty? How much is the unit?",
+        "output": "```json\n{\n    \"categories\": [\"A\",\"B\"],\n    \"category_a\": \"Does the Prestige A3+ offer a warranty?\",\n    \"category_b\": \"How much is the Prestige A3+?\",\n    \"category_c\": \"\"\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```",
+        "input": "Is the Epson F2100 a dye sub printer and how much does it go for?",
+        "output": "```json\n{\n    \"categories\": [\"A\",\"B\"],\n    \"category_a\": \"Is the Epson F2100 a dye sublimation printer?\",\n    \"category_b\": \"What is the price of the Epson F2100?\",\n    \"category_c\": \"\"\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```",
+        "input": "My Epson F3070 is not working. The red lights are flashing when I turn it on. Whats the replacement cost?",
+        "output": "```json\n{\n    \"categories\": [\"B\",\"C\"],\n    \"category_a\": \"\",\n    \"category_b\": \"What is the replacement cost for the Epson F7200?\",\n    \"category_c\": \"What does it mean when the red lights are flashing on my Epson F7200 and how can I troubleshoot it?\"\n}\n```"
+    },
+    {
+        "instruction": "Using the given data sources, divide and rephrase a customer query into separate queries for each relevant category: (A) general business knowlege and product features, (B) product pricing or inventory, and (C) product troubleshooting. Create a JSON response with the appropriate query for each category. If a query doesn't belong to a specific category, leave it blank. If the customer query fits into only one category, the corresponding query field should contain the original query.\n\nFormat the JSON response as follows:\n```\n{\n    \"categories\": [\"A\",\"B\",\"C\"],\n    \"category_a\": [\"$QUERIES\"],\n    \"category_b\": [\"$QUERIES\"],\n    \"category_c\": [\"$QUERIES\"]\n}\n```",
+        "input": "What low cost DTF printer would you recommend for my at home t-shirt printing business?",
+        "output": "```json\n{\n    \"categories\": [\"A\"],\n    \"category_a\": \"What low cost DTF printer would you recommend for my at home t-shirt printing business?\",\n    \"category_b\": \"\",\n    \"category_c\": \"\"\n}\n```"
+    },
+    {
+        "instruction": "Count the number of occurrences of each word in a sentence and output in JSON format",
+        "input": "The quick brown fox jumps over the lazy dog",
+        "output": "```json\n{\"words\": {\"the\": 2, \"quick\": 1, \"brown\": 1, \"fox\": 1, \"jumps\": 1, \"over\": 1, \"lazy\": 1, \"dog\": 1}\n```"
+    },
+    {
+        "instruction": "Extract the URL and domain name from a string and output in JSON format",
+        "input": "Visit us at https://example.com",
+        "output": "```json\n{\"url\": \"https://example.com\", \"domain\": \"example.com\"}\n```"
+    },
+    {
+        "instruction": "Extract the title and author of a book from a string and output in JSON format",
+        "input": "The Great Gatsby by F. Scott Fitzgerald",
+        "output": "```json\n{\"title\": \"The Great Gatsby\", \"author\": \"F. Scott Fitzgerald\"}\n```"
+    },
+    {
+        "instruction": "Write a rhyming poem about a man obsessed with no-gi jiu jitsu. Make it funny and incorporate how the man is now 25 years old, but still lives at home with his mom because he spends all his free time on jiu jitsu.",
+        "input": "",
+        "output": "In a town by the shore, where the laughter was free,\nLived a man of twenty-five, obsessed with no-gi.\nHe'd grapple and roll, from morning to night,\nNot a gi in his closet, just rashguards in sight.\n\nHe dwelled with his mother, much to her dismay,\nFor jiu jitsu consumed him, every night and day.\nHis room was a mess, and his laundry unfolded,\nBut his passion for no-gi, was firmly beheld.\n\nHe'd practice his moves on the carpet and tile,\nHis mother would watch, with a bemused smile.\n\"The chores can wait, Mom, I've got guard to pass,\nMy no-gi obsession is a powerful gas.\"\n\nHis spats were all snug, his rashguards quite tight,\nHe'd wear them to dinner, to his mother's delight.\n\"I know you disapprove, Mom, but my no-gi attire,\n\nIs a symbol of freedom, it fuels my desire.\"\nHe studied the legends, from Marcelo to Eddie,\nHis laptop in hand, while his mom cooked spaghetti.\nHe'd drill with a dummy, his moves crisp and clean,\nHis mother would sigh, as she wiped down the screen.\n\nOne day, while training at the local gym,\nA challenge approached, his chances looked slim.\nBut the man, undeterred, cracked a mischievous grin,\n\"My no-gi obsession will guide me to win.\"\n\nHe slipped and he slid, like a well-oiled machine,\nHis opponent bewildered, by this no-gi fiend.\nHe sunk in a choke, a tight anaconda,\nHis rival tapped out, to the crowd's wild ponder.\n\nHis mother, quite proud, despite her frustrations,\nCheered for her son, and his no-gi sensations.\n\"Perhaps,\" she conceded, \"this hobby of yours,\nIs more than just rolling on gymnasium floors.\"\n\nSo back in their home, where the laughter was free,\nThe man and his mother, now bonded by glee.\nAnd though he still lived there, his jiu jitsu craze,\nThey'd share in the laughter, for the rest of their days."
+    },
+    {
+        "instruction": "write a funny poem about a smart young high school senior named Lucas, who is both an AP student and in the MUN program.  Incorporate how he's a programming whiz.",
+        "input": "",
+        "output": "In a town full of laughter, where knowledge was key,\nLived a high school senior, young Lucas was he.\nAn AP student, in MUN he'd partake,\nHis wit and his charm, no one could mistake.\n\nWith a glint in his eye, and a confident grin,\nHe'd conquer each challenge, determined to win.\nHis schoolwork was flawless, his coding, first-rate,\nA programming whiz, his future looked great.\n\nHe'd stroll through the hallways, with books in his hands,\nDiscussing world politics, and faraway lands.\nDebating in MUN, with passion and flair,\nHe'd win admiration, while fixing his hair.\n\nIn class, he would dazzle, his teachers in awe,\nHis knowledge of calculus, without a flaw.\nHe'd solve equations, and theorems with ease,\nAs if all of math, was just a cool breeze.\n\nBut Lucas had a secret, a talent so grand,\nFor programming, he was the best in the land.\nHe'd code through the night, his fingers like fire,\nCreating new worlds, his true heart's desire.\n\nHis classmates, they marveled at his digital art,\nFor Lucas had mastered the programmer's part.\nHe'd build games and apps, with laughter and fun,\nHis creations, infectious, second to none.\n\nOne day, in the classroom, a challenge arose,\nA problem so tricky, it furrowed their brows.\nBut Lucas stepped up, with a smirk and a wink,\n\"I'll solve this with code, faster than you can blink.\"\n\nHe typed and he clicked, his fingers like lightning,\nHis classmates, they stared, their eyes ever tightening.\nAnd just as he promised, the answer appeared,\nThe crowd roared with laughter, as they clapped and they cheered.\n\nLucas, the hero, the pride of his school,\nHis wit and his smarts, a powerful tool.\nHis programming prowess, and MUN skills combined,\nMade young Lucas a legend, his name forever enshrined."
+    },
+    {
+        "instruction": "You will be given a text containing an description of some event. Your task is to output whether that event is possible ('Possible') or not ('Impossible').",
+        "input": "Text: A hummingbird flew into my room and started drinking out of the bowl on my bedside table.",
+        "output": "Possible"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: A man went to buy some groceries and came back with a new car.",
+        "output": "False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense matches your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: It was raining so hard that the water in the ocean boiled.",
+        "output": "False"
+    },
+    {
+        "instruction": "You need to read a text and determine whether it is describing cause and effect, or merely listing items. If the text is describing how each item in the list leads to the next item, output 'cause and effect'. Otherwise, if it is just making a general statement about each of the items in order without showing how they are connected, output 'list'.",
+        "input": "Text: Because Jeremy had been studying hard for his exams, he felt confident that he would do well.",
+        "output": "cause and effect"
+    },
+    {
+        "instruction": "You will be given a short text containing two entities. You need to determine whether the entity in the first part is more general than, as specific as, or unrelated to the entity in the second part.",
+        "input": "Text: A sparrow is a kind of bird.",
+        "output": "The entity \"sparrow\" is more specific than \"kind of bird.\""
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.",
+        "input": "Strings: 'ABCD', 'CD'.",
+        "output": "1"
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.",
+        "input": "Hiabcxyz XYZ.",
+        "output": "1"
+    },
+    {
+        "instruction": "You will be given two strings, A and B. Print 1 if string B occurs at the end of string A. Otherwise, print 0.",
+        "input": "soccer mom pet rock.",
+        "output": "0"
+    },
+    {
+        "instruction": "You are given a list of instructions. For each instruction, output whether or not it is possible to complete the instruction as described.",
+        "input": "Instructions: ['Take two pills with water', 'Teach a dog to fly', 'Cook rice for 40 minutes'].",
+        "output": "Take two pills with water: Possible\nTeach a dog to fly: Impossible\nCook rice for 40 minutes: Possible"
+    },
+    {
+        "instruction": "You will be given a set of statements. Your job is to order them chronologically, from the earliest event to the latest event. Chronological order means that if Event A happened before Event B and Event C, then your output should have A before B and C in it. If two events happened at the same time, they do not need to be in any specific order with respect to each other as long as they are both after all of the events that happen before them and both before all of the events that happen after them",
+        "input": "Statements: ['It broke into pieces', 'The glass fell three stories', 'A piece hit John on the head.'].",
+        "output": "['The glass fell three stories', 'It broke into pieces', 'A piece hit John on the head.']."
+    },
+    {
+        "instruction": "You will be given two pieces of text. Your task is to determine if the first piece of text implies the second piece of text. If it does, output 'Yes', otherwise output 'No'.",
+        "input": "Text 1: John only reads books on philosophy.Text 2: John doesn't read books that aren't on philosophy.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Determine whether the statement is 'Mostly True', 'Mostly False', or 'Completely False', according to the given text.",
+        "input": "The North Pole is located in Antarctica.",
+        "output": "Completely False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems impossible for you, or the general statement does not make sense to you, output 'False', otherwise output 'True'.",
+        "input": "Text: The glass fell off a three-story building and did not break into pieces.",
+        "output": "False"
+    },
+    {
+        "instruction": "Given a description of an event, you need to tell whether it is possible or not. Print 'Possible' if the event can happen, and 'Impossible' if it cannot.",
+        "input": "Description: A person walks into a room and disappears.",
+        "output": "Impossible"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: I went outside and it was raining so hard that I got wet.",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: A UFO flew overhead and abducted me.",
+        "output": "False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: I put my shoes on and went outside.",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: The moon orbits around Earth every 27 days.",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: Mary had been studying for her exams all day and she was exhausted. But she forced herself to stay awake and study for another two hours.",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: I have seen a five hundred year old man.",
+        "output": "False"
+    },
+    {
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems implausible to you, or the general statement does not make sense according to your commonsense, output 'False', otherwise output 'True'.",
+        "input": "Text: A person can survive without food for weeks as long as they have water.",
+        "output": "False"
+    },
+    {
+        "instruction": "You will be given a piece of text about an event. Based on the information in the text, you need to answer whether the event is possible or not. Your answer must be either Yes or No. If it is not possible for the event to happen based on the information in the text, then your answer should be 'No'. If it is possible for the event to happen, even if it may not necessarily happen, then your output should be 'Yes'.",
+        "input": "Text: John went out for a walk with his dog Rover.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "You will be given a paragraph of text with various statements. For each statement, you need to output 'True' if the statement is true, and 'False', otherwise.",
+        "input": "Text: Michael Jordan is an American former professional basketball player. He played 15 seasons in the National Basketball Association (NBA) for the Chicago Bulls and Washington Wizards. His biography on the NBA website states that he \"is widely considered to be the greatest basketball player of all time\". True or False?",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a piece of text about an event that has happened. Your job is to determine if the event could have reasonably happened, based on your knowledge and commonsense. If it could have reasonably happened, output 'True', otherwise output 'False'.",
+        "input": "Text: A tree fell over in the wind and caused damage to my car.",
+        "output": "True"
+    },
+    {
+        "instruction": "I will give you a list of steps.  You need to determine if the steps are going forwards or backwards in time by outputting 'Forwards' or 'Backwards'.",
+        "input": "Steps: ['She takes out her books', 'The teacher hands back the papers', 'She walks into class', 'The bell rings'].",
+        "output": "Backwards"
+    },
+    {
+        "instruction": "Given a piece of text, you need to output whether the statements made in the text are opinions or facts. An opinion is defined as a statement that cannot be proven true or false and is usually based on someone's beliefs. A fact is defined as a statement that can be proven true or false and is not based on someone's beliefs.",
+        "input": "Text: The sky was very cloudy today.",
+        "output": "The statement made in the text is a fact."
+    }
+]

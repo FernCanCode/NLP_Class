@@ -1,0 +1,472 @@
+[
+    {
+        "instruction": "Classify the sentiment of the given text into positive, negative, or neutral.",
+        "input": "I loved the new restaurant in town. The food was amazing and the service was top-notch!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a person, constrained by the following schema: {\"name\": \"string\", \"age\": \"integer\", \"city\": \"string\"}. The person's name is John, and the city is New York.",
+        "input": "",
+        "output": "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Create a JSON object for a student with the name 'John Doe', age 20, and grades in Math, Science, and English. Use the schema: { \"name\": \"string\", \"age\": \"integer\", \"grades\": { \"Math\": \"float\", \"Science\": \"float\", \"English\": \"float\" } }",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 20, \"grades\": {\"Math\": 85.5, \"Science\": 90.2, \"English\": 78.9}}"
+    },
+    {
+        "instruction": "Generate the argument for a tool that takes a list of numbers and returns the sum of their squares. The tool name is 'sum_of_squares'. The input is a list of numbers: [1, 2, 3, 4, 5].",
+        "input": "[1, 2, 3, 4, 5]",
+        "output": "{\"tool\": \"sum_of_squares\", \"args\": [1, 2, 3, 4, 5]}"
+    },
+    {
+        "instruction": "Generate a tool-call argument for a machine learning model training task with a batch size of 32 and a learning rate of 0.01. The task requires the model to be trained on a dataset with 1000 samples and the model's performance should be evaluated using the mean squared error metric.",
+        "input": "",
+        "output": "{\"batch_size\": 32, \"learning_rate\": 0.01, \"num_samples\": 1000, \"eval_metric\": \"mean_squared_error\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of the text into one of the three categories: positive, neutral, or negative.",
+        "input": "I loved the new movie! The special effects were amazing.",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a JSON object representing a book with the following schema: {\"title\": \"string\", \"author\": \"string\", \"year\": \"integer\"}. The book title is 'To Kill a Mockingbird' and the author is 'Harper Lee'.",
+        "input": "",
+        "output": "{\"title\": \"To Kill a Mockingbird\", \"author\": \"Harper Lee\", \"year\": 1960}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as either 'positive', 'negative', or 'neutral', and return the result as a JSON object with the key 'sentiment'.",
+        "input": "I loved the new restaurant in town, the food was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a valid tool-call argument string for a Linux system, including the tool name and any necessary flags or options. The goal is to create a string that can be executed in a terminal to run the tool with the specified options.",
+        "input": "Tool: 'git', Operation: 'clone', Repository URL: 'https://github.com/user/repository.git', Local Directory: '/home/user/projects'",
+        "output": "{\"tool\":\"git\",\"args\":[\"clone\",\"--recursive\",\"--jobs=4\",\"https://github.com/user/repository.git\",\"/home/user/projects\"]}"
+    },
+    {
+        "instruction": "Extract the customer information from the text and return it as a JSON object.",
+        "input": "Customer Name: John Doe, Address: 123 Main St, Anytown, USA 12345, Phone: 555-555-5555, Email: [johndoe@example.com](mailto:johndoe@example.com)",
+        "output": "{\"name\": \"John Doe\", \"address\": \"123 Main St, Anytown, USA 12345\", \"phone\": \"555-555-5555\", \"email\": \"johndoe@example.com\"}"
+    },
+    {
+        "instruction": "Generate a JSON object with a user's profile information. The schema is as follows: the object should have three keys - 'name', 'age', and 'address'. 'name' should be a string, 'age' should be an integer, and 'address' should be another object with two keys: 'street' and 'city', both of which should be strings. Use the input as a starting point.",
+        "input": "John, 30",
+        "output": "{\"name\":\"John\",\"age\":30,\"address\":{\"street\":\"123 Main St\",\"city\":\"Anytown\"}}"
+    },
+    {
+        "instruction": "Extract JSON object from unstructured text.",
+        "input": "The product name is iPhone 14, the price is 999 dollars, and it is made by Apple.",
+        "output": "{\"product_name\": \"iPhone 14\", \"price\": 999, \"brand\": \"Apple\"}"
+    },
+    {
+        "instruction": "Extract JSON from unstructured text",
+        "input": "The product name is iPhone 13 Pro and it costs $999.99. The color is Space Gray and the storage size is 512GB.",
+        "output": "{\"product_name\": \"iPhone 13 Pro\", \"price\": \"$999.99\", \"color\": \"Space Gray\", \"storage_size\": \"512GB\"}"
+    },
+    {
+        "instruction": "Generate a tool call for a machine learning model training task with the following requirements: optimize the model for high accuracy on a classification problem, use a random forest classifier, and train the model on a dataset with 1000 samples. The tool call should be in the format of a Python function call.",
+        "input": "",
+        "output": "{\"tool\": \"train_model\", \"args\": {\"model_type\": \"random_forest\", \"n_estimators\": 100, \"criterion\": \"gini\", \"max_depth\": null, \"dataset\": \"classification_data.csv\", \"target_column\": \"label\", \"num_samples\": 1000}}"
+    },
+    {
+        "instruction": "Classify the sentiment of the following text as positive, negative, or neutral and return the result as a JSON object.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Given a tool name and a description of the task it performs, generate a list of possible arguments that can be passed to the tool.",
+        "input": "Tool: ImageCropper\nDescription: Crops an image to a specified size.",
+        "output": "{\"arguments\": [\"--width\", \"--height\", \"--image_path\", \"--output_path\"]}"
+    },
+    {
+        "instruction": "Generate tool-call arguments for a database query. The arguments should include the database name, collection name, query filter, and projection. The query filter should be based on the 'age' field and the projection should include only the 'name' and 'age' fields.",
+        "input": "{\"database\": \"example_db\", \"collection\": \"users\", \"filter\": {\"age\": {\"$gt\": 18}}, \"projection\": {\"name\": 1, \"age\": 1}}",
+        "output": "{\"args\": {\"database\": \"example_db\", \"collection\": \"users\", \"filter\": {\"age\": {\"$gt\": 18}}, \"projection\": {\"name\": 1, \"age\": 1}, \"limit\": 10, \"skip\": 0}}"
+    },
+    {
+        "instruction": "Generate a JSON object with a schema that has two properties: 'name' and 'age'. The 'name' property should be a string and the 'age' property should be an integer. Use the input data to populate the 'name' property.",
+        "input": "John Doe",
+        "output": "{\"name\":\"John Doe\",\"age\":30}"
+    },
+    {
+        "instruction": "Extract the following information from the text into a JSON object: name, age, and city. Assume that name is always in the format \"First Last\", age is always a number, and city is always the first word after the word \"from\".",
+        "input": "My name is John Smith, I am 30 years old, and I am from New York. I like to read books.",
+        "output": "{\"name\": \"John Smith\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of the text as positive, negative, or neutral and return the result as a JSON string.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Correct the formatting of the following JSON string.",
+        "input": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}",
+        "output": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}"
+    },
+    {
+        "instruction": "Generate a JSON object containing information about a person, including their name, age, and address. The address must include a street, city, and state. The age must be between 18 and 65.",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"address\": {\"street\": \"123 Main St\", \"city\": \"Anytown\", \"state\": \"CA\"}}"
+    },
+    {
+        "instruction": "Generate a JSON object representing a person with a name, age, and occupation, given the schema: {name: string, age: number, occupation: string}. The person's name is John, age is 30, and occupation is Software Engineer.",
+        "input": "",
+        "output": "{\"name\":\"John\",\"age\":30,\"occupation\":\"Software Engineer\"}"
+    },
+    {
+        "instruction": "Generate a JSON object representing a person with a name, age, and occupation. The person's name should be John, the age should be between 20 and 30, and the occupation should be a software engineer.",
+        "input": "",
+        "output": "{\"name\":\"John\",\"age\":25,\"occupation\":\"Software Engineer\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of a given text as positive, negative or neutral and return the result as a JSON object.",
+        "input": "I loved the new restaurant in town!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Given a database schema for a university, generate a JSON object that represents a student with name 'John Doe', age 20, and enrolled in the course 'Introduction to Computer Science'.",
+        "input": "",
+        "output": "{\"student\": {\"name\": \"John Doe\", \"age\": 20, \"courses\": [{\"course_id\": 1, \"course_name\": \"Introduction to Computer Science\"}]}}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as positive, negative, or neutral.",
+        "input": "I loved the new restaurant downtown. The food was amazing and the service was top-notch.",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a person with the following constraints: name must be a string, age must be an integer, and occupation must be one of the following strings: 'engineer', 'lawyer', 'doctor'.",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"occupation\": \"engineer\"}"
+    },
+    {
+        "instruction": "Extract JSON object from the text containing information about a person.",
+        "input": "John Doe is a 30-year-old software engineer from New York, who works at XYZ Corporation and can be reached at johndoe@example.com.",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\", \"company\": \"XYZ Corporation\", \"email\": \"johndoe@example.com\"}"
+    },
+    {
+        "instruction": "Repair the formatting of the following JSON string to make it more readable.",
+        "input": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}",
+        "output": "{\"name\": \"John\",\n\"age\": 30,\n\"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Generate a valid argument for the 'git checkout' command to switch to a new branch named 'feature/new-feature'.",
+        "input": "git checkout",
+        "output": "{\"branch_name\": \"feature/new-feature\", \"args\": \"-b feature/new-feature\"}"
+    },
+    {
+        "instruction": "Extract the following information from the text and return it as a JSON object: name, age, and city. The text is: \"My name is John Doe, I am 30 years old, and I live in New York City.\"",
+        "input": "My name is John Doe, I am 30 years old, and I live in New York City.",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York City\"}"
+    },
+    {
+        "instruction": "Generate the argument for the 'sort' tool with the options 'reverse' and 'numeric'.",
+        "input": "",
+        "output": "{\"tool\": \"sort\", \"arguments\": [\"-r\", \"-n\"]}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a person with a name, age, and occupation, based on the provided schema.",
+        "input": "{\"schema\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}, \"occupation\": {\"type\": \"string\"}}, \"required\": [\"name\", \"age\", \"occupation\"]}}",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"occupation\": \"Software Engineer\"}"
+    },
+    {
+        "instruction": "Extract JSON data from the following text. The JSON object should have the keys 'name', 'age', and 'city'.",
+        "input": "John Doe is 30 years old and lives in New York. His favorite food is pizza.",
+        "output": "{\"name\":\"John Doe\",\"age\":30,\"city\":\"New York\"}"
+    },
+    {
+        "instruction": "Extract JSON object from the given text. The text may contain other information, but the goal is to find the JSON object and return it as a string.",
+        "input": "The user's details are as follows: {\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}. This information is crucial for our records.",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Classify the following text into one of the exact labels: 'Positive', 'Negative', or 'Neutral'. Return the result as a JSON object with a single key 'sentiment' and the corresponding label as the value.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"sentiment\":\"Positive\"}"
+    },
+    {
+        "instruction": "Given a tool name and a prompt, generate a JSON object containing possible arguments for the tool. The arguments should be relevant to the context provided in the prompt.",
+        "input": "tool_name: \"sort\", prompt: \"Sort a list of numbers in descending order\"",
+        "output": "{\"args\": [{\"name\": \"-r\", \"description\": \"Reverse the result instead of sorting in ascending order\"}, {\"name\": \"-n\", \"description\": \"Compare according to string numerical value\"}]}"
+    },
+    {
+        "instruction": "Repair the following JSON string by adding commas between objects in an array:",
+        "input": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}{\"name\":\"Alice\",\"age\":25,\"city\":\"Los Angeles\"}",
+        "output": "[{\"name\":\"John\",\"age\":30,\"city\":\"New York\"},{\"name\":\"Alice\",\"age\":25,\"city\":\"Los Angeles\"}]"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as positive, negative or neutral and return the result in a JSON object.",
+        "input": "I loved the new restaurant in town, the food was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Extract JSON object from unstructured text",
+        "input": "The product details are as follows: name=Apple Watch, price=$249.99, and release_date=September 22, 2017.",
+        "output": "{\"name\": \"Apple Watch\", \"price\": \"$249.99\", \"release_date\": \"September 22, 2017\"}"
+    },
+    {
+        "instruction": "Given the text 'The cat sat on the mat' and a schema of {'objects': ['cat', 'mat'], 'actions': ['sat', 'jumped', 'ran']}, generate a valid sentence using only the provided objects and actions.",
+        "input": "The cat sat on the mat",
+        "output": "{\"sentence\": \"The cat sat on the mat\"}"
+    },
+    {
+        "instruction": "Generate a JSON object representing a person, with the keys 'name', 'age', and 'city', given the following schema: 'name' is a string, 'age' is an integer, and 'city' is a string.",
+        "input": "",
+        "output": "{\"name\":\"John Doe\",\"age\":30,\"city\":\"New York\"}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a student's record, given the following schema: {\"name\": \"string\", \"age\": \"integer\", \"grades\": {\"math\": \"integer\", \"science\": \"integer\"}}",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 20, \"grades\": {\"math\": 85, \"science\": 90}}"
+    },
+    {
+        "instruction": "Classify the text into one of the following labels: positive, negative, or neutral, and return the result as a JSON object with the label.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Given a tool name and its usage context, generate a valid call argument string. The argument string should be a valid JSON object. The tool name is 'compress' and it is used to compress a file.",
+        "input": "Compress a file named example.txt",
+        "output": "{\"tool\": \"compress\", \"arguments\": {\"input_file\": \"example.txt\", \"output_file\": \"example.txt.gz\"}}"
+    },
+    {
+        "instruction": "Given a Python function `add_numbers` that takes two arguments `num1` and `num2`, generate a tool call with the function name and two random integer arguments between 1 and 100.",
+        "input": "",
+        "output": "{\"tool\": \"add_numbers\", \"args\": {\"num1\": 42, \"num2\": 13}}"
+    },
+    {
+        "instruction": "Classify the following text into one of the predefined categories (positive, negative, neutral) and return the result as a JSON object.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Repair the JSON string to make it a valid JSON object.",
+        "input": "{\"name\":\"John\",\"age\":30,city:New York\"}",
+        "output": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}"
+    },
+    {
+        "instruction": "Classify the following text into one of the predefined categories and return the result as a JSON object.",
+        "input": "I love playing with my dog in the park.",
+        "output": "{\"category\": \"positive\", \"subcategory\": \"outdoors\", \"sentiment\": \"happy\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as positive, negative, or neutral and return the result in a JSON object.",
+        "input": "I loved the new restaurant in town, the food was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as positive, negative or neutral, and return the result as a JSON object.",
+        "input": "I loved the new restaurant, the food was amazing and the service was top-notch!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Extract the customer information from the text and format it as a JSON object.",
+        "input": "John Smith, a 32-year-old software engineer, lives at 123 Main St, Anytown, USA 12345. His phone number is 555-555-5555 and his email is john.smith@example.com.",
+        "output": "{\"name\": \"John Smith\", \"age\": 32, \"address\": \"123 Main St, Anytown, USA 12345\", \"phone\": \"555-555-5555\", \"email\": \"john.smith@example.com\"}"
+    },
+    {
+        "instruction": "Repair the given invalid JSON string by correcting the formatting and syntax errors.",
+        "input": "{ \"name\": \"John\" \"age\": 30 }",
+        "output": "{\"name\": \"John\", \"age\": 30}"
+    },
+    {
+        "instruction": "Generate a tool-call argument for a hypothetical 'create_database' tool that takes 'database_name' and 'storage_size' as arguments. Assume the desired database name is 'my_database' and the desired storage size is '100 GB'.",
+        "input": "",
+        "output": "{\"database_name\": \"my_database\", \"storage_size\": \"100 GB\"}"
+    },
+    {
+        "instruction": "Extract the information about the customer from the text and return it as a JSON object.",
+        "input": "The customer's name is John Smith, and he lives at 123 Main Street, Anytown, USA 12345. His phone number is 555-555-5555.",
+        "output": "{\"name\": \"John Smith\", \"address\": \"123 Main Street, Anytown, USA 12345\", \"phone\": \"555-555-5555\"}"
+    },
+    {
+        "instruction": "Generate an argument for the 'ls' tool to list all files in the current directory in a human-readable format.",
+        "input": "current directory",
+        "output": "{\"args\": [\"-lh\"]}"
+    },
+    {
+        "instruction": "Generate the argument for the 'sort' tool to sort a list of numbers in descending order.",
+        "input": "numbers = [4, 2, 9, 6, 5, 1]",
+        "output": "{\"args\": [\"-r\"]}"
+    },
+    {
+        "instruction": "Given the following schema and data, generate a JSON object with the specified keys and values. The schema defines a 'person' object with 'name' and 'age' properties. The 'name' property is a string and the 'age' property is an integer.",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 30}"
+    },
+    {
+        "instruction": "Extract the JSON object from the unstructured text",
+        "input": "The product details are as follows: name is Apple iPhone, price is 999.99, and category is Electronics. Also, the product has a 1-year warranty and is available in Space Gray color.",
+        "output": "{\"name\": \"Apple iPhone\", \"price\": 999.99, \"category\": \"Electronics\", \"warranty\": \"1-year\", \"color\": \"Space Gray\"}"
+    },
+    {
+        "instruction": "Correct the formatting errors in the given JSON string",
+        "input": "{\"name\": \"John Doe\" \"age\": 30 \"city\": \"New York\"}",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Write a JSON object with name, email and phone number. Use schema: {\"name\": \"string\", \"email\": \"string\", \"phone_number\": \"string\"}.",
+        "input": "{\"name\": \"John Doe\", \"email\": \"johndoe@example.com\", \"phone_number\": \"123-456-7890\"}",
+        "output": "{\"name\": \"John Doe\", \"email\": \"johndoe@example.com\", \"phone_number\": \"123-456-7890\"}"
+    },
+    {
+        "instruction": "Correct the JSON formatting and repair any errors in the given JSON string.",
+        "input": "{ \"name\": \"John\" \"age\": 30 \"city\": \"New York\"}",
+        "output": "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Generate the missing argument for the tool call 'find' with the context 'List all files in the current directory that are modified within the last 24 hours.'",
+        "input": "List all files in the current directory that are modified within the last 24 hours.",
+        "output": "{\"name\": \"-mmin\", \"value\": \"-24\"}"
+    },
+    {
+        "instruction": "Given a tool name and description, generate the call arguments in JSON format. For example, if the tool is 'gcc' and the description is 'compile a C program', the arguments could be ['-o', 'output_file', 'input_file.c'].",
+        "input": "tool_name: clang, description: compile a C++ program with optimization level 3",
+        "output": "{\"args\": [\"-o\", \"output_file\", \"input_file.cpp\", \"-O3\"]}"
+    },
+    {
+        "instruction": "Classify the sentiment of the text as either 'positive', 'negative', or 'neutral' and return the result as a JSON object.",
+        "input": "I loved the new restaurant in town, the food was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Repair the JSON string by fixing syntax errors and formatting issues",
+        "input": "{ \"name\": \"John\", \"age\" : 30, \"city\" : \"New York\" \"country\": \"USA\"}",
+        "output": "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\", \"country\": \"USA\"}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a book with title, author, and publication year, using the provided schema.",
+        "input": "{\"title\": \"string\", \"author\": \"string\", \"year\": \"number\"}",
+        "output": "{\"title\": \"To Kill a Mockingbird\", \"author\": \"Harper Lee\", \"year\": 1960}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as either 'positive', 'negative', or 'neutral' and return the result as a JSON object.",
+        "input": "I loved the new restaurant downtown, the food was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a valid 'git checkout' command to switch to a branch named 'feature/new-login-system'.",
+        "input": "",
+        "output": "{\"command\": \"git checkout feature/new-login-system\"}"
+    },
+    {
+        "instruction": "Extract JSON object from the given text. The text may contain irrelevant information. The extracted JSON object should have three keys: \"name\", \"age\", and \"city\".",
+        "input": "John is a 30-year-old software engineer who lives in New York. His name is John, age is 30 and city is New York. He loves coding in his free time.",
+        "output": "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Given a tool name and an input prompt, generate a valid tool call with arguments. The tool name is 'calculator' and the input prompt is 'add 2 and 3'.",
+        "input": "calculator add 2 and 3",
+        "output": "{\"tool_name\": \"calculator\", \"args\": {\"operation\": \"add\", \"num1\": 2, \"num2\": 3}}"
+    },
+    {
+        "instruction": "Extract JSON from the text. The JSON object should contain the name, age, and occupation of the person mentioned in the text.",
+        "input": "John Smith, a 32-year-old software engineer, lives in New York.",
+        "output": "{\"name\": \"John Smith\", \"age\": 32, \"occupation\": \"software engineer\"}"
+    },
+    {
+        "instruction": "Repair the JSON formatting and correct any errors in the given string.",
+        "input": "{name: \"John Doe\", age: 30, occupation: \"Software Engineer\"}",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"occupation\": \"Software Engineer\"}"
+    },
+    {
+        "instruction": "Extract the data from the text and format it into a JSON object.",
+        "input": "John Doe is a 30-year-old software engineer living in New York. He has 5 years of experience and is proficient in Java, Python, and C++. His current salary is $100,000 per year.",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"location\": \"New York\", \"experience\": 5, \"skills\": [\"Java\", \"Python\", \"C++\"], \"salary\": 100000}"
+    },
+    {
+        "instruction": "Extract JSON object from the text describing a person.",
+        "input": "John Smith is a 30-year-old software engineer living in New York. He has a master's degree in computer science and enjoys playing basketball in his free time.",
+        "output": "{\"name\": \"John Smith\", \"age\": 30, \" occupation\": \"software engineer\", \"location\": \"New York\", \"education\": \"master's degree in computer science\", \"hobbies\": [\"playing basketball\"]}"
+    },
+    {
+        "instruction": "Extract the name and address from the given text.",
+        "input": "John Doe lives at 123 Main St, Anytown, USA 12345.",
+        "output": "{\"name\": \"John Doe\", \"address\": \"123 Main St, Anytown, USA 12345\"}"
+    },
+    {
+        "instruction": "Generate arguments for a tool call to create a new user with username 'johnDoe' and email 'john.doe@example.com' in an active state.",
+        "input": "",
+        "output": "{\"tool\":\"create_user\",\"args\":{\"username\":\"johnDoe\",\"email\":\"john.doe@example.com\",\"active\":true}}"
+    },
+    {
+        "instruction": "Correct the formatting of the given JSON string to make it valid.",
+        "input": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\" }",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Given a tool name and input context, generate a valid argument for the tool. The output should be a JSON object with a single key 'argument' and its corresponding value.",
+        "input": "Tool name: git checkout\nContext: I want to switch to the feature/new-feature branch.",
+        "output": "{\"argument\": \"feature/new-feature\"}"
+    },
+    {
+        "instruction": "Given a schema describing a simple weather forecast with temperature, humidity, and weather conditions, generate a valid JSON object containing the current weather data for a specific location.",
+        "input": "{\"location\": \"New York\", \"temperature\": 22, \"humidity\": 60, \"weather_conditions\": \"Sunny\"}",
+        "output": "{\"weather\": {\"location\": \"New York\", \"temperature\": 22, \"humidity\": 60, \"weather_conditions\": \"Sunny\"}}"
+    },
+    {
+        "instruction": "Classify the following text into a category (e.g. positive, negative, neutral) and return the result as a JSON object.",
+        "input": "I loved the new restaurant downtown, the food was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a JSON object that represents a person with a name, age, and occupation, given the constraints that the name must be a string, the age must be an integer between 18 and 65, and the occupation must be one of the following strings: 'engineer', 'doctor', 'lawyer', or 'teacher'.",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"occupation\": \"engineer\"}"
+    },
+    {
+        "instruction": "Given a tool name and optional context, generate a JSON object containing the required arguments for the tool. Assume a library of tools with known arguments. For example, a tool 'sort' might require arguments 'input_file' and 'output_file'.",
+        "input": "sort the data in file1.txt and output it to file2.txt",
+        "output": "{\"tool\": \"sort\", \"args\": {\"input_file\": \"file1.txt\", \"output_file\": \"file2.txt\"}}"
+    },
+    {
+        "instruction": "Generate a JSON object representing a book with the title 'To Kill a Mockingbird', author 'Harper Lee', and publication year 1960.",
+        "input": "",
+        "output": "{\"title\":\"To Kill a Mockingbird\",\"author\":\"Harper Lee\",\"year\":1960}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as either 'positive', 'negative', or 'neutral' and return the result as a JSON object.",
+        "input": "I loved the new restaurant in town, the food was amazing!",
+        "output": "{\"label\": \"positive\"}"
+    },
+    {
+        "instruction": "Generate a JSON object describing a person with a name, age, and occupation, given the schema: {\"name\": \"string\", \"age\": \"integer\", \" occupation\": \"string\"}. The name is John, the age is 30, and the occupation is software engineer.",
+        "input": "",
+        "output": "{\"name\": \"John\", \"age\": 30, \"occupation\": \"software engineer\"}"
+    },
+    {
+        "instruction": "Write a JSON object that contains a person's name, age, and occupation, where the person's name is 'John Doe', the age is 30, and the occupation is 'Software Engineer'.",
+        "input": "",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"occupation\": \"Software Engineer\"}"
+    },
+    {
+        "instruction": "Repair the invalid JSON string by fixing the syntax errors and formatting it correctly.",
+        "input": "{ \"name\": \"John Doe\" \"age\": 30, \"city\": \"New York\"}",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+        "instruction": "Classify the sentiment of the given text as positive, negative, or neutral.",
+        "input": "I loved the new movie, it was amazing!",
+        "output": "{\"sentiment\": \"positive\"}"
+    },
+    {
+        "instruction": "Repair and format the following JSON string",
+        "input": "{\"name\":\"John Doe\",\"age\":30,\"address\":{\"street\":\"123 Main St\",\"city\":\"Anytown\",\"state\":\"CA\",\"zip\":\"12345\"}}",
+        "output": "{\"name\": \"John Doe\", \"age\": 30, \"address\": {\"street\": \"123 Main St\", \"city\": \"Anytown\", \"state\": \"CA\", \"zip\": \"12345\"}}"
+    },
+    {
+        "instruction": "Generate tool-call arguments for a backup command with the following requirements: back up user files to an external drive, exclude the 'Downloads' folder, and notify the user via email when the backup is complete.",
+        "input": "",
+        "output": "{\"tool\": \"backup\", \"args\": [\"--source\", \"/home/user\", \"--destination\", \"/media/external\", \"--exclude\", \"Downloads\", \"--notify\", \"user@example.com\"]}"
+    },
+    {
+        "instruction": "Generate a JSON object describing a book with the title 'To Kill a Mockingbird', the author 'Harper Lee', and the publication year 1960.",
+        "input": "",
+        "output": "{\"title\": \"To Kill a Mockingbird\", \"author\": \"Harper Lee\", \"year\": 1960}"
+    },
+    {
+        "instruction": "Extract the name, email, and phone number from the given text and return them as a JSON object.",
+        "input": "Contact information for John Doe: johndoe@example.com, 123-456-7890.",
+        "output": "{\"name\": \"John Doe\", \"email\": \"johndoe@example.com\", \"phone\": \"123-456-7890\"}"
+    }
+]
