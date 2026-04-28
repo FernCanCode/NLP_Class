@@ -1,0 +1,6 @@
+datasets
+sentence-transformers
+chromadb
+pandas
+anthropic
+python-dotenv

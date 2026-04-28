@@ -1,0 +1,313 @@
+query_id,query_type,query_text,top_k_sources,similarity_scores,corpus_mix,retrieved_custom_functions,generated_answer_first_two_sentences,grounded,full_generated_answer
+P2TQ01,targeted,How do I clean text by lowercasing and removing punctuation?,[1] local/data/custom_functions.py::clean_text; [2] elifesciences/elife-tools/elifetools/utils.py::strip_punctuation_space; [3] local/data/custom_functions.py::split_into_sentences; [4] canonical-ols/acceptable/acceptable/util.py::clean_docstring,[1] 0.690; [2] 0.548; [3] 0.501; [4] 0.466,both,clean_text; split_into_sentences,"Based on the provided code context, you can use the `clean_text` function from `local/data/custom_functions.py::clean_text`:
+
+```python
+def clean_text(text: str) -> str:
+    """"""
+    Cleans the input text by lowercasing, removing punctuation, 
+    and collapsing repeated whitespace into a single space.
+    """"""
+    # Lowercase the text
+    text = text.lower()
+    # Remove punctuation using regular expressions
+    text = re.sub(f""[{re.escape(string.punctuation)}]"", """", text)
+    # Collapse whitespace
+    text = re.sub(r""\s+"", "" "", text).strip()
+    return text
+```
+
+This function:
+1. Converts text to lowercase using `.lower()`
+2.",yes,"Based on the provided code context, you can use the `clean_text` function from `local/data/custom_functions.py::clean_text`:
+
+```python
+def clean_text(text: str) -> str:
+    """"""
+    Cleans the input text by lowercasing, removing punctuation, 
+    and collapsing repeated whitespace into a single space.
+    """"""
+    # Lowercase the text
+    text = text.lower()
+    # Remove punctuation using regular expressions
+    text = re.sub(f""[{re.escape(string.punctuation)}]"", """", text)
+    # Collapse whitespace
+    text = re.sub(r""\s+"", "" "", text).strip()
+    return text
+```
+
+This function:
+1. Converts text to lowercase using `.lower()`
+2. Removes all punctuation using regex with `string.punctuation`
+3. Collapses repeated whitespace into single spaces
+
+Simply call `clean_text(your_text)` to get the cleaned result."
+P2TQ02,targeted,How do I count word frequencies in a string?,[1] local/data/custom_functions.py::count_word_frequencies; [2] local/data/custom_functions.py::simple_sentiment_score; [3] local/data/custom_functions.py::extract_hashtags; [4] josiah-wolf-oberholtzer/uqbar/uqbar/strings.py::delimit_words,[1] 0.755; [2] 0.425; [3] 0.409; [4] 0.363,both,count_word_frequencies; simple_sentiment_score; extract_hashtags,"Based on the provided code, you can count word frequencies in a string using the `count_word_frequencies` function from `local/data/custom_functions.py::count_word_frequencies`.
+
+Here's how to use it:
+
+```python
+result = count_word_frequencies(""your text here"")
+```
+
+This function:
+1. Cleans and tokenizes the input text
+2.",yes,"Based on the provided code, you can count word frequencies in a string using the `count_word_frequencies` function from `local/data/custom_functions.py::count_word_frequencies`.
+
+Here's how to use it:
+
+```python
+result = count_word_frequencies(""your text here"")
+```
+
+This function:
+1. Cleans and tokenizes the input text
+2. Returns a dictionary mapping each word to its frequency count
+
+**Example:**
+```python
+frequencies = count_word_frequencies(""hello world hello"")
+# Returns: {'hello': 2, 'world': 1}
+```
+
+The function internally calls `clean_text()` to clean the text, splits it into words, and then builds a dictionary where each unique word is a key and its count is the value."
+P2TQ03,targeted,How can I extract hashtags from social media text?,[1] local/data/custom_functions.py::extract_hashtags; [2] elifesciences/elife-tools/elifetools/parseJATS.py::subject_area; [3] elifesciences/elife-tools/elifetools/parseJATS.py::keywords; [4] elifesciences/elife-tools/elifetools/utils.py::escape_unmatched_angle_brackets,[1] 0.747; [2] 0.422; [3] 0.415; [4] 0.415,both,extract_hashtags,"Based on the provided code context, you can extract hashtags from social media text using the `extract_hashtags` function from `local/data/custom_functions.py::extract_hashtags`:
+
+```python
+def extract_hashtags(text: str) -> list[str]:
+    """"""
+    Extracts hashtag words from social media-style text.
+    Returns them as a list of strings without the # symbol.
+    """"""
+    matches = re.findall(r""#(\w+)"", text)
+    return matches
+```
+
+**Usage example:**
+```python
+text = ""Check out #Python and #coding tips! #awesome""
+hashtags = extract_hashtags(text)
+# Returns: ['Python', 'coding', 'awesome']
+```
+
+The function uses a regular expression pattern `#(\w+)` to find all words that start with `#` and consist of word characters, returning them as a list of strings without the `#` symbol.",yes,"Based on the provided code context, you can extract hashtags from social media text using the `extract_hashtags` function from `local/data/custom_functions.py::extract_hashtags`:
+
+```python
+def extract_hashtags(text: str) -> list[str]:
+    """"""
+    Extracts hashtag words from social media-style text.
+    Returns them as a list of strings without the # symbol.
+    """"""
+    matches = re.findall(r""#(\w+)"", text)
+    return matches
+```
+
+**Usage example:**
+```python
+text = ""Check out #Python and #coding tips! #awesome""
+hashtags = extract_hashtags(text)
+# Returns: ['Python', 'coding', 'awesome']
+```
+
+The function uses a regular expression pattern `#(\w+)` to find all words that start with `#` and consist of word characters, returning them as a list of strings without the `#` symbol."
+P2TQ04,targeted,How can I classify simple positive or negative sentiment using word lists?,[1] local/data/custom_functions.py::simple_sentiment_score; [2] quizl/quizler/quizler/models.py::WordSet.has_common; [3] local/data/custom_functions.py::count_word_frequencies; [4] elifesciences/elife-tools/elifetools/utils.py::text_to_title,[1] 0.694; [2] 0.350; [3] 0.311; [4] 0.288,both,simple_sentiment_score; count_word_frequencies,"Based on the provided code context, you can classify sentiment using the `simple_sentiment_score` function from `local/data/custom_functions.py::simple_sentiment_score`.
+
+This function:
+
+1. **Defines word lists** - It uses predefined sets of positive words (""good"", ""great"", ""excellent"", ""happy"", ""love"", ""awesome"", ""perfect"") and negative words (""bad"", ""terrible"", ""awful"", ""sad"", ""hate"", ""worst"", ""poor"")
+
+2.",yes,"Based on the provided code context, you can classify sentiment using the `simple_sentiment_score` function from `local/data/custom_functions.py::simple_sentiment_score`.
+
+This function:
+
+1. **Defines word lists** - It uses predefined sets of positive words (""good"", ""great"", ""excellent"", ""happy"", ""love"", ""awesome"", ""perfect"") and negative words (""bad"", ""terrible"", ""awful"", ""sad"", ""hate"", ""worst"", ""poor"")
+
+2. **Counts matches** - It cleans the input text, splits it into words, and counts how many words match the positive and negative word lists
+
+3. **Classifies sentiment** - It compares the counts:
+   - If positive count > negative count → ""positive""
+   - If negative count > positive count → ""negative""
+   - If counts are equal or both zero → ""neutral""
+
+4. **Returns results** - It returns a dictionary with:
+   - `positive_count`: number of positive words found
+   - `negative_count`: number of negative words found
+   - `sentiment`: the classification (""positive"", ""negative"", or ""neutral"")
+
+**Example usage:**
+```python
+result = simple_sentiment_score(""This product is great and awesome!"")
+# Returns: {""positive_count"": 2, ""negative_count"": 0, ""sentiment"": ""positive""}
+```
+
+This is a basic approach suitable for simple sentiment analysis tasks."
+P2TQ05,targeted,How do I split a paragraph into sentences?,[1] local/data/custom_functions.py::split_into_sentences; [2] elifesciences/elife-tools/elifetools/utils.py::join_sentences; [3] elifesciences/elife-tools/elifetools/parseJATS.py::body_block_paragraph_render; [4] canonical-ols/acceptable/acceptable/util.py::clean_docstring,[1] 0.535; [2] 0.430; [3] 0.386; [4] 0.382,both,split_into_sentences,"Based on the provided code context, you can use the `split_into_sentences` function from `local/data/custom_functions.py::split_into_sentences`.
+
+This function splits text into sentences using simple punctuation rules (periods, exclamation marks, question marks) and returns a list of stripped strings:
+
+```python
+def split_into_sentences(text: str) -> list[str]:
+    raw_sentences = re.split(r""(?<=[.!?])\s+"", text)
+    sentences = [s.strip() for s in raw_sentences if s.strip()]
+    return sentences
+```
+
+**Usage example:**
+```python
+paragraph = ""Hello world. This is a sentence! How are you?""
+sentences = split_into_sentences(paragraph)
+# Result: ['Hello world.', 'This is a sentence!', 'How are you?']
+```
+
+The function uses a regex pattern that splits on whitespace that follows sentence-ending punctuation (`.`, `!`, or `?`), then strips whitespace from each sentence and filters out empty strings.",yes,"Based on the provided code context, you can use the `split_into_sentences` function from `local/data/custom_functions.py::split_into_sentences`.
+
+This function splits text into sentences using simple punctuation rules (periods, exclamation marks, question marks) and returns a list of stripped strings:
+
+```python
+def split_into_sentences(text: str) -> list[str]:
+    raw_sentences = re.split(r""(?<=[.!?])\s+"", text)
+    sentences = [s.strip() for s in raw_sentences if s.strip()]
+    return sentences
+```
+
+**Usage example:**
+```python
+paragraph = ""Hello world. This is a sentence! How are you?""
+sentences = split_into_sentences(paragraph)
+# Result: ['Hello world.', 'This is a sentence!', 'How are you?']
+```
+
+The function uses a regex pattern that splits on whitespace that follows sentence-ending punctuation (`.`, `!`, or `?`), then strips whitespace from each sentence and filters out empty strings."
+P2CQ01,cross_corpus,How do I process user-provided text before analysis?,[1] aroberge/experimental/experimental/core/transforms.py::extract_transformers_from_source; [2] elifesciences/elife-tools/elifetools/parseJATS.py::full_author_notes; [3] frostming/atoml/atoml/decoder.py::Converter.convert; [4] elifesciences/elife-tools/elifetools/parseJATS.py::abstracts,[1] 0.320; [2] 0.291; [3] 0.288; [4] 0.287,starter_only,,"Based on the provided code context, I don't have sufficient information to answer your question about processing user-provided text before analysis.
+
+The code snippets provided show examples of:
+- Extracting transformers from source code (`aroberge/experimental/experimental/core/transforms.py::extract_transformers_from_source`)
+- Parsing JATS XML documents (`elifesciences/elife-tools/elifetools/parseJATS.py`)
+- Converting TOML format (`frostming/atoml/atoml/decoder.py::Converter.convert`)
+
+None of these directly address a general pattern for preprocessing user-provided text before analysis. To provide an accurate answer, I would need code context that specifically deals with text preprocessing or input validation.",yes,"Based on the provided code context, I don't have sufficient information to answer your question about processing user-provided text before analysis.
+
+The code snippets provided show examples of:
+- Extracting transformers from source code (`aroberge/experimental/experimental/core/transforms.py::extract_transformers_from_source`)
+- Parsing JATS XML documents (`elifesciences/elife-tools/elifetools/parseJATS.py`)
+- Converting TOML format (`frostming/atoml/atoml/decoder.py::Converter.convert`)
+
+None of these directly address a general pattern for preprocessing user-provided text before analysis. To provide an accurate answer, I would need code context that specifically deals with text preprocessing or input validation."
+P2CQ02,cross_corpus,How can I count meaningful tokens or items in Python?,[1] local/data/custom_functions.py::count_word_frequencies; [2] local/data/custom_functions.py::simple_sentiment_score; [3] rshk/python-libxdo/xdo/__init__.py::Xdo.get_symbol_map; [4] aroberge/experimental/experimental/transformers/repeat_keyword.py::transform_source,[1] 0.607; [2] 0.512; [3] 0.481; [4] 0.443,both,count_word_frequencies; simple_sentiment_score,"Based on the provided code context, here are two approaches to count meaningful items in Python:
+
+1. **Count Word Frequencies** - Use `local/data/custom_functions.py::count_word_frequencies` to count how often each word appears in text:
+```python
+def count_word_frequencies(text: str) -> dict[str, int]:
+    cleaned = clean_text(text)
+    words = cleaned.split()
+    
+    freq_dict = {}
+    for word in words:
+        freq_dict[word] = freq_dict.get(word, 0) + 1
+    return freq_dict
+```
+This returns a dictionary mapping each word to its frequency count.
+
+2.",yes,"Based on the provided code context, here are two approaches to count meaningful items in Python:
+
+1. **Count Word Frequencies** - Use `local/data/custom_functions.py::count_word_frequencies` to count how often each word appears in text:
+```python
+def count_word_frequencies(text: str) -> dict[str, int]:
+    cleaned = clean_text(text)
+    words = cleaned.split()
+    
+    freq_dict = {}
+    for word in words:
+        freq_dict[word] = freq_dict.get(word, 0) + 1
+    return freq_dict
+```
+This returns a dictionary mapping each word to its frequency count.
+
+2. **Count Sentiment Words** - Use `local/data/custom_functions.py::simple_sentiment_score` to count meaningful sentiment-bearing tokens:
+```python
+pos_count = sum(1 for word in words if word in positive_words)
+neg_count = sum(1 for word in words if word in negative_words)
+```
+This counts occurrences of words that match predefined meaningful categories (positive/negative).
+
+Both approaches involve:
+- Cleaning the text first
+- Splitting into tokens/words
+- Counting occurrences using iteration or aggregation functions like `sum()`
+
+The choice depends on whether you need general frequency counts or counts of specific meaningful categories."
+P2CQ03,cross_corpus,How can I extract useful pieces of information from strings?,[1] local/data/custom_functions.py::extract_hashtags; [2] local/data/custom_functions.py::split_into_sentences; [3] josiah-wolf-oberholtzer/uqbar/uqbar/strings.py::delimit_words; [4] frostming/atoml/atoml/decoder.py::Decoder.split_string,[1] 0.502; [2] 0.476; [3] 0.474; [4] 0.459,both,extract_hashtags; split_into_sentences,"Based on the provided code context, here are several ways to extract useful pieces of information from strings:
+
+1. **Extract hashtags** - Use `local/data/custom_functions.py::extract_hashtags` to extract hashtag words from social media-style text.",yes,"Based on the provided code context, here are several ways to extract useful pieces of information from strings:
+
+1. **Extract hashtags** - Use `local/data/custom_functions.py::extract_hashtags` to extract hashtag words from social media-style text. It returns a list of strings without the # symbol.
+
+2. **Split into sentences** - Use `local/data/custom_functions.py::split_into_sentences` to break text into sentences using punctuation rules (periods, exclamation marks, question marks). It returns a list of stripped sentence strings.
+
+3. **Delimit words at boundaries** - Use `josiah-wolf-oberholtzer/uqbar/uqbar/strings.py::delimit_words` to split strings at word boundaries. This is useful for parsing camelCase strings (like ""S3Bucket"" → ['S3', 'Bucket']) or space-separated words.
+
+4. **Split strings with quote awareness** - Use `frostming/atoml/atoml/decoder.py::Decoder.split_string` if you need to split strings while respecting quoted sections.
+
+The choice depends on what type of information you need to extract:
+- Social media hashtags → use `extract_hashtags`
+- Sentence-level text → use `split_into_sentences`
+- Individual words or camelCase parsing → use `delimit_words`
+- Quoted/delimited data → use `split_string`"
+P2CQ04,cross_corpus,How can I classify text using simple rules?,[1] local/data/custom_functions.py::simple_sentiment_score; [2] elifesciences/elife-tools/elifetools/utils.py::text_to_title; [3] local/data/custom_functions.py::split_into_sentences; [4] elifesciences/elife-tools/elifetools/parseJATS.py::body_block_paragraph_content,[1] 0.470; [2] 0.366; [3] 0.365; [4] 0.353,both,simple_sentiment_score; split_into_sentences,"Based on the provided code context, you can classify text using simple rules with the `simple_sentiment_score` function from `local/data/custom_functions.py::simple_sentiment_score`.
+
+This function classifies text sentiment using a rule-based approach:
+
+1. **Define word sets**: It uses predefined sets of positive words (""good"", ""great"", ""excellent"", ""happy"", ""love"", ""awesome"", ""perfect"") and negative words (""bad"", ""terrible"", ""awful"", ""sad"", ""hate"", ""worst"", ""poor"")
+
+2.",yes,"Based on the provided code context, you can classify text using simple rules with the `simple_sentiment_score` function from `local/data/custom_functions.py::simple_sentiment_score`.
+
+This function classifies text sentiment using a rule-based approach:
+
+1. **Define word sets**: It uses predefined sets of positive words (""good"", ""great"", ""excellent"", ""happy"", ""love"", ""awesome"", ""perfect"") and negative words (""bad"", ""terrible"", ""awful"", ""sad"", ""hate"", ""worst"", ""poor"")
+
+2. **Count matches**: It counts how many words in the input text match each set
+
+3. **Apply classification rules**: 
+   - If positive count > negative count → ""positive""
+   - If negative count > positive count → ""negative""
+   - Otherwise → ""neutral""
+
+4. **Return results**: Returns a dictionary with positive_count, negative_count, and sentiment classification
+
+Example usage:
+```python
+result = simple_sentiment_score(""This product is great and awesome!"")
+# Returns: {""positive_count"": 2, ""negative_count"": 0, ""sentiment"": ""positive""}
+```
+
+This is a simple rule-based classification approach that doesn't require machine learning models."
+P2CQ05,cross_corpus,How can I break text into smaller units for downstream processing?,[1] rshk/python-libxdo/xdo/__init__.py::Xdo.translate_window_with_sizehint; [2] frostming/atoml/atoml/decoder.py::Converter.convert; [3] local/data/custom_functions.py::split_into_sentences; [4] elifesciences/elife-tools/elifetools/utils.py::text_to_title,[1] 0.297; [2] 0.279; [3] 0.261; [4] 0.252,both,split_into_sentences,"Based on the provided code context, you can break text into smaller units using the `split_into_sentences` function from `local/data/custom_functions.py::split_into_sentences`.
+
+This function splits text into sentences using simple punctuation rules (periods, exclamation marks, question marks) and returns a list of stripped strings:
+
+```python
+def split_into_sentences(text: str) -> list[str]:
+    """"""
+    Splits text into sentences using simple punctuation rules (e.g., periods, 
+    exclamation marks, question marks) and returns a list of stripped strings.
+    """"""
+    raw_sentences = re.split(r""(?<=[.!?])\s+"", text)
+    sentences = [s.strip() for s in raw_sentences if s.strip()]
+    return sentences
+```
+
+This function uses regex to split on sentence-ending punctuation followed by whitespace, then strips whitespace and filters out empty strings, making it suitable for downstream processing of individual sentences.",yes,"Based on the provided code context, you can break text into smaller units using the `split_into_sentences` function from `local/data/custom_functions.py::split_into_sentences`.
+
+This function splits text into sentences using simple punctuation rules (periods, exclamation marks, question marks) and returns a list of stripped strings:
+
+```python
+def split_into_sentences(text: str) -> list[str]:
+    """"""
+    Splits text into sentences using simple punctuation rules (e.g., periods, 
+    exclamation marks, question marks) and returns a list of stripped strings.
+    """"""
+    raw_sentences = re.split(r""(?<=[.!?])\s+"", text)
+    sentences = [s.strip() for s in raw_sentences if s.strip()]
+    return sentences
+```
+
+This function uses regex to split on sentence-ending punctuation followed by whitespace, then strips whitespace and filters out empty strings, making it suitable for downstream processing of individual sentences."

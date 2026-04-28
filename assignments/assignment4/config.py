@@ -1,0 +1,9 @@
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+CHROMA_PATH = "./chroma_code"
+COLLECTION_NAME = "csn_python"
+TOP_K = 4
+STARTER_FUNCTION_LIMIT = 1000
+CUSTOM_FUNCTIONS_PATH = "data/custom_functions.py"
+PART1_RESULTS_PATH = "results/part1_results.csv"
+PART2_RESULTS_PATH = "results/part2_results.csv"
+GENERATOR_MODEL_NAME = "claude-haiku-4-5"
