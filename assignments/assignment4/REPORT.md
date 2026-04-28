@@ -49,3 +49,6 @@ If provided with an extra day to mature processing flows, incorporating an 'LLM-
 - The Chroma database can be rebuilt or refreshed utilizing the standalone indexing scripts.
 - To execute processing logic natively, API keys are completely withheld from output logs and version control; this must be authenticated using an active `.env` file structure locally.
 - Aggregated CSV files tracking metrics are generated through `run_part1.py` and `run_part2.py`.
+
+## AI Use Acknowledgment
+AI was actively utilized throughout the development of this project. Specifically, AI assistance was used for all of the code generation within the Python pipeline, the generation of the `README.md` file, and for formatting and styling this `REPORT.md` deliverable.
