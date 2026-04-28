@@ -30,7 +30,7 @@ def create_report():
 I selected Track B: Code RAG.
 
 ## Pipeline Summary
-Our RAG pipeline operates on a starter corpus of 1,000 Python functions retrieved from the CodeSearchNet Python split. These snippets are natively vectorized using the `sentence-transformers/all-MiniLM-L6-v2` embedding model and stored in a local, persistent Chroma vector database. During query execution, our retriever embeds the user's natural language question and fetches the top k=4 most relevant code chunks, citing them cleanly utilizing the `repo/path::func_name` format. The retrieved contexts are then seamlessly forwarded alongside a grounded system prompt to the Anthropic Claude API (using a low-cost Claude Haiku model) for generation. To increase the complexity of our search space, Part 2 intentionally introduces an additional 5 custom NLP utility functions imported directly from `data/custom_functions.py` into our database.
+This project builds a RAG pipeline using a starter corpus of 1,000 Python functions from the CodeSearchNet dataset. The code snippets are embedded using the `sentence-transformers/all-MiniLM-L6-v2` model and saved in a local Chroma vector database. When a query is run, the retriever embeds the question and pulls the top k=4 related code chunks, citing them using the `repo/path::func_name` format. The retrieved chunks are then passed into a grounded prompt for the Anthropic Claude API (specifically the Claude Haiku model) to generate an answer. For Part 2, I also added 5 custom NLP utility functions from `data/custom_functions.py` to the database.
 
 ## Part 1 Results
 The full Part 1 results are saved in results/part1_results.csv.
@@ -43,16 +43,19 @@ The full Part 2 results are saved in results/part2_results.csv.
 {p2_md}
 
 ## Reflection
-Retrieval naturally succeeded seamlessly when the language of the query mirrored logic written within function docstrings or naming conventions. Targeted queries designed for extracting hashtags, evaluating basic sentiment, counting word frequencies, cleaning textual data, and splitting sentences reliably pinged the corresponding local Python functions correctly and isolated results.
+Retrieval worked best when the wording of the query closely matched the function names or docstrings. For the targeted queries, it reliably found the right custom functions for things like extracting hashtags, getting sentiment, counting word frequencies, cleaning text, and splitting sentences.
 
-However, retrieval occasionally struggled with cross-corpus edge cases by successfully surfacing topically adjacent code blocks from the overarching CodeSearchNet environment that did not actually fulfill the explicit user need—an inherent constraint when assessing snippet value solely through rigid vector similarity without robust holistic context. Despite this finding, queries traversing across both data spheres consistently retrieved overlapping combinations efficiently. In Part 2, exactly 9 out of our 10 evaluated runs returned an integrated 'both' corpus mix consisting of custom module integrations alongside standard library definitions, whereas only one isolated query strictly triggered starters alone. Our custom functions effectively asserted themselves against the broader 1000 item corpus precisely when the logical parameters necessitated them during targeted queries.
+However, the retrieval sometimes struggled with broader questions. It would return chunks that seemed related based on keywords but didn't actually answer the prompt. This shows the limitations of simple vector similarity for code without deeper context. For the cross-corpus queries, the system mostly retrieved a mix of both datasets. In the Part 2 run, 9 out of 10 queries had a corpus mix of "both", while 1 only retrieved "starter" functions. The custom functions showed up when they were supposed to.
 
-If provided with an extra day to mature processing flows, incorporating an 'LLM-as-judge' validation tier leveraging rigid response rubrics instead of generalized keyword-grounded boolean checks would massively elevate evaluation fidelity. Replacing our generic sentence-transformer baseline implementation for a strictly programmatic, code-oriented embeddings architecture would also significantly condense the text-to-logic semantic gap thereby upgrading raw codebase retrieval quality.
+If I had another day to work on this, I would try to add a better evaluation method. Instead of my simple keyword check for grounding, using an LLM-as-judge setup with a rubric, or doing a manual review, would give better insights. Another thing to try would be using a code-specialized embedding model instead of `all-MiniLM-L6-v2`, since that might understand the actual code structure much better.
 
 ## Reproducibility Notes
-- The Chroma database can effectively be rebuilt or refreshed organically utilizing the standalone indexing scripts.
-- To execute processing logic natively, API keys are completely withheld from output logs and version control; this must successfully be authenticated using an active `.env` file structure locally.
-- Aggregated CSV files tracking metrics are autonomously generated and securely managed through `run_part1.py` and `run_part2.py`.
+- The Chroma database can be deleted and rebuilt from scratch using the provided scripts.
+- My Anthropic API key is not included in the repo. You will need to put your own key in a `.env` file to run the generator scripts.
+- The results CSVs are generated automatically by running `run_part1.py` and `run_part2.py`.
+
+## AI Use Acknowledgment
+AI was actively utilized throughout the development of this project. Specifically, AI assistance was used for all of the code generation within the Python pipeline, the generation of the `README.md` file, and for formatting and styling this `REPORT.md` deliverable.
 """
     with open("REPORT.md", "w", encoding="utf-8") as f:
         f.write(report_text)
